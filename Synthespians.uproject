@@ -34,6 +34,18 @@
 		{
 			"Name": "Water",
 			"Enabled": true
+		},
+		{
+			"Name": "WwiseNiagara",
+			"Enabled": false
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": false
+		},
+		{
+			"Name": "WwiseSoundEngine",
+			"Enabled": false
 		}
 	]
 }
