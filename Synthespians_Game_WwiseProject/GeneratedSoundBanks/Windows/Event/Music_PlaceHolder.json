@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2342674260",
+    "Type": "Event",
+    "GUID": "{7704017B-B142-489F-B440-500EEB4CE05C}",
+    "Language": "SFX",
+    "Hash": "{4EFC704F-E5A9-CA18-758A-797E557374E9}",
+    "ObjectPath": "Music_PlaceHolder",
+    "ShortName": "Music_PlaceHolder",
+    "Path": "Event/Music_PlaceHolder.bnk",
+    "Media": [
+     {
+      "Id": "649986070",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Synthespians Sketch 1b.wav",
+      "Path": "Media/649986070.wem",
+      "CachePath": "D8/{D8581C17-1A7C-CCC9-34BD-A1138F1661B1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2342674260",
+      "Name": "Music_PlaceHolder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_PlaceHolder",
+      "GUID": "{7704017B-B142-489F-B440-500EEB4CE05C}",
+      "DurationType": "OneShot",
+      "DurationMin": "109",
+      "DurationMax": "109",
+      "MediaRefs": [
+       {
+        "Id": "649986070"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FC6F419E-C4FA-47C5-51F5-2E5CEA661BB0}"
+ }
+}
