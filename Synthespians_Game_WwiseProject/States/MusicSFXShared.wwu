@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="MusicSFXShared" ID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameProgression" ID="{2381A213-AA86-48B9-9492-555018E1CB0F}">
+					<ChildrenList>
+						<State Name="None" ID="{E11279B4-8F54-41BF-9B8C-9C1DA9879231}"/>
+						<State Name="Menu" ID="{52A6A348-50F6-4A5B-9814-9D30FD4B66A9}"/>
+						<State Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"/>
+						<State Name="World1_2" ID="{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"/>
+						<State Name="World1_3" ID="{26EB5731-FAD2-4125-92EB-48CD2FC41516}"/>
+						<State Name="World2_1" ID="{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"/>
+						<State Name="World2_2" ID="{618651F1-49D0-4A03-A461-85EAC414D0D8}"/>
+						<State Name="World2_3" ID="{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"/>
+						<State Name="World3_1" ID="{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"/>
+						<State Name="World3_2" ID="{C67BDEE0-5836-4897-ADB4-C570D29D259B}"/>
+						<State Name="World3_3" ID="{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

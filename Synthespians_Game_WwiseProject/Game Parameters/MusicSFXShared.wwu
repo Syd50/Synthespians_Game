@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="MusicSFXShared" ID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
