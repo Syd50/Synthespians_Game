@@ -12,8 +12,33 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A9F03276-3D80-468B-AC78-9921D7FFC580}" ShortID="789328456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Utilities" ID="{EC9B6CC3-1C45-45F6-9180-088D13D96B7A}" ShortID="830103934">
+					<ChildrenList>
+						<Event Name="StopButterflyMusic" ID="{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}">
+							<ChildrenList>
+								<Action Name="" ID="{FD304496-2E28-4710-A2BF-C804C04F7F82}" ShortID="776436529">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ApproachLoop" ID="{CA1524F6-979D-48A6-944F-8BAD134A4F90}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
