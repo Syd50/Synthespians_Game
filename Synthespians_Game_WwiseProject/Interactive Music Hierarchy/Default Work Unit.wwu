@@ -1819,7 +1819,7 @@
 					<ChildrenList>
 						<MusicSegment Name="EndingBad" ID="{1CF357AD-85A0-4D3C-9450-11537C314BD2}" ShortID="112451000">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="85641.6666666667"/>
+								<Property Name="EndPosition" Type="Real64" Value="98266.6666666667"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1847,7 +1847,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Music_BadEnding" ID="{0D351A9E-A27D-420A-B7B7-C3F3F7239D9F}">
+										<AudioFileSource Name="Music_BadEnding" ID="{E4193C6F-C19B-403A-98C7-5B554A19D9C0}">
 											<Language>SFX</Language>
 											<AudioFile>Music_BadEnding.wav</AudioFile>
 											<MediaIDList>
@@ -1864,13 +1864,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Music_BadEnding" ID="{119920DB-D9EC-41C3-B1B1-FE4CD0BD20DF}">
+																		<MusicClip Name="Music_BadEnding" ID="{EB29FF8E-A20A-46C0-841A-E0C44B0B512D}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="84766.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Music_BadEnding" ID="{0D351A9E-A27D-420A-B7B7-C3F3F7239D9F}"/>
+																			<AudioSourceRef Name="Music_BadEnding" ID="{E4193C6F-C19B-403A-98C7-5B554A19D9C0}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
