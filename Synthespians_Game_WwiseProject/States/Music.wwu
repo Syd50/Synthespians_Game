@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21902A99-14E0-421F-B149-6E301C3C27D5}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Music" ID="{21902A99-14E0-421F-B149-6E301C3C27D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicProgression" ID="{B701BCCE-93C2-47C3-A6E1-7B47C2850C9D}">
+					<ChildrenList>
+						<State Name="None" ID="{B7C0FF31-214B-4778-ADE7-66D48C064E87}"/>
+						<State Name="Music_01" ID="{7DED4B39-C3E5-4B56-8483-0141584B21BA}"/>
+						<State Name="Music_02" ID="{579C1457-F82B-4BBA-96A3-509FA0EC82B2}"/>
+						<State Name="Music_03" ID="{8032075C-1C52-4A8B-BCFC-ADC5BFCB5089}"/>
+						<State Name="Music_04" ID="{96C63696-E9FD-4A5A-8305-7F9934926D64}"/>
+						<State Name="Music_05" ID="{722A069A-D451-411F-9886-36CC6589D80E}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MusicMixing" ID="{DC887C09-F943-42D4-BD3F-FDE6393A2016}">
+					<ChildrenList>
+						<State Name="None" ID="{46B905C5-A076-4089-B25D-D9027941FA56}"/>
+						<State Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"/>
+						<State Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

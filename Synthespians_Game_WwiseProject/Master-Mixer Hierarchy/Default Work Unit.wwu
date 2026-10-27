@@ -9,6 +9,90 @@
 							<ObjectRef Name="System" ID="{1C35C0DD-D4BD-4B31-AA61-35B2AE2D8DA6}" WorkUnitID="{86A75316-FCA2-41EA-8686-ED2C80D0ED0E}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MUSIC" ID="{AD15F527-1C67-4A9A-A8BE-ED0EC76D70C6}">
+							<ChildrenList>
+								<Bus Name="BGM" ID="{55A54D7D-93FC-49A1-80BF-7F7AB6C74C3F}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="MusicMixing" ID="{DC887C09-F943-42D4-BD3F-FDE6393A2016}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{46B905C5-A076-4089-B25D-D9027941FA56}"/>
+												<CustomState Name="" ID="{54773755-254B-4C6B-A392-67FC073C35E2}" ShortID="458520336"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"/>
+												<CustomState Name="" ID="{1ED621D0-2AC6-49B3-AB69-24D0C35277DC}" ShortID="109097553"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}"/>
+												<CustomState Name="" ID="{49061E02-CD4A-4607-BF07-618ECDF22017}" ShortID="507327800">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5861D120-E9F3-4AE2-9F6A-4D20495DB774}" ShortID="265063864">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}" WorkUnitID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{170D7660-BA43-487A-9859-887BCAF4F440}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0.001</XPos>
+																				<YPos>8</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>99.999</XPos>
+																				<YPos>78</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-13</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="OTHER" ID="{B3C2A8A2-C8DB-43D1-A553-F279E0FAE92E}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX" ID="{E7CA89C2-EA98-432C-ABD3-90EB4785514A}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

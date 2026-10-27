@@ -33,6 +33,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0798F1A3-6ABE-4A96-9D74-C14B61940123}" ShortID="136299740">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
