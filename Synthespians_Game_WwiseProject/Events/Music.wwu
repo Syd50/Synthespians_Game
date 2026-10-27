@@ -19,11 +19,55 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6FD22E86-2499-46F1-A667-BFE652294E89}" ShortID="546308242">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6BD37DA-B886-48DB-A197-7818E9F1E5FD}" ShortID="690920692">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_01" ID="{7DED4B39-C3E5-4B56-8483-0141584B21BA}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{009B8897-1BC0-45C8-ADCE-9C2AA1349AF8}" ShortID="341580270">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ButterflyInteract" ID="{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}">
 					<ChildrenList>
-						<Action Name="" ID="{FD304496-2E28-4710-A2BF-C804C04F7F82}" ShortID="776436529">
+						<Action Name="" ID="{8A82F429-DB9E-4699-8CDC-82C17916AFFC}" ShortID="297502449">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_02" ID="{579C1457-F82B-4BBA-96A3-509FA0EC82B2}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ButterflyInteract_2" ID="{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}">
+					<ChildrenList>
+						<Action Name="" ID="{9D4FC330-11FE-4B0B-86F1-E3C8C1724BFE}" ShortID="824809732">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
@@ -33,13 +77,38 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{0798F1A3-6ABE-4A96-9D74-C14B61940123}" ShortID="136299740">
+						<Action Name="" ID="{EA67F8EA-F921-4052-8BBD-ACD987502372}" ShortID="280356839">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6F532A4-2600-4347-BBD4-9803CDF1D81A}" ShortID="435785782">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ButterflyInteract_3" ID="{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}">
+					<ChildrenList>
+						<Action Name="" ID="{D1E548AA-5B81-4A77-B270-F5ABAFA4C087}" ShortID="110800694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_02" ID="{579C1457-F82B-4BBA-96A3-509FA0EC82B2}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

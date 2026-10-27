@@ -1069,57 +1069,37 @@
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
-														<StateGroupRef Name="GameProgression" ID="{2381A213-AA86-48B9-9492-555018E1CB0F}"/>
+														<StateGroupRef Name="MusicProgression" ID="{B701BCCE-93C2-47C3-A6E1-7B47C2850C9D}"/>
 													</StateGroupInfo>
 												</StateGroupList>
 												<CustomStateList>
 													<CustomState>
-														<StateRef Name="World1_3" ID="{26EB5731-FAD2-4125-92EB-48CD2FC41516}"/>
-														<CustomState Name="" ID="{B9BFA0B8-ECBA-4E23-BB22-C24E34A17FBA}" ShortID="685940244"/>
+														<StateRef Name="Music_05" ID="{722A069A-D451-411F-9886-36CC6589D80E}"/>
+														<CustomState Name="" ID="{2BBE3372-7A2B-460D-BEFE-D562052CA439}" ShortID="402974654"/>
 													</CustomState>
 													<CustomState>
-														<StateRef Name="World2_3" ID="{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"/>
-														<CustomState Name="" ID="{0A66395A-C104-4608-9998-78574AC30F8F}" ShortID="271486062"/>
+														<StateRef Name="None" ID="{B7C0FF31-214B-4778-ADE7-66D48C064E87}"/>
+														<CustomState Name="" ID="{59CF0A07-5710-4806-BF01-7D930A3687B4}" ShortID="864207421"/>
 													</CustomState>
 													<CustomState>
-														<StateRef Name="World3_1" ID="{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"/>
-														<CustomState Name="" ID="{ED828501-7120-4387-9A78-E740F1056756}" ShortID="303076043">
+														<StateRef Name="Music_04" ID="{96C63696-E9FD-4A5A-8305-7F9934926D64}"/>
+														<CustomState Name="" ID="{61D3E50B-B048-44D4-ADF3-401472A0F5FD}" ShortID="166875415"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Music_03" ID="{8032075C-1C52-4A8B-BCFC-ADC5BFCB5089}"/>
+														<CustomState Name="" ID="{E8C5779C-2A5D-40B6-B910-0C904F784702}" ShortID="300106309"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Music_01" ID="{7DED4B39-C3E5-4B56-8483-0141584B21BA}"/>
+														<CustomState Name="" ID="{81CCE933-051A-4766-88E4-C9CA4992FA85}" ShortID="288029617">
 															<PropertyList>
 																<Property Name="Volume" Type="Real64" Value="-108"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
 													<CustomState>
-														<StateRef Name="None" ID="{E11279B4-8F54-41BF-9B8C-9C1DA9879231}"/>
-														<CustomState Name="" ID="{A607346B-0D75-44EE-B787-618EF8C85ADE}" ShortID="84952981"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World3_3" ID="{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"/>
-														<CustomState Name="" ID="{359243C4-7009-412A-AF59-063C912B4EF7}" ShortID="695301044"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World1_2" ID="{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"/>
-														<CustomState Name="" ID="{C08851CD-2DFB-4178-90E3-B1C723B870DF}" ShortID="318108840"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World3_2" ID="{C67BDEE0-5836-4897-ADB4-C570D29D259B}"/>
-														<CustomState Name="" ID="{7D875923-E33B-4EEB-8CBE-D01AD0BA3E72}" ShortID="112066382"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World2_2" ID="{618651F1-49D0-4A03-A461-85EAC414D0D8}"/>
-														<CustomState Name="" ID="{96BF8631-1BE3-4FA4-B74A-F5019E818CA2}" ShortID="837607898"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Menu" ID="{52A6A348-50F6-4A5B-9814-9D30FD4B66A9}"/>
-														<CustomState Name="" ID="{6B69BE3A-4E3F-40D7-9114-F48207199A66}" ShortID="747463981"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"/>
-														<CustomState Name="" ID="{C055B05C-71D0-4032-A8C2-E9FFC9606282}" ShortID="250888986"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="World2_1" ID="{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"/>
-														<CustomState Name="" ID="{3E93BAC1-D01B-41A5-BEA2-ADC25EBCAF66}" ShortID="25757643"/>
+														<StateRef Name="Music_02" ID="{579C1457-F82B-4BBA-96A3-509FA0EC82B2}"/>
+														<CustomState Name="" ID="{84D99ABF-43E8-4F25-A05B-8D4726A877CF}" ShortID="107712640"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -1161,86 +1141,6 @@
 											<Reference>
 												<Local>
 													<MusicCue Name="Exit Cue" ID="{1079315D-8B08-49C0-8C4A-B69A307C6378}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="52000"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
-						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="3M2Playlist" ID="{822428A0-47D8-4263-9BE8-6E2CE7211D2F}" ShortID="2432962">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
-								</Reference>
-								<Reference Name="PlaylistRoot">
-									<Custom>
-										<MusicPlaylistItem Name="" ID="{9D3AAC67-3032-4CFD-83B7-C4440B11A326}" ShortID="1013486606">
-											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
-											</PropertyList>
-											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{83D94492-9D60-4C4B-8A45-EB3A7348DA6C}" ShortID="565741766">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="3M2" ID="{A2C93F27-F03C-427C-9181-8F40B31668A5}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-											</ChildrenList>
-										</MusicPlaylistItem>
-									</Custom>
-								</Reference>
-								<Reference Name="TransitionRoot">
-									<Custom>
-										<MusicTransition Name="Root" ID="{3DC3E33B-14D2-4C1D-BC2B-FEF975D6D0DD}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<ChildrenList>
-												<MusicTransition Name="Transition" ID="{E97FB75A-2AF6-4B9F-8AAE-A4F0D341FC94}">
-													<TransitionInfo/>
-												</MusicTransition>
-											</ChildrenList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</Custom>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="3M2" ID="{A2C93F27-F03C-427C-9181-8F40B31668A5}" ShortID="372803608">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="54763.5833436325"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{142DD20C-375E-4547-A4DE-F7B9E42FF91E}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{C224EE52-5CAE-449E-9729-A1EE9829AAEE}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="52000"/>
@@ -1554,43 +1454,6 @@
 								</Local>
 							</Reference>
 						</ObjectList>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{862A9773-8E41-4DF8-940A-9B6173CDA5D9}" ShortID="327461332">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}" WorkUnitID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{EB27E622-EF96-489C-AF08-9E4C27F5E7AD}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
 					</ObjectLists>
 				</MusicSwitchContainer>
 				<MusicPlaylistContainer Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" ShortID="660151231">
@@ -1666,6 +1529,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="New Music Track" ID="{813D5E9F-0E55-4B5A-A3EB-5611D6766D62}" ShortID="541347606">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
@@ -1749,7 +1619,7 @@
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}" WorkUnitID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}"/>
+														<ObjectRef Name="DistanceToButterfly" ID="{9BAA09E2-CF3E-487E-9ED7-94A8F75C8E51}" WorkUnitID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
@@ -1762,6 +1632,16 @@
 																		<XPos>0</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50.07163</XPos>
+																		<YPos>-33.8393</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75</XPos>
+																		<YPos>-10.09632</YPos>
+																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
