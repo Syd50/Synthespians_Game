@@ -53,13 +53,24 @@
 				</Event>
 				<Event Name="ButterflyInteract" ID="{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}">
 					<ChildrenList>
-						<Action Name="" ID="{8A82F429-DB9E-4699-8CDC-82C17916AFFC}" ShortID="297502449">
+						<Action Name="" ID="{E7692F4E-C310-4F13-BAC6-C04427F09AB7}" ShortID="508228045">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_02" ID="{579C1457-F82B-4BBA-96A3-509FA0EC82B2}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+									<ObjectRef Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E05C6C9E-B761-40A8-A162-DE2F48D817C1}" ShortID="832398955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,16 +78,6 @@
 				</Event>
 				<Event Name="ButterflyInteract_2" ID="{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}">
 					<ChildrenList>
-						<Action Name="" ID="{9D4FC330-11FE-4B0B-86F1-E3C8C1724BFE}" ShortID="824809732">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ApproachLoop" ID="{CA1524F6-979D-48A6-944F-8BAD134A4F90}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{EA67F8EA-F921-4052-8BBD-ACD987502372}" ShortID="280356839">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -151,6 +152,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="EndingGood" ID="{85D81DB3-BAAA-428F-8C41-D621708DD227}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndGame" ID="{29312ABD-6032-4223-91C3-02C62423E819}">
+					<ChildrenList>
+						<Action Name="" ID="{19262049-7CD5-4BA8-B69B-9FD224CC8D57}" ShortID="48682734">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World3_2" ID="{C67BDEE0-5836-4897-ADB4-C570D29D259B}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B72F8400-2B6B-4523-88CE-3DDE9F5D538C}" ShortID="701631971">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
