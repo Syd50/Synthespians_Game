@@ -1819,7 +1819,7 @@
 					<ChildrenList>
 						<MusicSegment Name="EndingBad" ID="{1CF357AD-85A0-4D3C-9450-11537C314BD2}" ShortID="112451000">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="9179.10416666667"/>
+								<Property Name="EndPosition" Type="Real64" Value="85641.6666666667"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1847,11 +1847,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="option 3 -  fall sting" ID="{B4869E69-9830-4D67-9DE6-C677EB3B4EDF}">
+										<AudioFileSource Name="Music_BadEnding" ID="{0D351A9E-A27D-420A-B7B7-C3F3F7239D9F}">
 											<Language>SFX</Language>
-											<AudioFile>option 3 -  fall sting.wav</AudioFile>
+											<AudioFile>Music_BadEnding.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="975674835"/>
+												<MediaID ID="1062518992"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1864,13 +1864,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="option 3 -  fall sting" ID="{CB8B87AE-AAF1-4A35-A6BA-9EE535014AF8}">
+																		<MusicClip Name="Music_BadEnding" ID="{119920DB-D9EC-41C3-B1B1-FE4CD0BD20DF}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="9179.10416666667"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="84766.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="option 3 -  fall sting" ID="{B4869E69-9830-4D67-9DE6-C677EB3B4EDF}"/>
+																			<AudioSourceRef Name="Music_BadEnding" ID="{0D351A9E-A27D-420A-B7B7-C3F3F7239D9F}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -1895,7 +1895,7 @@
 											<MusicCue Name="Exit Cue" ID="{318FFAE3-F282-4EF5-8014-D35AFB45B0CB}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="9179.10416666667"/>
+													<Property Name="TimeMs" Type="Real64" Value="84766.6666666667"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
