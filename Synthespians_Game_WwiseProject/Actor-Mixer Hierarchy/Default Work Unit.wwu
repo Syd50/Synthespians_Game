@@ -2717,6 +2717,28 @@
 										<ActiveSource Name="SFX_Static_03" ID="{B5FC1D36-EE6B-40E1-A319-4877E360978D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Static_04" ID="{CE9F8039-6DF7-4978-9505-9D7FEA821AD1}" ShortID="303863608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Static_04" ID="{A07BE3E3-7CE9-432C-9D45-23A200C804A5}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Static_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="89436387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Static_04" ID="{A07BE3E3-7CE9-432C-9D45-23A200C804A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
