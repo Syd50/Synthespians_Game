@@ -114,6 +114,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EndingBad" ID="{CAB373B5-22EA-41EC-90F4-D943A65A2635}">
+					<ChildrenList>
+						<Action Name="" ID="{86675162-90D1-4EF9-AE2C-E45B48F5A806}" ShortID="684266681">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WorldMusic" ID="{DB8CD165-6643-40D4-A55E-9988EAA27F6F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C88DF4B-D432-424D-9AA3-07A60B0C97BD}" ShortID="148619723">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndingBad" ID="{3044523E-FA3F-49C4-BFE1-A49D35F4A889}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndingGood" ID="{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}">
+					<ChildrenList>
+						<Action Name="" ID="{1C59D8D0-8F23-4EFC-A0F6-5F264C76BBF4}" ShortID="767551142">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WorldMusic" ID="{DB8CD165-6643-40D4-A55E-9988EAA27F6F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02CEE545-5E5E-4921-A1A9-95467EEBC457}" ShortID="274406912">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndingGood" ID="{85D81DB3-BAAA-428F-8C41-D621708DD227}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
