@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7850E2CA-684C-4AFD-BBF9-19EC6B9AFECB}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SFX" ID="{7850E2CA-684C-4AFD-BBF9-19EC6B9AFECB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_FOL_Footsteps" ID="{20DFAC03-8A39-4972-B845-96AFF30466A4}">
+					<ChildrenList>
+						<Action Name="" ID="{947EBC1B-290A-41DF-88ED-523B7B884767}" ShortID="20606590">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Footsteps" ID="{B865D765-F0BA-4C4E-BBFB-BB32C2A87744}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FOL_Land" ID="{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}">
+					<ChildrenList>
+						<Action Name="" ID="{D696C55A-9761-43BC-93F1-885502E137AE}" ShortID="794466647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Snow_Land" ID="{7B93A00E-EE3E-4EC1-AF05-D8D55ED87032}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB" ID="{978B8452-973E-4B38-ADDB-CF4670058981}">
+					<ChildrenList>
+						<Action Name="" ID="{2B6F86B3-C3F9-455B-8940-985AEFD2E858}" ShortID="552705451">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{A26669C9-A566-4370-AD1D-E64B6363DC27}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="SFX_Butterfly" ID="{A9185C99-A837-4AE4-942D-422EBAE990B8}" ShortID="866287596">
+					<ChildrenList>
+						<Event Name="SFX_Butterfly" ID="{15572743-3BA9-4425-AB9D-66B445DF3D4A}">
+							<ChildrenList>
+								<Action Name="" ID="{0B7A3F29-116A-45B7-8CCB-01C86A57077E}" ShortID="787774289">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Butterfly" ID="{E1FEEED4-10F7-4500-9EB2-F7C052E29906}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SFX_Ship_Leave" ID="{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}">
+					<ChildrenList>
+						<Action Name="" ID="{37A6CF87-2B7C-4594-B703-8A162A458FAB}" ShortID="443790339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ship_Leave" ID="{697C9363-0D2B-490D-88A5-1B611281465C}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Blood" ID="{8C064318-6DEE-465C-8F69-890BEE9B5D33}">
+					<ChildrenList>
+						<Action Name="" ID="{0D2B38D1-4250-46BF-87D7-A84B2204776E}" ShortID="452570493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Blood" ID="{AF5D366B-20E3-4BF8-A94F-7BE84F8EE4B8}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Footprints_Glow" ID="{3CF1D370-716A-4EF3-8C15-03C163A3B989}">
+					<ChildrenList>
+						<Action Name="" ID="{F7EAEC3E-AD48-407A-A4BD-12F13894E52A}" ShortID="744560659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Footprints_Glow" ID="{90E6F1B7-4A99-4341-89FD-CA47CA152F07}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="DOOR" ID="{E8A7FD6A-6CDD-47DF-BD9B-087F6753A8E8}" ShortID="883100521">
+					<ChildrenList>
+						<Event Name="DOOR_Close" ID="{E5970502-4E19-4662-A7A6-45700ED1A242}">
+							<ChildrenList>
+								<Action Name="" ID="{47976257-6745-42E3-B209-CE0D8198BA35}" ShortID="285133712">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DOOR_Close" ID="{5063FF8C-51A2-4B2A-AC07-368F2F166B38}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DOOR_Open" ID="{79BF55EA-18E5-47F3-9A84-88B93BDEE9D8}">
+							<ChildrenList>
+								<Action Name="" ID="{84A9F9CF-1BF0-42E0-BB95-9802691A5A17}" ShortID="933218085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DOOR_Open" ID="{554C0B59-78B0-4E31-80CD-52AA7CF474B5}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

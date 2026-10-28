@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{248084E5-FAF7-4358-A4E3-AC6749A0D628}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{248084E5-FAF7-4358-A4E3-AC6749A0D628}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{248084E5-FAF7-4358-A4E3-AC6749A0D628}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{E8DA15A3-CB32-4934-9155-041C31999E51}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="WorldMusic" ID="{1EB6B431-1B5F-4FE1-B619-8601914E90A9}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButterflyInteract" ID="{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButterflyInteract_3" ID="{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EndingBad" ID="{CAB373B5-22EA-41EC-90F4-D943A65A2635}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EndingGood" ID="{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

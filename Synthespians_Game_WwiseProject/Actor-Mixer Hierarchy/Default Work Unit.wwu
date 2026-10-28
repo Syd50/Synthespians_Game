@@ -3,12 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="FOLYFeet_Deep Snow Footsteps Quick Steady_PSE_KCV1_cub5g-05_L" ID="{B66F7817-273F-4625-BE16-AFCD729928F4}" ShortID="229236511">
-					<Comment>Snowy footsteps
-</Comment>
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
+				<SwitchContainer Name="FOL_Footsteps" ID="{B865D765-F0BA-4C4E-BBFB-BB32C2A87744}" ShortID="930991876">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
@@ -18,20 +13,1517 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="FOLYFeet_Deep Snow Footsteps Quick Steady_PSE_KCV1_cub5g-05_L" ID="{893290CB-E265-4FD7-B837-DDE4165C7988}">
-							<Language>SFX</Language>
-							<AudioFile>FOLYFeet_Deep Snow Footsteps Quick Steady_PSE_KCV1_cub5g-05.L.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="912573024"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<RandomSequenceContainer Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}" ShortID="651385661">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_Snow_Footstep_1" ID="{248DAC07-23C0-4E96-9A07-B28CB02AF64C}" ShortID="229796655">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_1" ID="{F58C003C-CA49-400D-A434-8A991A29721A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866689994"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_1" ID="{F58C003C-CA49-400D-A434-8A991A29721A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_10" ID="{9DDF901D-C8AD-4C99-9C5D-93ECA50E7C3C}" ShortID="114883510">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_10" ID="{3464FC8B-0AD8-44C7-9169-AB3FAC5BE0CE}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="201825297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_10" ID="{3464FC8B-0AD8-44C7-9169-AB3FAC5BE0CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_11" ID="{3511CFAD-1C6E-48B6-A6AD-6EFFBDB86292}" ShortID="1022484246">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_11" ID="{E4F38958-337F-4F27-AEEA-4FB1A13D296F}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="338009140"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_11" ID="{E4F38958-337F-4F27-AEEA-4FB1A13D296F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_13" ID="{E9AE7444-9CC2-4939-BEAB-0B0296C1B08C}" ShortID="735400755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_13" ID="{0E535F92-452F-4EF5-BFCC-75094849B6D6}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1454174"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_13" ID="{0E535F92-452F-4EF5-BFCC-75094849B6D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_14" ID="{FCC718B5-A91C-4641-9582-18E61E7891FE}" ShortID="550194365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_14" ID="{6DAFB2D8-9484-4A7E-AB09-DBB48A1F10B3}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737836011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_14" ID="{6DAFB2D8-9484-4A7E-AB09-DBB48A1F10B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_15" ID="{65A83097-514D-4CF2-90BF-DAAE54781E06}" ShortID="217448207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_15" ID="{4F1911A7-FD2D-44FC-AE49-7E32550377A7}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913439949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_15" ID="{4F1911A7-FD2D-44FC-AE49-7E32550377A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_16" ID="{585BC3FD-11A5-49E7-9E60-A3133B878528}" ShortID="776247895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_16" ID="{18976A7F-C671-45BB-9B66-184181C5FB1A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="207552741"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_16" ID="{18976A7F-C671-45BB-9B66-184181C5FB1A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_17" ID="{F67DC708-4ECE-4880-BC8B-52B7C3BA32BE}" ShortID="11720610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_17" ID="{884D86E0-4900-4D4D-B3DE-44277B0AE72E}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="382453909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_17" ID="{884D86E0-4900-4D4D-B3DE-44277B0AE72E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_18" ID="{24754A39-09D5-4881-85F1-575F0EA15AF4}" ShortID="30693981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_18" ID="{FFC914AB-96D9-4633-8F86-88A8FCC83B07}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554652403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_18" ID="{FFC914AB-96D9-4633-8F86-88A8FCC83B07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_19" ID="{6CB32331-489A-4A2A-99FA-F87EACE0F5F6}" ShortID="164525388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_19" ID="{678E74B1-1AD1-4EF8-9A95-B1BEDB9882AD}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287815529"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_19" ID="{678E74B1-1AD1-4EF8-9A95-B1BEDB9882AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_2" ID="{E8EA3FFA-A147-4733-99CB-2F29FE999C7F}" ShortID="746926075">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_2" ID="{37C837CA-4891-4B05-AE5F-2A55DFF0AE6B}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275992223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_2" ID="{37C837CA-4891-4B05-AE5F-2A55DFF0AE6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_20" ID="{E63AB0C7-9653-426C-B644-66653ADE3BE5}" ShortID="63442775">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_20" ID="{986EA0FA-98DD-4C53-A98C-A21A45445E1D}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_20.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="500351546"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_20" ID="{986EA0FA-98DD-4C53-A98C-A21A45445E1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_21" ID="{73E2D411-5726-4219-B940-A0E26164BCB1}" ShortID="399470442">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_21" ID="{B53D4003-D0A2-407B-B0D0-75E735FF1BB5}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="38178854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_21" ID="{B53D4003-D0A2-407B-B0D0-75E735FF1BB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_22" ID="{0D728E7A-8F49-4308-8096-D03FEEA288C4}" ShortID="1028901672">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_22" ID="{4A2B854D-4CA0-4B67-9313-6FC23C7F8021}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="919938004"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_22" ID="{4A2B854D-4CA0-4B67-9313-6FC23C7F8021}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_23" ID="{3A3968A0-669C-40DA-AD8F-DBE131FE5EF5}" ShortID="1073198808">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_23" ID="{487D6B71-FA86-4BE5-8300-6E4AC2A0947A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_23.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="670699253"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_23" ID="{487D6B71-FA86-4BE5-8300-6E4AC2A0947A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_24" ID="{A68BAC1F-478E-41AE-B13C-F36FC090A3E5}" ShortID="415900884">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_24" ID="{B99CF208-E8A1-4C3B-8095-D1587018F49A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_24.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="80447885"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_24" ID="{B99CF208-E8A1-4C3B-8095-D1587018F49A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_25" ID="{C9B73170-BBEF-4B44-B371-FDE2D185E362}" ShortID="739966003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_25" ID="{8139CA4F-4236-4582-A407-1758F44CD2E3}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_25.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972961202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_25" ID="{8139CA4F-4236-4582-A407-1758F44CD2E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_26" ID="{1C4B6021-6C74-4AFE-9F3C-DFB663A1DA39}" ShortID="618759853">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_26" ID="{77387E68-F9B7-44F0-9FFE-CA6A27F5E785}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_26.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1015093373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_26" ID="{77387E68-F9B7-44F0-9FFE-CA6A27F5E785}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_27" ID="{7ED16017-8A3C-4559-A4A2-CAEF295C527B}" ShortID="168267367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_27" ID="{8684E06D-7805-4699-9210-EC96EAE46783}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_27.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873352870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_27" ID="{8684E06D-7805-4699-9210-EC96EAE46783}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_28" ID="{A5E4F5CB-F9E0-4EDD-9427-AEC141E4C68E}" ShortID="232118207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_28" ID="{81B0C3A3-FD10-4EAF-A2E3-B01C8F9A1555}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_28.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302672790"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_28" ID="{81B0C3A3-FD10-4EAF-A2E3-B01C8F9A1555}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_29" ID="{151CE077-B650-4992-AFA1-35E146E15AB6}" ShortID="635343800">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_29" ID="{B9FC8D77-59D8-4636-8981-2AD000F8255E}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_29.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604917690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_29" ID="{B9FC8D77-59D8-4636-8981-2AD000F8255E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_3" ID="{8097EDE6-8B68-4098-98D6-E61335BAFB72}" ShortID="126744737">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_3" ID="{AB286FA1-79BE-4EED-B769-4A69A95F5B95}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="901947567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_3" ID="{AB286FA1-79BE-4EED-B769-4A69A95F5B95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_30" ID="{14D438C3-D2AF-4291-B116-3FD5247B143C}" ShortID="734446904">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_30" ID="{2F23627F-5C38-403B-B35B-62D04E33D34A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_30.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114122443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_30" ID="{2F23627F-5C38-403B-B35B-62D04E33D34A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_31" ID="{3F9CD117-FD77-4723-AF5E-DDBA28E45F61}" ShortID="264249036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_31" ID="{C1BF34A5-8998-4D85-99B5-5E5657E87DCA}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_31.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232615513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_31" ID="{C1BF34A5-8998-4D85-99B5-5E5657E87DCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_32" ID="{010F1389-A078-4ED1-85B4-D0E6FD5A9A7B}" ShortID="713953604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_32" ID="{6CBFD511-EA3F-48E1-A257-870995E4CB14}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_32.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245155051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_32" ID="{6CBFD511-EA3F-48E1-A257-870995E4CB14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_33" ID="{EF727135-62FB-4DD5-9C68-E2051156CF16}" ShortID="447457028">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_33" ID="{0D69565C-BE2D-44E6-BEB2-86FEBB6EF116}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_33.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062531333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_33" ID="{0D69565C-BE2D-44E6-BEB2-86FEBB6EF116}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_34" ID="{A663F9B4-9DF5-4A81-85CC-E28EDE7B293D}" ShortID="59821498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_34" ID="{2423DD62-50F6-4409-887B-6160898C4B2C}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="142295620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_34" ID="{2423DD62-50F6-4409-887B-6160898C4B2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_35" ID="{27CEF147-4DBF-4934-A77C-4DBFB1FD5EC7}" ShortID="399068708">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_35" ID="{C8BC5DD5-395A-4BB4-8C60-242CA30CFC02}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_35.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="687696035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_35" ID="{C8BC5DD5-395A-4BB4-8C60-242CA30CFC02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_36" ID="{6BFDCB11-5F37-4E5F-91A1-E2AA9AC1D8BD}" ShortID="35817467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_36" ID="{7BCE2949-BA5A-4082-9FE6-2D79F76F4797}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_36.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="465078941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_36" ID="{7BCE2949-BA5A-4082-9FE6-2D79F76F4797}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_37" ID="{85E38D8C-398D-42E7-A3D5-B2EEB35F94AB}" ShortID="419362679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_37" ID="{283A02F5-5985-4A54-8CF8-FC9EEFF5A48A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_37.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239831582"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_37" ID="{283A02F5-5985-4A54-8CF8-FC9EEFF5A48A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_38" ID="{4E88F327-6EFF-498A-8C77-ED33491A44CD}" ShortID="538343630">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_38" ID="{BD871196-B7D5-4C39-B52F-EAEE52670917}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_38.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577512770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_38" ID="{BD871196-B7D5-4C39-B52F-EAEE52670917}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_39" ID="{894DE455-CED6-4376-B954-5DAE270DE399}" ShortID="209627787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_39" ID="{48ABEB0D-94C9-49D7-B303-40E08AEAFB0C}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_39.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880491457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_39" ID="{48ABEB0D-94C9-49D7-B303-40E08AEAFB0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_4" ID="{9020B176-BDD9-4A03-9F28-A09D8D201477}" ShortID="783725275">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_4" ID="{0736CCC2-33DD-4F76-BA19-7AE0E2F1DA02}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595068029"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_4" ID="{0736CCC2-33DD-4F76-BA19-7AE0E2F1DA02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_40" ID="{BB2D506F-79EB-4CFC-A910-BE87B01FF1AA}" ShortID="105052933">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_40" ID="{7873ACFB-8D17-46CB-BCF6-C3650D5A4475}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_40.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="687789396"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_40" ID="{7873ACFB-8D17-46CB-BCF6-C3650D5A4475}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_41" ID="{1F40A097-6425-40B1-964F-197DA731539B}" ShortID="617091400">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_41" ID="{A852C227-F937-44EE-8F91-0419CED483C6}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_41.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="551496182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_41" ID="{A852C227-F937-44EE-8F91-0419CED483C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_42" ID="{2FC3875E-EFE6-4FD3-905B-80C3028C0B03}" ShortID="559837981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_42" ID="{27B0DF5B-12DC-4911-B63C-EDAE4FED3419}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_42.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417244615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_42" ID="{27B0DF5B-12DC-4911-B63C-EDAE4FED3419}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_43" ID="{671CF1D7-8F46-4145-B928-154CCB2A5475}" ShortID="868739936">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_43" ID="{1D106C07-A494-4583-8D59-4FD07F217AF0}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_43.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695850818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_43" ID="{1D106C07-A494-4583-8D59-4FD07F217AF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_44" ID="{477601B3-D3CD-4A8B-8FE3-6A48E3738069}" ShortID="460475535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_44" ID="{DBBFDC9C-0490-4C79-B6FE-EEA30AD58D63}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_44.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="453713626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_44" ID="{DBBFDC9C-0490-4C79-B6FE-EEA30AD58D63}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_5" ID="{7FEF9F62-681E-44E1-9150-C1CA2D5A830F}" ShortID="1003391234">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_5" ID="{CE63261C-6879-478F-B218-9745FE57E900}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243800425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_5" ID="{CE63261C-6879-478F-B218-9745FE57E900}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_6" ID="{0E0A46A2-A48A-4AFD-8D37-21D30B856434}" ShortID="830542141">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_6" ID="{5EA2AE45-92D0-49D4-9197-C9076B6174BE}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="178916937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_6" ID="{5EA2AE45-92D0-49D4-9197-C9076B6174BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_7" ID="{A6BA7855-6A28-4FDD-8884-2555091858FD}" ShortID="1011387497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_7" ID="{B42BFA7B-8381-478A-BA2C-4575ABD09FC7}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737403585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_7" ID="{B42BFA7B-8381-478A-BA2C-4575ABD09FC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_8" ID="{7360A712-8B45-450A-B09D-76E78F85CE7C}" ShortID="956697056">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_8" ID="{9CC88BB9-8BF9-48D2-8803-C56D92CD38EF}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="495240621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_8" ID="{9CC88BB9-8BF9-48D2-8803-C56D92CD38EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Footstep_9" ID="{2BAC8423-0CC4-45DD-BA18-C2D745D14A47}" ShortID="10936985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Footstep_9" ID="{6411A261-D840-42AF-9960-19CBBAEE0344}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420188059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Footstep_9" ID="{6411A261-D840-42AF-9960-19CBBAEE0344}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FOL_Deep_Snow_Footsteps" ID="{5753113D-C1DB-49C7-B84F-43CF15EE4546}" ShortID="339264513">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_Deep_Snow_FS_24" ID="{6FF3129C-92A9-4BE3-819C-5017526A8FC4}" ShortID="208993867">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_24" ID="{A91EA782-E494-4819-9905-BE86A8CA5F52}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_24.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048188846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_24" ID="{A91EA782-E494-4819-9905-BE86A8CA5F52}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_22" ID="{CD2B7116-FE44-4993-900C-2F0981B8461E}" ShortID="454820923">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_22" ID="{ADCA0D38-24DB-4AF9-9B39-9AC97A3D47AD}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="163338702"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_22" ID="{ADCA0D38-24DB-4AF9-9B39-9AC97A3D47AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_23" ID="{AEFA306C-887D-4CFE-8428-2796154FE1AD}" ShortID="54033536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_23" ID="{F191DE06-2177-477E-A95B-F592081B857B}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_23.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498257657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_23" ID="{F191DE06-2177-477E-A95B-F592081B857B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_20" ID="{D56B52DD-69CD-4216-8891-5846AED1F813}" ShortID="1072927654">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_20" ID="{8C326376-668C-4224-BE73-761E8274690B}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_20.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="358967300"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_20" ID="{8C326376-668C-4224-BE73-761E8274690B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_21" ID="{A33EFCF7-82DD-4D39-9089-ADCBE0833A6F}" ShortID="1041419085">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_21" ID="{5312E7A3-8423-4F2C-9074-EBD2730B8EC9}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908962543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_21" ID="{5312E7A3-8423-4F2C-9074-EBD2730B8EC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_12" ID="{C38C5397-6318-4E2C-B16A-17C6CAC22224}" ShortID="131256308">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_12" ID="{06B1C1B5-9060-4E70-93C2-185034C3E52F}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="716167458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_12" ID="{06B1C1B5-9060-4E70-93C2-185034C3E52F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_06" ID="{307C4D4A-B962-45CD-BB56-A8832D7E2044}" ShortID="983867960">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_06" ID="{AAF7D180-BA96-4E1D-9F7F-D3DE3446DC9E}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="3255231"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_06" ID="{AAF7D180-BA96-4E1D-9F7F-D3DE3446DC9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_16" ID="{BDED1DA9-9A7B-4009-B7BB-AA8BB0B1C5A1}" ShortID="966179515">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_16" ID="{475BCF78-94B0-4D45-9D3A-120C668831E1}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1058083693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_16" ID="{475BCF78-94B0-4D45-9D3A-120C668831E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_11" ID="{3F6EB3F3-3D39-4F44-93E8-5D5F91C6A42D}" ShortID="148734708">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_11" ID="{1C261214-6168-48C1-B216-D1DC09E0FA86}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="559623182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_11" ID="{1C261214-6168-48C1-B216-D1DC09E0FA86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_18" ID="{52D63305-7553-4ECD-A57F-A198B985060C}" ShortID="607888309">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_18" ID="{5366CDB3-FD2E-42B8-9B9F-38B1BC3FB3BF}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="290451090"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_18" ID="{5366CDB3-FD2E-42B8-9B9F-38B1BC3FB3BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_05" ID="{840774C7-590D-46E6-A223-493C74A54958}" ShortID="627091860">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_05" ID="{BE2792AD-92BF-4A6E-A10B-4FE2D3BE25A8}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="399600399"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_05" ID="{BE2792AD-92BF-4A6E-A10B-4FE2D3BE25A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_15" ID="{6A7E791B-4EF9-409D-9B00-0DE7A5C5673B}" ShortID="286824012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_15" ID="{22A3DFBE-6D02-4AE4-B0C3-07673BA98AF4}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298604012"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_15" ID="{22A3DFBE-6D02-4AE4-B0C3-07673BA98AF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_01" ID="{E6A91CFC-5DBA-4E95-9F40-20A920035789}" ShortID="246538816">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_01" ID="{D5EC1BED-385B-4FEE-B4EA-B805C67EEB54}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841948375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_01" ID="{D5EC1BED-385B-4FEE-B4EA-B805C67EEB54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_02" ID="{A7C63403-7411-4B00-A853-046F45152968}" ShortID="627027241">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_02" ID="{163EA89D-CF9B-476A-BAC0-6F7C08AF10EA}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="548183739"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_02" ID="{163EA89D-CF9B-476A-BAC0-6F7C08AF10EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_07" ID="{1DC2F3E7-DDED-4605-ADA5-FEA6E0B91D42}" ShortID="771908230">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_07" ID="{AA0F4566-1964-4285-8ACE-DA102FA0F410}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156922301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_07" ID="{AA0F4566-1964-4285-8ACE-DA102FA0F410}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_14" ID="{28040419-FB32-4319-BC40-99D5B9D548DA}" ShortID="1062438444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_14" ID="{0A79EF08-0B7F-4FD3-BEF1-A7D65A25B974}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123126663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_14" ID="{0A79EF08-0B7F-4FD3-BEF1-A7D65A25B974}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_17" ID="{4C681069-18C8-40E9-A652-91B00DCB8D26}" ShortID="805389549">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_17" ID="{6718593B-6B5F-499E-AA3D-6A54A221B4CF}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514716122"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_17" ID="{6718593B-6B5F-499E-AA3D-6A54A221B4CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_19" ID="{D26077B9-C756-4FDD-8F9F-519F963AC112}" ShortID="974971458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_19" ID="{D73F04CD-2B78-4F8B-A6A9-6BF438C65474}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705799646"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_19" ID="{D73F04CD-2B78-4F8B-A6A9-6BF438C65474}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_08" ID="{2F5F5821-8EE2-48CC-B774-20659E63D401}" ShortID="54386433">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_08" ID="{BEBD0655-41E1-4830-8005-D287B4E1AB14}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="697911471"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_08" ID="{BEBD0655-41E1-4830-8005-D287B4E1AB14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_03" ID="{F8C76C6E-31A3-4E38-B645-DDDDB01D7B72}" ShortID="558425262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_03" ID="{C81C49AC-8327-4EF1-BB25-304AA7088EDF}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1066631930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_03" ID="{C81C49AC-8327-4EF1-BB25-304AA7088EDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_09" ID="{56448214-A440-4171-87DD-49790F9A22D1}" ShortID="1049395694">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_09" ID="{B1724F93-9A2A-4CE8-872A-10E9F391B644}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790289716"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_09" ID="{B1724F93-9A2A-4CE8-872A-10E9F391B644}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_13" ID="{C527E629-DF5B-4D98-BE4B-B7D168D1B732}" ShortID="886211633">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_13" ID="{51473FFC-A13B-4667-ACD1-7406B886EF0A}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055732377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_13" ID="{51473FFC-A13B-4667-ACD1-7406B886EF0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_04" ID="{0DF95A2E-AB40-4BB8-A3A0-A9C7AD6342E3}" ShortID="770606792">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_04" ID="{5BE0ACFB-872B-432F-8DB8-1D3FF785AF8B}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="368789271"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_04" ID="{5BE0ACFB-872B-432F-8DB8-1D3FF785AF8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Deep_Snow_FS_10" ID="{8B8006C4-EEC1-4BFE-AAF9-C36F37A72798}" ShortID="460534497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Deep_Snow_FS_10" ID="{652F7A6A-98CF-4515-B25E-A15D4F0AFB7F}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Deep_Snow_FS_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="48505662"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Deep_Snow_FS_10" ID="{652F7A6A-98CF-4515-B25E-A15D4F0AFB7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="FOLYFeet_Deep Snow Footsteps Quick Steady_PSE_KCV1_cub5g-05_L" ID="{893290CB-E265-4FD7-B837-DDE4165C7988}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Synthespians Sketch 1b" ID="{38A293FB-E97B-4EEA-BF9E-58B8828CF5D7}" ShortID="1018789730">
-					<Comment>PlaceHolder Music</Comment>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="FOL_Deep_Snow_Footsteps" ID="{5753113D-C1DB-49C7-B84F-43CF15EE4546}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="DOOR" ID="{EA86F928-9CA4-4F1D-99D5-BA668732D5BB}" ShortID="18927474">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
@@ -41,18 +1533,1394 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Synthespians Sketch 1b" ID="{F35151C6-A348-41D1-92B7-6D640DCCCE71}">
-							<Language>SFX</Language>
-							<AudioFile>Synthespians Sketch 1b.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="649986070"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<RandomSequenceContainer Name="DOOR_Open" ID="{554C0B59-78B0-4E31-80CD-52AA7CF474B5}" ShortID="859504583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DOOR_Open_01" ID="{6D31863B-132C-47ED-8B42-D916DAD80F6B}" ShortID="209069197">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Open_01" ID="{D007FF39-F018-4256-96EB-314BC204CA4F}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Open_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1004906300"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Open_01" ID="{D007FF39-F018-4256-96EB-314BC204CA4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Open_02" ID="{8BACDAC8-948E-423D-B08A-FFC04636B1DB}" ShortID="1038985014">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Open_02" ID="{C4355F59-AB85-4E78-B712-8B5F2A01482D}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Open_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="575420549"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Open_02" ID="{C4355F59-AB85-4E78-B712-8B5F2A01482D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Open_03" ID="{CEBA7433-1D31-4686-9F9D-53B61183090F}" ShortID="439362314">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Open_03" ID="{E1921E87-3064-43D8-B109-2768E99F2188}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Open_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="860963985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Open_03" ID="{E1921E87-3064-43D8-B109-2768E99F2188}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Open_04" ID="{3AA391EC-59C5-4D81-B77D-7038724E4AAD}" ShortID="604169267">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Open_04" ID="{F25F1718-FEB4-414B-96C7-32D91E4953CC}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Open_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470642180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Open_04" ID="{F25F1718-FEB4-414B-96C7-32D91E4953CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DOOR_Close" ID="{5063FF8C-51A2-4B2A-AC07-368F2F166B38}" ShortID="640905461">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DOOR_Close_01" ID="{42BC5BA4-39E1-442E-B509-E3DA388D8CFD}" ShortID="798666597">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Close_01" ID="{3EE0A243-73D8-470F-AF46-2AE62ECD37F5}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Close_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="286083849"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Close_01" ID="{3EE0A243-73D8-470F-AF46-2AE62ECD37F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Close_02" ID="{E8E05043-060A-4C8D-97CB-9058161779C7}" ShortID="576508809">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Close_02" ID="{F04A5036-5BD0-4C86-AAB5-621F87871B8B}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Close_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="583719598"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Close_02" ID="{F04A5036-5BD0-4C86-AAB5-621F87871B8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Close_03" ID="{9615E429-527E-4164-9215-E3D90CE42593}" ShortID="108744200">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Close_03" ID="{1CCC998C-2AA8-48D6-B329-E05CC3AC003E}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Close_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481881149"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Close_03" ID="{1CCC998C-2AA8-48D6-B329-E05CC3AC003E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DOOR_Close_04" ID="{3C969933-9ED1-4A00-BDE4-4F0FE73B48F2}" ShortID="397837560">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DOOR_Close_04" ID="{9F3E3832-0932-464B-B203-DD5D7E558F4E}">
+											<Language>SFX</Language>
+											<AudioFile>DOOR_Close_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="167683126"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DOOR_Close_04" ID="{9F3E3832-0932-464B-B203-DD5D7E558F4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Synthespians Sketch 1b" ID="{F35151C6-A348-41D1-92B7-6D640DCCCE71}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="DOOR_Open" ID="{554C0B59-78B0-4E31-80CD-52AA7CF474B5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="DOOR_Close" ID="{5063FF8C-51A2-4B2A-AC07-368F2F166B38}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="FOL_Land" ID="{59F93D95-12E1-4134-AD6F-03B0BA7897B7}" ShortID="947041790">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FOL_Snow_Land" ID="{7B93A00E-EE3E-4EC1-AF05-D8D55ED87032}" ShortID="604782733">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_Snow_Land_06" ID="{D9375259-E741-4944-89BD-25419E3B1102}" ShortID="381631789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_06" ID="{0791CA28-6E30-4D6C-9A8C-B5F767BFA4EF}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="619260788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_06" ID="{0791CA28-6E30-4D6C-9A8C-B5F767BFA4EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Land_05" ID="{D1484DE4-FDF9-47F1-8BE7-A299BBCBC003}" ShortID="530777285">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_05" ID="{AC8264FB-80A8-4F75-83EE-FE953AB2A7A6}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581606222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_05" ID="{AC8264FB-80A8-4F75-83EE-FE953AB2A7A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Land_04" ID="{FD22B9CE-9069-41A1-A54C-0A997D57A90E}" ShortID="574594174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_04" ID="{D1185DFA-E1ED-44A3-B0AD-0CEEE4B920A6}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="18232452"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_04" ID="{D1185DFA-E1ED-44A3-B0AD-0CEEE4B920A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Land_03" ID="{265B20CE-2F31-46F6-A593-5C2A66200736}" ShortID="229947233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_03" ID="{8C4C8452-B4FB-4E6F-A6DD-D5DB08398326}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="93866079"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_03" ID="{8C4C8452-B4FB-4E6F-A6DD-D5DB08398326}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Land_02" ID="{23A0CF47-5AD7-42D6-9EA3-0569B5F018A8}" ShortID="334733358">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_02" ID="{9BA62A8B-D6B6-47BA-97D0-C3D064699DA6}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="917406569"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_02" ID="{9BA62A8B-D6B6-47BA-97D0-C3D064699DA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Land_01" ID="{6B74C52A-386B-4A90-8760-C370FF1D70A7}" ShortID="461676274">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Land_01" ID="{521CFCCF-B72B-450A-B702-CD8EA10455C4}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369725870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Land_01" ID="{521CFCCF-B72B-450A-B702-CD8EA10455C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="FOL_Snow_Land" ID="{7B93A00E-EE3E-4EC1-AF05-D8D55ED87032}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="AMB" ID="{A26669C9-A566-4370-AD1D-E64B6363DC27}" ShortID="496965243">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="None" ID="{E11279B4-8F54-41BF-9B8C-9C1DA9879231}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="GameProgression" ID="{2381A213-AA86-48B9-9492-555018E1CB0F}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_1Blend2" ID="{8D233D5C-ABA1-487F-AE86-927D1D2A1702}" ShortID="1053229729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_1Blend2_Wind_01" ID="{D5E335FB-4EAF-4410-99ED-7F39A59E43EC}" ShortID="300685450">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_1Blend2_Wind_01" ID="{1F7586FD-758A-458D-9C49-96A1EC6E15C8}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4376.33712828864"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.81335958247128"/>
+												<Property Name="LoopEnd" Type="Real64" Value="194.121818311287"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_1Blend2_Wind_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692548030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_1Blend2_Wind_01" ID="{1F7586FD-758A-458D-9C49-96A1EC6E15C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_1Blend2_Wind_02" ID="{9E73A4D0-98D6-405F-8EFD-8E1D70178773}" ShortID="762032411">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_1Blend2_Wind_02" ID="{64FB5265-718C-46B5-8481-86596BF4CFEA}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1276.36359293942"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.992727238952878"/>
+												<Property Name="LoopEnd" Type="Real64" Value="44.2118182035303"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_1Blend2_Wind_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744558032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_1Blend2_Wind_02" ID="{64FB5265-718C-46B5-8481-86596BF4CFEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_2" ID="{225783E8-551B-4362-9AE3-5EF06AC4E563}" ShortID="603206284">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_2_Wind_01" ID="{4F8F9DB6-5D33-45D8-A997-71ECB12177A9}" ShortID="118351403">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_2_Wind_01" ID="{815522B7-66B8-41B8-B2CC-124EC00FD674}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="7928.48510742192"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.48131766941236"/>
+												<Property Name="LoopEnd" Type="Real64" Value="214.069090779622"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_2_Wind_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="249672213"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_2_Wind_01" ID="{815522B7-66B8-41B8-B2CC-124EC00FD674}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_3" ID="{753802B4-8895-4964-BC67-7E2D16BE07F2}" ShortID="20122163">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_3_Wind_01" ID="{374E031B-597B-4358-9660-3927C236585C}" ShortID="626342003">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_3_Wind_01" ID="{87EF3FFF-156A-4486-B3E8-2ADB3041AEDB}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2338.26081649117"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.48798415594893"/>
+												<Property Name="LoopEnd" Type="Real64" Value="43.6475362584211"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_3_Wind_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="712696141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_3_Wind_01" ID="{87EF3FFF-156A-4486-B3E8-2ADB3041AEDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_1" ID="{A3F0FE1C-73F1-4135-908A-8A8AF54A1265}" ShortID="160553693">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_1_Wind_01" ID="{E1B7DA03-4570-4205-BA5C-6282E10BDAC2}" ShortID="717346542">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_1_Wind_01" ID="{F8250A04-D71B-452D-B6AB-1EBDE9889F30}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1131.98945418651"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.77884057086447"/>
+												<Property Name="LoopEnd" Type="Real64" Value="100.423636372884"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="100.989631099977"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_1_Wind_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334894550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_1_Wind_01" ID="{F8250A04-D71B-452D-B6AB-1EBDE9889F30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="AMB_1" ID="{A3F0FE1C-73F1-4135-908A-8A8AF54A1265}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AMB_1Blend2" ID="{8D233D5C-ABA1-487F-AE86-927D1D2A1702}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AMB_3" ID="{753802B4-8895-4964-BC67-7E2D16BE07F2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="AMB_2" ID="{225783E8-551B-4362-9AE3-5EF06AC4E563}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="World1_3" ID="{26EB5731-FAD2-4125-92EB-48CD2FC41516}"/>
+								<ItemList>
+									<ItemRef Name="AMB_1" ID="{A3F0FE1C-73F1-4135-908A-8A8AF54A1265}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World1_2" ID="{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"/>
+								<ItemList>
+									<ItemRef Name="AMB_1" ID="{A3F0FE1C-73F1-4135-908A-8A8AF54A1265}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"/>
+								<ItemList>
+									<ItemRef Name="AMB_1" ID="{A3F0FE1C-73F1-4135-908A-8A8AF54A1265}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_3" ID="{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"/>
+								<ItemList>
+									<ItemRef Name="AMB_2" ID="{225783E8-551B-4362-9AE3-5EF06AC4E563}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_3" ID="{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"/>
+								<ItemList>
+									<ItemRef Name="AMB_3" ID="{753802B4-8895-4964-BC67-7E2D16BE07F2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_1" ID="{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"/>
+								<ItemList>
+									<ItemRef Name="AMB_2" ID="{225783E8-551B-4362-9AE3-5EF06AC4E563}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_2" ID="{C67BDEE0-5836-4897-ADB4-C570D29D259B}"/>
+								<ItemList>
+									<ItemRef Name="AMB_3" ID="{753802B4-8895-4964-BC67-7E2D16BE07F2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_2" ID="{618651F1-49D0-4A03-A461-85EAC414D0D8}"/>
+								<ItemList>
+									<ItemRef Name="AMB_2" ID="{225783E8-551B-4362-9AE3-5EF06AC4E563}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_1" ID="{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"/>
+								<ItemList>
+									<ItemRef Name="AMB_3" ID="{753802B4-8895-4964-BC67-7E2D16BE07F2}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Folder Name="VOX_Breaths" ID="{1E3621E4-FF40-4BFD-AAA8-7A0FB40F7D4C}" ShortID="373120594">
+					<ChildrenList>
+						<Sound Name="VOX_Breaths" ID="{4FD0BA3E-B96F-4316-A0A4-7265F340FC11}" ShortID="258217104">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VOX_Breaths" ID="{B5561022-9B95-4EB5-BF5B-A936436E5AD0}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="398.735173040699"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.19936758652035"/>
+										<Property Name="LoopEnd" Type="Real64" Value="40.0064295370431"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>VOX_Breaths.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="883192282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VOX_Breaths" ID="{B5561022-9B95-4EB5-BF5B-A936436E5AD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VOX_Breaths_Panicked" ID="{3D353CDC-916F-4579-B701-4B3B730EA2FB}" ShortID="458055428">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VOX_Breaths_Panicked" ID="{F5591196-9579-4A1D-90BC-F61FC5BD9061}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="539.130422720319"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.628985493173712"/>
+										<Property Name="LoopEnd" Type="Real64" Value="56.5637681219732"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>VOX_Breaths_Panicked.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="796218543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VOX_Breaths_Panicked" ID="{F5591196-9579-4A1D-90BC-F61FC5BD9061}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{B484EBB7-D572-4241-81EC-ADF35CA6A29C}" ShortID="985951941">
+					<ChildrenList>
+						<Sound Name="SFX_Footprints_Glow" ID="{90E6F1B7-4A99-4341-89FD-CA47CA152F07}" ShortID="1050103378">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>36</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{4E54A0ED-6D92-4ACA-963C-07971CAFCA9C}" ShortID="696657228">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{E3F5F5F8-10DC-4C8A-8443-808303598908}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>29.29864</XPos>
+																	<YPos>-4.80817</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-18.72662</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{90B0C036-1C2B-4681-934A-03619C719C1B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>54.9832</XPos>
+																	<YPos>18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>49</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Footprints_Glow" ID="{87C65A35-9134-4F09-92B8-AE1ADFD398EF}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1920.031"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="2.59295128833635"/>
+										<Property Name="FadeInShape" Type="int16" Value="6"/>
+										<Property Name="LoopBegin" Type="Real64" Value="3.52193665184051"/>
+										<Property Name="LoopEnd" Type="Real64" Value="19.8915020074455"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Footprints_Glow.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="37272922"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Footprints_Glow" ID="{87C65A35-9134-4F09-92B8-AE1ADFD398EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Butterfly_Hover" ID="{16971BF6-5AC4-40BC-B4D6-48C82009B2F5}" ShortID="153289970">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Butterfly_Hover" ID="{6BE6C738-A958-4C33-985C-B784C988E859}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="154.731"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.375757571736814"/>
+										<Property Name="LoopEnd" Type="Real64" Value="11.1881818256202"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Butterfly_Hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="255392855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Butterfly_Hover" ID="{6BE6C738-A958-4C33-985C-B784C988E859}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Butterfly_Distant" ID="{24265879-C537-4F46-B268-C94F6C4D1495}" ShortID="786067727">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Butterfly_Distant" ID="{8FBC9499-0B56-4DE1-A933-0BC61FE29C3A}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Butterfly_Distant.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="314640891"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Butterfly_Distant" ID="{8FBC9499-0B56-4DE1-A933-0BC61FE29C3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="SFX_Butterfly" ID="{E1FEEED4-10F7-4500-9EB2-F7C052E29906}" ShortID="281978143">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{4D24C716-2DA1-44DC-A696-2622B561DED4}" ShortID="799085236">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{04E6BA59-B249-4988-8CE1-DE3307C09559}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{02C5D647-6021-47A7-9E5B-D9D9157C491A}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>35</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Butterfly_01" ID="{128493DC-E28C-4586-A6BB-03050AB28E33}" ShortID="167424587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Butterfly_01" ID="{91B16A7A-C52B-4E3F-83D2-BEC72463465E}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Butterfly_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="839903578"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Butterfly_01" ID="{91B16A7A-C52B-4E3F-83D2-BEC72463465E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Butterfly_02" ID="{8AE4DDDF-A26E-4E25-A2E1-91B6316536E9}" ShortID="993579679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Butterfly_02" ID="{6F5FFF8A-869A-4279-B0F5-D4AA2208F256}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Butterfly_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="189587664"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Butterfly_02" ID="{6F5FFF8A-869A-4279-B0F5-D4AA2208F256}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Folder Name="SFX_Static" ID="{D0C6AAAD-C519-49B3-B931-3EE9F561DAE9}" ShortID="308729454">
+							<ChildrenList>
+								<Sound Name="SFX_Static_01" ID="{BCE67EFC-C0A5-4DD0-BA1E-698CFCD84B70}" ShortID="851031492">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Static" ID="{A5FA0A0D-EE80-40ED-96BC-03EDA8E657C8}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Static.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308509943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Static" ID="{A5FA0A0D-EE80-40ED-96BC-03EDA8E657C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Static_02" ID="{FBDF5717-7834-4BFC-9C00-97BD3284CE52}" ShortID="1038727079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Static_02" ID="{D35E17C6-BD33-42EC-AEA5-07F45045A16A}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Static_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="405912089"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Static_02" ID="{D35E17C6-BD33-42EC-AEA5-07F45045A16A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Static_03" ID="{4BC94E94-AF3E-41A4-A6EC-700CA30AF172}" ShortID="677834731">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Static_03" ID="{B5FC1D36-EE6B-40E1-A319-4877E360978D}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Static_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922360735"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Static_03" ID="{B5FC1D36-EE6B-40E1-A319-4877E360978D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Static_04" ID="{CE9F8039-6DF7-4978-9505-9D7FEA821AD1}" ShortID="303863608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Static_04" ID="{A07BE3E3-7CE9-432C-9D45-23A200C804A5}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Static_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="89436387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Static_04" ID="{A07BE3E3-7CE9-432C-9D45-23A200C804A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<SwitchContainer Name="Endings" ID="{F276CB47-A8A3-4489-AAA2-938A2868C10D}" ShortID="752729585">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}" ShortID="704768021">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOL_Change_Suit" ID="{4B9A916D-B67F-49AB-A15A-70F7CA9FDE07}">
+									<Language>SFX</Language>
+									<AudioFile>FOL_Change_Suit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="381182088"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOL_Change_Suit" ID="{4B9A916D-B67F-49AB-A15A-70F7CA9FDE07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Blood" ID="{AF5D366B-20E3-4BF8-A94F-7BE84F8EE4B8}" ShortID="923175810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Blood" ID="{6C90E2ED-C552-49ED-8974-580B0522D40C}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="34.9059200543189"/>
+										<Property Name="FadeOutShape" Type="int16" Value="1"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="35.7832685517523"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Blood.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="848249349"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Blood" ID="{6C90E2ED-C552-49ED-8974-580B0522D40C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Ship_Leave" ID="{697C9363-0D2B-490D-88A5-1B611281465C}" ShortID="101681313">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ship_Leave" ID="{5D1A75FA-3519-47E8-BA71-9FCC703D9C6B}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ship_Leave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1026429037"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ship_Leave" ID="{5D1A75FA-3519-47E8-BA71-9FCC703D9C6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="SFX_Snow_Fall" ID="{9810C59C-5E9A-49F2-B5B7-A7C6FC24149F}" ShortID="774485367">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_Snow_Fall_01" ID="{4EBC05F1-94D2-4266-9560-89124D069C0D}" ShortID="951003469">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Fall_01" ID="{6D15988A-8032-4706-8894-72D1711E24FA}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Fall_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488524003"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Fall_01" ID="{6D15988A-8032-4706-8894-72D1711E24FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Fall_03" ID="{E81F4282-C784-4C0C-87DF-F80190A9EE3A}" ShortID="319035072">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Fall_03" ID="{E9AD7835-D234-4017-A0B4-A813041510E4}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Fall_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="776735745"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Fall_03" ID="{E9AD7835-D234-4017-A0B4-A813041510E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Snow_Fall_02" ID="{AAC2420D-4A92-4342-A82D-05AF8F1E9714}" ShortID="484272075">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Snow_Fall_02" ID="{F5AC027D-E6A6-4E23-862A-F4596EEB63AC}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Snow_Fall_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16600904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Snow_Fall_02" ID="{F5AC027D-E6A6-4E23-862A-F4596EEB63AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Ship_Leave" ID="{697C9363-0D2B-490D-88A5-1B611281465C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Blood" ID="{AF5D366B-20E3-4BF8-A94F-7BE84F8EE4B8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Snow_Fall" ID="{9810C59C-5E9A-49F2-B5B7-A7C6FC24149F}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

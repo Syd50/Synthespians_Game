@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="MusicSFXShared" ID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="World2Ascent" ID="{A6E89C3F-2738-4300-B3AE-710252A8E5D3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DistanceToButterfly" ID="{9BAA09E2-CF3E-487E-9ED7-94A8F75C8E51}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
