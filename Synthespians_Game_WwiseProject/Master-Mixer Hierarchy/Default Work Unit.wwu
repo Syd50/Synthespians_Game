@@ -38,55 +38,6 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{5861D120-E9F3-4AE2-9F6A-4D20495DB774}" ShortID="265063864">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="DistanceFromPath" ID="{AACAE894-81DE-4042-A85F-0BE25702D50C}" WorkUnitID="{5906D887-5099-4BAE-BEF4-D7EBEB078D45}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{170D7660-BA43-487A-9859-887BCAF4F440}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="65537"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>0.001</XPos>
-																				<YPos>8</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.86735</XPos>
-																				<YPos>53</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>85</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
 								</Bus>
 								<Bus Name="OTHER" ID="{B3C2A8A2-C8DB-43D1-A553-F279E0FAE92E}"/>
 							</ChildrenList>

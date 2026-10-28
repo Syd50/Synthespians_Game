@@ -74,6 +74,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A727F492-13C2-4E59-9075-C4A32B7856A8}" ShortID="809238708">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyInteract" ID="{C40DC7B0-3692-4D67-AAEE-A790D72D7C56}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ButterflyInteract_2" ID="{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}">
@@ -96,6 +103,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8A71519B-A4C1-4FFD-B604-28830424CF1B}" ShortID="9505612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyInteract" ID="{C40DC7B0-3692-4D67-AAEE-A790D72D7C56}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
