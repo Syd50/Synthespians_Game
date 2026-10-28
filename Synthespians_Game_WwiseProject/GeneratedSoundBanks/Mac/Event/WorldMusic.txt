@@ -1,0 +1,31 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1162186996	WorldMusic			\Music\WorldMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	182810823	MusicProgression			\Music\MusicProgression	
+	3803052040	GameProgression			\MusicSFXShared\GameProgression	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicProgression			
+	1973439776	Music_05	MusicProgression			
+	1973439777	Music_04	MusicProgression			
+	1973439780	Music_01	MusicProgression			
+	1973439782	Music_03	MusicProgression			
+	1973439783	Music_02	MusicProgression			
+	748895195	None	GameProgression			
+	995444624	World1_1	GameProgression			
+	995444626	World1_3	GameProgression			
+	995444627	World1_2	GameProgression			
+	2607556080	Menu	GameProgression			
+	4216938556	World3_3	GameProgression			
+	4216938557	World3_2	GameProgression			
+	4216938558	World3_1	GameProgression			
+	4217085588	World2_2	GameProgression			
+	4217085589	World2_3	GameProgression			
+	4217085591	World2_1	GameProgression			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1381409880	DistanceToButterfly			\MusicSFXShared\DistanceToButterfly	
+	2465407525	DistanceFromPath			\MusicSFXShared\DistanceFromPath	
+	4212907157	World2Ascent			\MusicSFXShared\World2Ascent	
+

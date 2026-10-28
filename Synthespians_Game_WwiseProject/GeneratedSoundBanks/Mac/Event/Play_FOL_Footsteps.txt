@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	13685529	Play_FOL_Footsteps			\SFX\Play_FOL_Footsteps	
+

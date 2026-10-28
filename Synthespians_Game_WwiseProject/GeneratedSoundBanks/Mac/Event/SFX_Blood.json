@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3932357355",
+    "Type": "Event",
+    "GUID": "{8C064318-6DEE-465C-8F69-890BEE9B5D33}",
+    "Language": "SFX",
+    "Hash": "{D2374CAA-F08B-F567-F352-C01E18728B16}",
+    "ObjectPath": "SFX_Blood",
+    "ShortName": "SFX_Blood",
+    "Path": "Event/SFX_Blood.bnk",
+    "Media": [
+     {
+      "Id": "848249349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Blood.wav",
+      "Path": "Media/848249349.wem",
+      "CachePath": "79/{79189708-518E-E6B7-DBD8-134248B46076}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3932357355",
+      "Name": "SFX_Blood",
+      "ObjectPath": "\\Events\\SFX\\SFX_Blood",
+      "GUID": "{8C064318-6DEE-465C-8F69-890BEE9B5D33}",
+      "DurationType": "OneShot",
+      "DurationMin": "35.783268",
+      "DurationMax": "35.783268",
+      "MediaRefs": [
+       {
+        "Id": "848249349"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{26D68D07-5EEC-CEA0-243D-55F30B3DE4CA}"
+ }
+}

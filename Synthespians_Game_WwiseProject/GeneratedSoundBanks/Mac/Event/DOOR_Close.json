@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "128625444",
+    "Type": "Event",
+    "GUID": "{E5970502-4E19-4662-A7A6-45700ED1A242}",
+    "Language": "SFX",
+    "Hash": "{95E2C602-E2EA-51A5-7642-174076BE9D61}",
+    "ObjectPath": "DOOR_Close",
+    "ShortName": "DOOR_Close",
+    "Path": "Event/DOOR_Close.bnk",
+    "Media": [
+     {
+      "Id": "167683126",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Close_04.wav",
+      "Path": "Media/167683126.wem",
+      "CachePath": "3D/{3D5188A6-59FE-620D-4DF7-A39E0A1F8E81}.wem"
+     },
+     {
+      "Id": "286083849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Close_01.wav",
+      "Path": "Media/286083849.wem",
+      "CachePath": "9A/{9AD6F091-6B90-FF8E-2D34-546EEE9A2558}.wem"
+     },
+     {
+      "Id": "481881149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Close_03.wav",
+      "Path": "Media/481881149.wem",
+      "CachePath": "FA/{FA10D8BE-EEFD-FD00-9ABE-ED9FE9454662}.wem"
+     },
+     {
+      "Id": "583719598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Close_02.wav",
+      "Path": "Media/583719598.wem",
+      "CachePath": "A7/{A7D58C14-75DB-E4BA-03AF-26B8D8CFCB9D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "128625444",
+      "Name": "DOOR_Close",
+      "ObjectPath": "\\Events\\SFX\\DOOR\\DOOR_Close",
+      "GUID": "{E5970502-4E19-4662-A7A6-45700ED1A242}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8666667",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "167683126"
+       },
+       {
+        "Id": "286083849"
+       },
+       {
+        "Id": "481881149"
+       },
+       {
+        "Id": "583719598"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7BED0252-5C8D-F9D3-5CB5-4DF29378B761}"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2131976168",
+    "Type": "Event",
+    "GUID": "{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}",
+    "Language": "SFX",
+    "Hash": "{D7B9F170-4894-1AA3-B44F-9DE5FB2AB577}",
+    "ObjectPath": "ButterflyInteract",
+    "ShortName": "ButterflyInteract",
+    "Path": "Event/ButterflyInteract.bnk",
+    "Media": [
+     {
+      "Id": "555122032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_ButterflyInteraction.wav",
+      "Path": "Media/555122032.wem",
+      "CachePath": "4C/{4C1CB528-7B19-98F2-72F9-9EBE865DD4FF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2131976168",
+      "Name": "ButterflyInteract",
+      "ObjectPath": "\\Events\\Music\\ButterflyInteract",
+      "GUID": "{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}",
+      "DurationType": "OneShot",
+      "DurationMin": "16.053806",
+      "DurationMax": "16.053806",
+      "MediaRefs": [
+       {
+        "Id": "555122032"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "2672549700",
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       },
+       {
+        "GroupId": "2672549700",
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\Normal",
+        "GUID": "{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2672549700",
+      "Name": "MusicMixing",
+      "ObjectPath": "\\States\\Music\\MusicMixing",
+      "GUID": "{DC887C09-F943-42D4-BD3F-FDE6393A2016}",
+      "States": [
+       {
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\None",
+        "GUID": "{46B905C5-A076-4089-B25D-D9027941FA56}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\Normal",
+        "GUID": "{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D5040DDA-7CA9-2A43-E520-BBC045C9914B}"
+ }
+}

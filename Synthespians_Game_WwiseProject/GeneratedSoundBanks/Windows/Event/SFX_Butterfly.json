@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1201396530",
+    "Type": "Event",
+    "GUID": "{15572743-3BA9-4425-AB9D-66B445DF3D4A}",
+    "Language": "SFX",
+    "Hash": "{8E211317-8262-0798-5FDD-B2F327CF3BBA}",
+    "ObjectPath": "SFX_Butterfly",
+    "ShortName": "SFX_Butterfly",
+    "Path": "Event/SFX_Butterfly.bnk",
+    "Media": [
+     {
+      "Id": "189587664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Butterfly_02.wav",
+      "Path": "Media/189587664.wem",
+      "CachePath": "E9/{E9110C6E-5F98-038B-00F7-F16BD25AA4D0}.wem"
+     },
+     {
+      "Id": "839903578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Butterfly_01.wav",
+      "Path": "Media/839903578.wem",
+      "CachePath": "4C/{4CBABC06-6D65-8013-DB1E-EF0F997FEF98}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1201396530",
+      "Name": "SFX_Butterfly",
+      "ObjectPath": "\\Events\\SFX\\SFX_Butterfly\\SFX_Butterfly",
+      "GUID": "{15572743-3BA9-4425-AB9D-66B445DF3D4A}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "189587664"
+       },
+       {
+        "Id": "839903578"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{210B9C50-5B2C-B230-10FE-83E4305A5075}"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "535830432",
+    "Type": "Event",
+    "GUID": "{79BF55EA-18E5-47F3-9A84-88B93BDEE9D8}",
+    "Language": "SFX",
+    "Hash": "{36CC6BF9-CC47-AD7F-C884-2633DBD66899}",
+    "ObjectPath": "DOOR_Open",
+    "ShortName": "DOOR_Open",
+    "Path": "Event/DOOR_Open.bnk",
+    "Media": [
+     {
+      "Id": "470642180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Open_04.wav",
+      "Path": "Media/470642180.wem",
+      "CachePath": "34/{34AF3647-3A70-9DC9-402A-FB7D53B5B9C2}.wem"
+     },
+     {
+      "Id": "575420549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Open_02.wav",
+      "Path": "Media/575420549.wem",
+      "CachePath": "21/{21A744A3-6565-953C-0CBF-3C3A66DBE39E}.wem"
+     },
+     {
+      "Id": "860963985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Open_03.wav",
+      "Path": "Media/860963985.wem",
+      "CachePath": "73/{73953535-82C4-F853-7BF3-9D3ABD6DC911}.wem"
+     },
+     {
+      "Id": "1004906300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DOOR_Open_01.wav",
+      "Path": "Media/1004906300.wem",
+      "CachePath": "60/{60E1908E-4FE5-E872-ED6B-D5710DA6C2FA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "535830432",
+      "Name": "DOOR_Open",
+      "ObjectPath": "\\Events\\SFX\\DOOR\\DOOR_Open",
+      "GUID": "{79BF55EA-18E5-47F3-9A84-88B93BDEE9D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1666667",
+      "DurationMax": "3.6",
+      "MediaRefs": [
+       {
+        "Id": "470642180"
+       },
+       {
+        "Id": "575420549"
+       },
+       {
+        "Id": "860963985"
+       },
+       {
+        "Id": "1004906300"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C58C5D29-7785-158A-BCAB-AA05B8210066}"
+ }
+}

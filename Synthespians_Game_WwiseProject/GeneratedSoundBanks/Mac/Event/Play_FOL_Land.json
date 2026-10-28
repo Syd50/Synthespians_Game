@@ -1,0 +1,108 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1834603979",
+    "Type": "Event",
+    "GUID": "{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}",
+    "Language": "SFX",
+    "Hash": "{089B7A14-999D-75DC-0E34-F237F4EE99B5}",
+    "ObjectPath": "Play_FOL_Land",
+    "ShortName": "Play_FOL_Land",
+    "Path": "Event/Play_FOL_Land.bnk",
+    "Media": [
+     {
+      "Id": "18232452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_04.wav",
+      "Path": "Media/18232452.wem",
+      "CachePath": "FF/{FFC797FE-2EBD-F9F0-529A-33A1F4C6A4EF}.wem"
+     },
+     {
+      "Id": "93866079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_03.wav",
+      "Path": "Media/93866079.wem",
+      "CachePath": "05/{057340B1-6F75-4105-1E03-E17A954B4D7A}.wem"
+     },
+     {
+      "Id": "369725870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_01.wav",
+      "Path": "Media/369725870.wem",
+      "CachePath": "84/{84F7C2C8-A580-0CAC-C52B-B56C4BF76C5C}.wem"
+     },
+     {
+      "Id": "581606222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_05.wav",
+      "Path": "Media/581606222.wem",
+      "CachePath": "83/{837246D6-7422-E011-05C3-FAE63C096F21}.wem"
+     },
+     {
+      "Id": "619260788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_06.wav",
+      "Path": "Media/619260788.wem",
+      "CachePath": "13/{133224F4-361C-65CD-186D-5151A8D4F046}.wem"
+     },
+     {
+      "Id": "917406569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Snow_Land_02.wav",
+      "Path": "Media/917406569.wem",
+      "CachePath": "49/{49A90F4E-F366-6872-9323-C6A43E0808D6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1834603979",
+      "Name": "Play_FOL_Land",
+      "ObjectPath": "\\Events\\SFX\\Play_FOL_Land",
+      "GUID": "{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45",
+      "DurationMax": "0.8",
+      "MediaRefs": [
+       {
+        "Id": "18232452"
+       },
+       {
+        "Id": "93866079"
+       },
+       {
+        "Id": "369725870"
+       },
+       {
+        "Id": "581606222"
+       },
+       {
+        "Id": "619260788"
+       },
+       {
+        "Id": "917406569"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AA78707A-E519-9E8E-D89D-E489A2ED94B5}"
+ }
+}

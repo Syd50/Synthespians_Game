@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{89C218AE-9E0B-8562-B379-0ABAC724E516}",
+    "Hash": "{DA4D4509-D0B3-F1C7-1272-1194ADDB62A5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,14 +36,204 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{E7CA89C2-EA98-432C-ABD3-90EB4785514A}"
+     },
+     {
+      "Id": "412724365",
+      "Name": "BGM",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC\\BGM",
+      "GUID": "{55A54D7D-93FC-49A1-80BF-7F7AB6C74C3F}"
+     },
+     {
+      "Id": "2376466361",
+      "Name": "OTHER",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC\\OTHER",
+      "GUID": "{B3C2A8A2-C8DB-43D1-A553-F279E0FAE92E}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "MUSIC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MUSIC",
+      "GUID": "{AD15F527-1C67-4A9A-A8BE-ED0EC76D70C6}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1381409880",
+      "Name": "DistanceToButterfly",
+      "ObjectPath": "\\Game Parameters\\MusicSFXShared\\DistanceToButterfly",
+      "GUID": "{9BAA09E2-CF3E-487E-9ED7-94A8F75C8E51}"
+     },
+     {
+      "Id": "2465407525",
+      "Name": "DistanceFromPath",
+      "ObjectPath": "\\Game Parameters\\MusicSFXShared\\DistanceFromPath",
+      "GUID": "{AACAE894-81DE-4042-A85F-0BE25702D50C}"
+     },
+     {
+      "Id": "4212907157",
+      "Name": "World2Ascent",
+      "ObjectPath": "\\Game Parameters\\MusicSFXShared\\World2Ascent",
+      "GUID": "{A6E89C3F-2738-4300-B3AE-710252A8E5D3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "182810823",
+      "Name": "MusicProgression",
+      "ObjectPath": "\\States\\Music\\MusicProgression",
+      "GUID": "{B701BCCE-93C2-47C3-A6E1-7B47C2850C9D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\None",
+        "GUID": "{B7C0FF31-214B-4778-ADE7-66D48C064E87}"
+       },
+       {
+        "Id": "1973439776",
+        "Name": "Music_05",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_05",
+        "GUID": "{722A069A-D451-411F-9886-36CC6589D80E}"
+       },
+       {
+        "Id": "1973439777",
+        "Name": "Music_04",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_04",
+        "GUID": "{96C63696-E9FD-4A5A-8305-7F9934926D64}"
+       },
+       {
+        "Id": "1973439780",
+        "Name": "Music_01",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_01",
+        "GUID": "{7DED4B39-C3E5-4B56-8483-0141584B21BA}"
+       },
+       {
+        "Id": "1973439782",
+        "Name": "Music_03",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_03",
+        "GUID": "{8032075C-1C52-4A8B-BCFC-ADC5BFCB5089}"
+       },
+       {
+        "Id": "1973439783",
+        "Name": "Music_02",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_02",
+        "GUID": "{579C1457-F82B-4BBA-96A3-509FA0EC82B2}"
+       }
+      ]
+     },
+     {
+      "Id": "2672549700",
+      "Name": "MusicMixing",
+      "ObjectPath": "\\States\\Music\\MusicMixing",
+      "GUID": "{DC887C09-F943-42D4-BD3F-FDE6393A2016}",
+      "States": [
+       {
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\None",
+        "GUID": "{46B905C5-A076-4089-B25D-D9027941FA56}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\Normal",
+        "GUID": "{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"
+       }
+      ]
+     },
+     {
+      "Id": "3803052040",
+      "Name": "GameProgression",
+      "ObjectPath": "\\States\\MusicSFXShared\\GameProgression",
+      "GUID": "{2381A213-AA86-48B9-9492-555018E1CB0F}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\None",
+        "GUID": "{E11279B4-8F54-41BF-9B8C-9C1DA9879231}"
+       },
+       {
+        "Id": "995444624",
+        "Name": "World1_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_1",
+        "GUID": "{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"
+       },
+       {
+        "Id": "995444626",
+        "Name": "World1_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_3",
+        "GUID": "{26EB5731-FAD2-4125-92EB-48CD2FC41516}"
+       },
+       {
+        "Id": "995444627",
+        "Name": "World1_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_2",
+        "GUID": "{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\Menu",
+        "GUID": "{52A6A348-50F6-4A5B-9814-9D30FD4B66A9}"
+       },
+       {
+        "Id": "4216938556",
+        "Name": "World3_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_3",
+        "GUID": "{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"
+       },
+       {
+        "Id": "4216938557",
+        "Name": "World3_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_2",
+        "GUID": "{C67BDEE0-5836-4897-ADB4-C570D29D259B}"
+       },
+       {
+        "Id": "4216938558",
+        "Name": "World3_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_1",
+        "GUID": "{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"
+       },
+       {
+        "Id": "4217085588",
+        "Name": "World2_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_2",
+        "GUID": "{618651F1-49D0-4A03-A461-85EAC414D0D8}"
+       },
+       {
+        "Id": "4217085589",
+        "Name": "World2_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_3",
+        "GUID": "{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"
+       },
+       {
+        "Id": "4217085591",
+        "Name": "World2_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_1",
+        "GUID": "{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{1B15A3D0-0F30-47A6-6728-5E0281DAB4B1}"
+  "FileHash": "{93D4C69D-2DCF-7219-9661-D0C61460F858}"
  }
 }

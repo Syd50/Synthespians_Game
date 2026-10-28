@@ -1,0 +1,88 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3111596054",
+    "Type": "Event",
+    "GUID": "{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}",
+    "Language": "SFX",
+    "Hash": "{94780FF1-3133-D11C-B563-EA2D9FCB675E}",
+    "ObjectPath": "ButterflyInteract_3",
+    "ShortName": "ButterflyInteract_3",
+    "Path": "Event/ButterflyInteract_3.bnk",
+    "Events": [
+     {
+      "Id": "3111596054",
+      "Name": "ButterflyInteract_3",
+      "ObjectPath": "\\Events\\Music\\ButterflyInteract_3",
+      "GUID": "{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "182810823",
+        "Id": "1973439783",
+        "Name": "Music_02",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_02",
+        "GUID": "{579C1457-F82B-4BBA-96A3-509FA0EC82B2}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "182810823",
+      "Name": "MusicProgression",
+      "ObjectPath": "\\States\\Music\\MusicProgression",
+      "GUID": "{B701BCCE-93C2-47C3-A6E1-7B47C2850C9D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\None",
+        "GUID": "{B7C0FF31-214B-4778-ADE7-66D48C064E87}"
+       },
+       {
+        "Id": "1973439776",
+        "Name": "Music_05",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_05",
+        "GUID": "{722A069A-D451-411F-9886-36CC6589D80E}"
+       },
+       {
+        "Id": "1973439777",
+        "Name": "Music_04",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_04",
+        "GUID": "{96C63696-E9FD-4A5A-8305-7F9934926D64}"
+       },
+       {
+        "Id": "1973439780",
+        "Name": "Music_01",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_01",
+        "GUID": "{7DED4B39-C3E5-4B56-8483-0141584B21BA}"
+       },
+       {
+        "Id": "1973439782",
+        "Name": "Music_03",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_03",
+        "GUID": "{8032075C-1C52-4A8B-BCFC-ADC5BFCB5089}"
+       },
+       {
+        "Id": "1973439783",
+        "Name": "Music_02",
+        "ObjectPath": "\\States\\Music\\MusicProgression\\Music_02",
+        "GUID": "{579C1457-F82B-4BBA-96A3-509FA0EC82B2}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0014D6E8-EB09-1220-5E68-9BF68DBD4B72}"
+ }
+}

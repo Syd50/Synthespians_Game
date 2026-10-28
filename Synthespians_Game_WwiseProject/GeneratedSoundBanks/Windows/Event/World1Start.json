@@ -1,0 +1,118 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1038101560",
+    "Type": "Event",
+    "GUID": "{A96E7B4A-AB40-4FC0-B49B-8BCC6F648619}",
+    "Language": "SFX",
+    "Hash": "{97484859-DDC9-5B86-C194-9C3A830F02FA}",
+    "ObjectPath": "World1Start",
+    "ShortName": "World1Start",
+    "Path": "Event/World1Start.bnk",
+    "Events": [
+     {
+      "Id": "1038101560",
+      "Name": "World1Start",
+      "ObjectPath": "\\Events\\Music\\MusicProgressEvents\\World1Start",
+      "GUID": "{A96E7B4A-AB40-4FC0-B49B-8BCC6F648619}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3803052040",
+        "Id": "995444624",
+        "Name": "World1_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_1",
+        "GUID": "{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3803052040",
+      "Name": "GameProgression",
+      "ObjectPath": "\\States\\MusicSFXShared\\GameProgression",
+      "GUID": "{2381A213-AA86-48B9-9492-555018E1CB0F}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\None",
+        "GUID": "{E11279B4-8F54-41BF-9B8C-9C1DA9879231}"
+       },
+       {
+        "Id": "995444624",
+        "Name": "World1_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_1",
+        "GUID": "{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"
+       },
+       {
+        "Id": "995444626",
+        "Name": "World1_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_3",
+        "GUID": "{26EB5731-FAD2-4125-92EB-48CD2FC41516}"
+       },
+       {
+        "Id": "995444627",
+        "Name": "World1_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World1_2",
+        "GUID": "{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\Menu",
+        "GUID": "{52A6A348-50F6-4A5B-9814-9D30FD4B66A9}"
+       },
+       {
+        "Id": "4216938556",
+        "Name": "World3_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_3",
+        "GUID": "{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"
+       },
+       {
+        "Id": "4216938557",
+        "Name": "World3_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_2",
+        "GUID": "{C67BDEE0-5836-4897-ADB4-C570D29D259B}"
+       },
+       {
+        "Id": "4216938558",
+        "Name": "World3_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World3_1",
+        "GUID": "{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"
+       },
+       {
+        "Id": "4217085588",
+        "Name": "World2_2",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_2",
+        "GUID": "{618651F1-49D0-4A03-A461-85EAC414D0D8}"
+       },
+       {
+        "Id": "4217085589",
+        "Name": "World2_3",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_3",
+        "GUID": "{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"
+       },
+       {
+        "Id": "4217085591",
+        "Name": "World2_1",
+        "ObjectPath": "\\States\\MusicSFXShared\\GameProgression\\World2_1",
+        "GUID": "{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C0DBF69-A2FA-A250-4F82-D472630D6559}"
+ }
+}

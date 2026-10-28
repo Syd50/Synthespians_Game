@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	741174024	World1Midpoint			\Music\MusicProgressEvents\World1Midpoint	
+

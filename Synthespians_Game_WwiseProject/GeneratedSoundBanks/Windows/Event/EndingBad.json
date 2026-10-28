@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2793025237",
+    "Type": "Event",
+    "GUID": "{CAB373B5-22EA-41EC-90F4-D943A65A2635}",
+    "Language": "SFX",
+    "Hash": "{02C03B1E-3527-B91D-E592-B25EADD26B0A}",
+    "ObjectPath": "EndingBad",
+    "ShortName": "EndingBad",
+    "Path": "Event/EndingBad.bnk",
+    "Media": [
+     {
+      "Id": "1062518992",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_BadEnding.wav",
+      "Path": "Media/1062518992.wem",
+      "CachePath": "45/{4552CD54-274A-A8E5-7C2A-EFF77C174C67}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2793025237",
+      "Name": "EndingBad",
+      "ObjectPath": "\\Events\\Music\\EndingBad",
+      "GUID": "{CAB373B5-22EA-41EC-90F4-D943A65A2635}",
+      "DurationType": "OneShot",
+      "DurationMin": "84.76666",
+      "DurationMax": "84.76666",
+      "MediaRefs": [
+       {
+        "Id": "1062518992"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7B40CB7D-5398-D9AA-9028-AD38159C1BC7}"
+ }
+}

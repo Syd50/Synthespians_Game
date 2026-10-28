@@ -1,5 +1,36 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	182810823	MusicProgression			\Music\MusicProgression	
+	2672549700	MusicMixing			\Music\MusicMixing	
+	3803052040	GameProgression			\MusicSFXShared\GameProgression	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicProgression			
+	1973439776	Music_05	MusicProgression			
+	1973439777	Music_04	MusicProgression			
+	1973439780	Music_01	MusicProgression			
+	1973439782	Music_03	MusicProgression			
+	1973439783	Music_02	MusicProgression			
+	233607266	NoBGM	MusicMixing			
+	748895195	None	MusicMixing			
+	1160234136	Normal	MusicMixing			
+	748895195	None	GameProgression			
+	995444624	World1_1	GameProgression			
+	995444626	World1_3	GameProgression			
+	995444627	World1_2	GameProgression			
+	2607556080	Menu	GameProgression			
+	4216938556	World3_3	GameProgression			
+	4216938557	World3_2	GameProgression			
+	4216938558	World3_1	GameProgression			
+	4217085588	World2_2	GameProgression			
+	4217085589	World2_3	GameProgression			
+	4217085591	World2_1	GameProgression			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	412724365	BGM			\Default Work Unit\Master Audio Bus\MUSIC\BGM	
+	2376466361	OTHER			\Default Work Unit\Master Audio Bus\MUSIC\OTHER	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

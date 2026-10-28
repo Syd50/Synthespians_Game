@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1560539487	SFX_Ship_Leave			\SFX\SFX_Ship_Leave	
+

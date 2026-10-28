@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1560539487",
+    "Type": "Event",
+    "GUID": "{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}",
+    "Language": "SFX",
+    "Hash": "{E6C7488D-7181-F698-397E-345D940F1D00}",
+    "ObjectPath": "SFX_Ship_Leave",
+    "ShortName": "SFX_Ship_Leave",
+    "Path": "Event/SFX_Ship_Leave.bnk",
+    "Media": [
+     {
+      "Id": "1026429037",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Ship_Leave.wav",
+      "Path": "Media/1026429037.wem",
+      "CachePath": "90/{905B91F7-CCAB-FEA1-2BEE-172F83A3C821}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1560539487",
+      "Name": "SFX_Ship_Leave",
+      "ObjectPath": "\\Events\\SFX\\SFX_Ship_Leave",
+      "GUID": "{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}",
+      "DurationType": "OneShot",
+      "DurationMin": "30.5",
+      "DurationMax": "30.5",
+      "MediaRefs": [
+       {
+        "Id": "1026429037"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9CC63184-28DB-C7E0-111A-0DC3A0FBD882}"
+ }
+}

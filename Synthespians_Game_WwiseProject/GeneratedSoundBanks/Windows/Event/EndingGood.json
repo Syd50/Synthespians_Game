@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2868780427",
+    "Type": "Event",
+    "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
+    "Language": "SFX",
+    "Hash": "{B4D666F0-4CE1-73DD-2EBC-259CD9850E53}",
+    "ObjectPath": "EndingGood",
+    "ShortName": "EndingGood",
+    "Path": "Event/EndingGood.bnk",
+    "Media": [
+     {
+      "Id": "641561155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "option 1 -  fall sting.wav",
+      "Path": "Media/641561155.wem",
+      "CachePath": "3D/{3D6B73F4-E553-8D76-6D86-24DD64C79FFB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2868780427",
+      "Name": "EndingGood",
+      "ObjectPath": "\\Events\\Music\\EndingGood",
+      "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.25",
+      "DurationMax": "9.25",
+      "MediaRefs": [
+       {
+        "Id": "641561155"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EBABDFED-2B5D-A202-00A8-4E826D67566C}"
+ }
+}
