@@ -310,6 +310,37 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="GameOver" ID="{C6ACDBD9-D8B3-49DD-9F8C-908D0A9359B8}">
+					<ChildrenList>
+						<Action Name="" ID="{51283CE0-F944-4A6B-A6D9-AF70D88B4AB2}" ShortID="113210712">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WorldMusic" ID="{DB8CD165-6643-40D4-A55E-9988EAA27F6F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{95C9B978-5CBD-4B62-A4FA-EDAC0350244D}" ShortID="157747359">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB905D99-48FF-444E-B428-C448A02C6ED7}" ShortID="25199758">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOverSting" ID="{92256AF4-F8CA-4968-BD54-F49FB93005BA}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
