@@ -1735,7 +1735,7 @@
 					<ChildrenList>
 						<MusicSegment Name="EndingGood" ID="{BFB30AB9-6BE2-4A46-BFB4-7ACA68F06A3A}" ShortID="554120347">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="9618.8947425829"/>
+								<Property Name="EndPosition" Type="Real64" Value="73702.9712803344"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1747,6 +1747,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="New Music Track" ID="{8DC3754D-A0F1-4E99-8619-3B607AE17BD8}" ShortID="1046961164">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
@@ -1763,11 +1770,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="option 1 -  fall sting" ID="{4BE77CFB-0BA9-4503-A660-7C8BA398AE63}">
+										<AudioFileSource Name="Music_GoodEnding" ID="{303355C1-3AC6-4EFE-90EA-28280A20A7A6}">
 											<Language>SFX</Language>
-											<AudioFile>option 1 -  fall sting.wav</AudioFile>
+											<AudioFile>Music_GoodEnding.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="641561155"/>
+												<MediaID ID="18203197"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1780,13 +1787,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="option 1 -  fall sting" ID="{FAF26B8E-9464-44AF-A142-D9F461FC25B7}">
+																		<MusicClip Name="Music_GoodEnding" ID="{BB5EF2AA-DE74-46F6-8353-AF361A901FDE}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="9179.10416666667"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="59223.9375"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="option 1 -  fall sting" ID="{4BE77CFB-0BA9-4503-A660-7C8BA398AE63}"/>
+																			<AudioSourceRef Name="Music_GoodEnding" ID="{303355C1-3AC6-4EFE-90EA-28280A20A7A6}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -1811,7 +1818,7 @@
 											<MusicCue Name="Exit Cue" ID="{EA77E216-DFF7-4FAB-8387-9BF194A9ECB8}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="9250"/>
+													<Property Name="TimeMs" Type="Real64" Value="59223.9375"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -1894,7 +1901,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Music_BadEnding" ID="{E4193C6F-C19B-403A-98C7-5B554A19D9C0}">
+										<AudioFileSource Name="Music_BadEnding" ID="{90D3B460-31E1-4B92-A86D-241174ED77EF}">
 											<Language>SFX</Language>
 											<AudioFile>Music_BadEnding.wav</AudioFile>
 											<MediaIDList>
@@ -1911,13 +1918,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Music_BadEnding" ID="{EB29FF8E-A20A-46C0-841A-E0C44B0B512D}">
+																		<MusicClip Name="Music_BadEnding" ID="{7947561C-CB6F-4322-AF25-DA63FBC5E291}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="84766.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Music_BadEnding" ID="{E4193C6F-C19B-403A-98C7-5B554A19D9C0}"/>
+																			<AudioSourceRef Name="Music_BadEnding" ID="{90D3B460-31E1-4B92-A86D-241174ED77EF}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
