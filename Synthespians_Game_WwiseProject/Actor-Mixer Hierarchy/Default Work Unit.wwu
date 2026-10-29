@@ -4131,7 +4131,185 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="good_ending" ID="{852F4538-41FF-4C2F-B314-FE5058777058}" ShortID="932887092"/>
+						<Folder Name="good_ending" ID="{852F4538-41FF-4C2F-B314-FE5058777058}" ShortID="932887092">
+							<ChildrenList>
+								<Sound Name="do_you_see" ID="{D2E6B169-345A-411B-8C3B-B0D9ED810B16}" ShortID="571286693">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="do_you_see" ID="{18B220F9-F300-4191-AB27-4C1AC5D5D8A0}">
+											<Language>English(US)</Language>
+											<AudioFile>do_you_see.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1049205483"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="do_you_see" ID="{18B220F9-F300-4191-AB27-4C1AC5D5D8A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="i_admire_you" ID="{C2868ECF-778E-4027-8674-9BB005F653C6}" ShortID="557791404">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="i_admire_you" ID="{43D085BD-2BE4-48FA-8B15-1C409AEEAF1E}">
+											<Language>English(US)</Language>
+											<AudioFile>i_admire_you.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733303395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="i_admire_you" ID="{43D085BD-2BE4-48FA-8B15-1C409AEEAF1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="im_proud_of" ID="{051A03D6-CAF8-469A-B03B-C43631A6CB7C}" ShortID="424791156">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="im_proud_of" ID="{1D86189E-6E93-411E-8DA9-2C2E4EE71FA6}">
+											<Language>English(US)</Language>
+											<AudioFile>im_proud_of.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977612784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="im_proud_of" ID="{1D86189E-6E93-411E-8DA9-2C2E4EE71FA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="some_say_those" ID="{EF60CAE3-BF56-47D4-8E9C-1539B511A4FF}" ShortID="538220740">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="some_say_those" ID="{818952F0-6A6A-4E68-AE78-61D05EF33C73}">
+											<Language>English(US)</Language>
+											<AudioFile>some_say_those.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485043638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="some_say_those" ID="{818952F0-6A6A-4E68-AE78-61D05EF33C73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="those_goldwings_are" ID="{B9FA129A-3A20-4828-9093-AE80E5698ECB}" ShortID="539189975">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="those_goldwings_are" ID="{5CD7BA2C-12B4-4B7F-9B42-F9EF65408254}">
+											<Language>English(US)</Language>
+											<AudioFile>those_goldwings_are.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="894306576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="those_goldwings_are" ID="{5CD7BA2C-12B4-4B7F-9B42-F9EF65408254}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="you_dont_have" ID="{527D9CE7-D6AB-4E0D-A78E-04A3C3F170D1}" ShortID="456033510">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="you_dont_have" ID="{B21E9E0A-97E8-4A33-83A4-E81E0ECA8F79}">
+											<Language>English(US)</Language>
+											<AudioFile>you_dont_have.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801796758"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="you_dont_have" ID="{B21E9E0A-97E8-4A33-83A4-E81E0ECA8F79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="you_seen_any" ID="{F216C5D5-75F2-4B9D-A921-CC57D942D07D}" ShortID="35849780">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="you_seen_any" ID="{03A6153F-D0D4-4929-ACC3-3DC391B6B2A3}">
+											<Language>English(US)</Language>
+											<AudioFile>you_seen_any.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="826893844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="you_seen_any" ID="{03A6153F-D0D4-4929-ACC3-3DC391B6B2A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="gameover_panel" ID="{40BDEC40-0B14-4D0F-B522-EECB7777BFDE}" ShortID="862266114"/>
 						<Folder Name="drop_into_world_cutscene1" ID="{EA273D1B-2D21-4C15-AD5C-061231BDDB7D}" ShortID="33925851">
 							<ChildrenList>

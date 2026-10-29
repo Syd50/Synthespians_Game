@@ -187,7 +187,87 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="good_ending" ID="{990D7A0D-1827-4E02-843E-F4EAA793DE25}" ShortID="691007050"/>
+				<Folder Name="good_ending" ID="{990D7A0D-1827-4E02-843E-F4EAA793DE25}" ShortID="691007050">
+					<ChildrenList>
+						<Event Name="do_you_see" ID="{F8E11006-F31E-4A3A-9D0E-92D159CA04A5}">
+							<ChildrenList>
+								<Action Name="" ID="{2122AE4D-41FC-420D-8A62-205526A345B4}" ShortID="662028271">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="do_you_see" ID="{D2E6B169-345A-411B-8C3B-B0D9ED810B16}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="i_admire_you" ID="{F728CDA4-9A83-4A80-B92B-D5F8D4E1C99E}">
+							<ChildrenList>
+								<Action Name="" ID="{4B678FB1-4096-4326-A0CE-790B89084AE2}" ShortID="865662158">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="i_admire_you" ID="{C2868ECF-778E-4027-8674-9BB005F653C6}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="im_proud_of" ID="{E66D1023-44F0-4CDC-8725-9BACFC7978E3}">
+							<ChildrenList>
+								<Action Name="" ID="{5EC6FAB8-41F8-4997-9552-077199243DE1}" ShortID="742919820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="im_proud_of" ID="{051A03D6-CAF8-469A-B03B-C43631A6CB7C}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="some_say_those" ID="{B9C7588F-E8CC-4E3A-B512-312E4F24AC0C}">
+							<ChildrenList>
+								<Action Name="" ID="{FCCDE4EA-1B95-4915-B5F1-E7C06B77F604}" ShortID="778568865">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="some_say_those" ID="{EF60CAE3-BF56-47D4-8E9C-1539B511A4FF}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="those_goldwings_are" ID="{117BB00B-0A07-4FFC-8420-38FD7D7161CD}">
+							<ChildrenList>
+								<Action Name="" ID="{47FE57F9-B910-4A81-90B9-9E7823912677}" ShortID="732711059">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="those_goldwings_are" ID="{B9FA129A-3A20-4828-9093-AE80E5698ECB}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="you_dont_have" ID="{7E06B15E-AFFE-4C6A-840B-46837F0D58C1}">
+							<ChildrenList>
+								<Action Name="" ID="{5BFE3EC4-C5E8-4B81-8DF3-B153AFA2E678}" ShortID="425682163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="you_dont_have" ID="{527D9CE7-D6AB-4E0D-A78E-04A3C3F170D1}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="you_seen_any" ID="{09486029-0EEE-4297-820D-64C05B291343}">
+							<ChildrenList>
+								<Action Name="" ID="{3DE09861-3E43-4E07-A68B-3BDC012AC9CC}" ShortID="156551331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="you_seen_any" ID="{F216C5D5-75F2-4B9D-A921-CC57D942D07D}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="world_2_hills" ID="{7DF52D19-3688-44F8-A85B-54D7714419D9}" ShortID="701392955">
 					<ChildrenList>
 						<Event Name="am_i_in" ID="{BE88A1F5-8BEC-4D7F-8B69-26764ABA0069}">
