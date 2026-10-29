@@ -10,20 +10,33 @@
     "Type": "Event",
     "GUID": "{C761766B-300F-4015-838D-F7BD162C881F}",
     "Language": "SFX",
-    "Hash": "{33D58DAD-FB88-5051-7F86-1A7FABC8793F}",
+    "Hash": "{C36793C6-ADE7-EAF3-2ABD-1858042B3C03}",
     "ObjectPath": "World2DoorArrive",
     "ShortName": "World2DoorArrive",
     "Path": "Event/World2DoorArrive.bnk",
+    "Media": [
+     {
+      "Id": "494555659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_ButterflyApproach_FullMix_67BPM.wav",
+      "Path": "Media/494555659.wem",
+      "CachePath": "FA/{FA7D262D-20C8-A203-1A03-15EEFA94DDE8}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1095926190",
       "Name": "World2DoorArrive",
       "ObjectPath": "\\Events\\Music\\MusicProgressEvents\\World2DoorArrive",
       "GUID": "{C761766B-300F-4015-838D-F7BD162C881F}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "494555659"
+       }
+      ],
       "ActionSetState": [
        {
         "GroupId": "3803052040",
@@ -33,6 +46,14 @@
         "GUID": "{618651F1-49D0-4A03-A461-85EAC414D0D8}"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1381409880",
+      "Name": "DistanceToButterfly",
+      "ObjectPath": "\\Game Parameters\\MusicSFXShared\\DistanceToButterfly",
+      "GUID": "{9BAA09E2-CF3E-487E-9ED7-94A8F75C8E51}"
      }
     ],
     "StateGroups": [
@@ -113,6 +134,6 @@
     ]
    }
   ],
-  "FileHash": "{232E6A84-8A40-1631-976F-0289B6B51B6B}"
+  "FileHash": "{A5575FB9-9AAD-8B65-BC6D-6D67F9AB44B4}"
  }
 }

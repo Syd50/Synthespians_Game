@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1EB6B431-1B5F-4FE1-B619-8601914E90A9}",
     "Language": "SFX",
-    "Hash": "{8B627DC6-3D5B-0685-4331-F9A13EB665D1}",
+    "Hash": "{EFC6E2FB-1A22-26B2-73EE-EAF2D0848636}",
     "ObjectPath": "WorldMusic",
     "ShortName": "WorldMusic",
     "Path": "Event/WorldMusic.bnk",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "Music_Drone_C_Long.wav",
       "Path": "Media/110393573.wem",
-      "CachePath": "D2/{D2E5DBB0-7833-FEB1-B2C0-EAEA5CEDEE64}.wem"
+      "CachePath": "60/{601F288E-A0D2-062A-8092-2D118C8D0CF8}.wem"
      },
      {
       "Id": "203312105",
@@ -50,6 +50,24 @@
       "ShortName": "Music_1M3.wav",
       "Path": "Media/203312105.wem",
       "CachePath": "6D/{6D0B3096-DB98-181E-65D4-AB189D4E7DE8}.wem"
+     },
+     {
+      "Id": "312832978",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_World3Amb.wav",
+      "Path": "Media/312832978.wem",
+      "CachePath": "2B/{2BFEB194-518F-A988-FBAF-C404A9592811}.wem"
+     },
+     {
+      "Id": "487571063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_LowWooshSting.wav",
+      "Path": "Media/487571063.wem",
+      "CachePath": "EE/{EE9AC7BD-D23C-9EED-C4C3-9DD675A9A33F}.wem"
      },
      {
       "Id": "494555659",
@@ -105,10 +123,10 @@
         },
         "MediaRefs": [
          {
-          "Id": "63522726"
+          "Id": "110393573"
          },
          {
-          "Id": "110393573"
+          "Id": "312832978"
          }
         ]
        },
@@ -137,6 +155,9 @@
           "Id": "35165360"
          },
          {
+          "Id": "487571063"
+         },
+         {
           "Id": "502505676"
          }
         ]
@@ -163,10 +184,10 @@
         },
         "MediaRefs": [
          {
-          "Id": "63522726"
+          "Id": "110393573"
          },
          {
-          "Id": "110393573"
+          "Id": "312832978"
          }
         ]
        }
@@ -364,6 +385,6 @@
     ]
    }
   ],
-  "FileHash": "{37E840DF-EA8B-2CF3-6582-D78B36B27779}"
+  "FileHash": "{32EFB2BA-F3E7-8922-763F-824E126B2D4F}"
  }
 }

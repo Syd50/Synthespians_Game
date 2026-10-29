@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1095926190	World2DoorArrive			\Music\MusicProgressEvents\World2DoorArrive	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1381409880	DistanceToButterfly			\MusicSFXShared\DistanceToButterfly	
+

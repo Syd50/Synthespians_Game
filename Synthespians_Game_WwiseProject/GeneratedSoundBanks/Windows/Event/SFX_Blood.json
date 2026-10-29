@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8C064318-6DEE-465C-8F69-890BEE9B5D33}",
     "Language": "SFX",
-    "Hash": "{D2374CAA-F08B-F567-F352-C01E18728B16}",
+    "Hash": "{F2C5A85C-C974-FF8F-D8B5-4E614A30D4B7}",
     "ObjectPath": "SFX_Blood",
     "ShortName": "SFX_Blood",
     "Path": "Event/SFX_Blood.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{EEBF98A0-0A7E-15F4-727D-955BDE20AB4B}"
+  "FileHash": "{75F0B1D3-816C-D459-38AA-4079412E5A42}"
  }
 }

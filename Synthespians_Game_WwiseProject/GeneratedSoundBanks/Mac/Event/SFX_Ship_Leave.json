@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}",
     "Language": "SFX",
-    "Hash": "{E6C7488D-7181-F698-397E-345D940F1D00}",
+    "Hash": "{A08E1232-9271-DC6C-9FDC-5AF542BDEFD4}",
     "ObjectPath": "SFX_Ship_Leave",
     "ShortName": "SFX_Ship_Leave",
     "Path": "Event/SFX_Ship_Leave.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{9CC63184-28DB-C7E0-111A-0DC3A0FBD882}"
+  "FileHash": "{C79692F2-1EA2-550A-85E6-1C8E95A914EF}"
  }
 }

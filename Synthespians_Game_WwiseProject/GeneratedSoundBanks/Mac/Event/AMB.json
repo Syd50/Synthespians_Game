@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{978B8452-973E-4B38-ADDB-CF4670058981}",
     "Language": "SFX",
-    "Hash": "{0ACBDA08-A430-9FC8-3C10-AEB3BCBEAAB2}",
+    "Hash": "{41D0DFA4-5928-4B23-EA01-77452D35A1AF}",
     "ObjectPath": "AMB",
     "ShortName": "AMB",
     "Path": "Event/AMB.bnk",
@@ -249,6 +249,6 @@
     ]
    }
   ],
-  "FileHash": "{45DD5010-6719-2493-E8A9-CB4302C2A875}"
+  "FileHash": "{6C1B2E1E-B3F5-E693-A213-AA42D1365AB2}"
  }
 }

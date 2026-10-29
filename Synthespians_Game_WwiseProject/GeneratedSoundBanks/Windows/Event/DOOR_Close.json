@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E5970502-4E19-4662-A7A6-45700ED1A242}",
     "Language": "SFX",
-    "Hash": "{95E2C602-E2EA-51A5-7642-174076BE9D61}",
+    "Hash": "{3C16EC48-7B8C-C99C-6D34-C82897C2F44D}",
     "ObjectPath": "DOOR_Close",
     "ShortName": "DOOR_Close",
     "Path": "Event/DOOR_Close.bnk",
@@ -79,6 +79,6 @@
     ]
    }
   ],
-  "FileHash": "{19C2C405-95E5-191D-BD46-016C64575ED7}"
+  "FileHash": "{E6983D6F-58D6-950C-353D-E30B060144F4}"
  }
 }

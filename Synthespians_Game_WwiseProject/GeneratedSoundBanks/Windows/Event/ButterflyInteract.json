@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}",
     "Language": "SFX",
-    "Hash": "{D7B9F170-4894-1AA3-B44F-9DE5FB2AB577}",
+    "Hash": "{3D0731D0-13F7-8992-1A6A-7B5ECCB477D2}",
     "ObjectPath": "ButterflyInteract",
     "ShortName": "ButterflyInteract",
     "Path": "Event/ButterflyInteract.bnk",
@@ -87,6 +87,6 @@
     ]
    }
   ],
-  "FileHash": "{9EF96EA7-E79A-A013-2A25-C981A93C0816}"
+  "FileHash": "{E47C80AB-8D93-F21D-7FFE-972F1BFDE704}"
  }
 }

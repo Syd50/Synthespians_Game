@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
     "Language": "SFX",
-    "Hash": "{B4D666F0-4CE1-73DD-2EBC-259CD9850E53}",
+    "Hash": "{CE78AC0A-5E3F-8AF3-662F-051B1F02A5F7}",
     "ObjectPath": "EndingGood",
     "ShortName": "EndingGood",
     "Path": "Event/EndingGood.bnk",
     "Media": [
      {
-      "Id": "641561155",
+      "Id": "18203197",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "option 1 -  fall sting.wav",
-      "Path": "Media/641561155.wem",
-      "CachePath": "3D/{3D6B73F4-E553-8D76-6D86-24DD64C79FFB}.wem"
+      "ShortName": "Music_GoodEnding.wav",
+      "Path": "Media/18203197.wem",
+      "CachePath": "4E/{4E58DD51-5951-D155-0000-6501A54E1ED0}.wem"
      }
     ],
     "Events": [
@@ -32,17 +32,17 @@
       "ObjectPath": "\\Events\\Music\\EndingGood",
       "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
       "DurationType": "OneShot",
-      "DurationMin": "9.25",
-      "DurationMax": "9.25",
+      "DurationMin": "59.223938",
+      "DurationMax": "59.223938",
       "MediaRefs": [
        {
-        "Id": "641561155"
+        "Id": "18203197"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{351F3819-FAFB-1BA2-5195-5A5833FC142A}"
+  "FileHash": "{0A1A939D-771B-773C-510C-1A79C097248E}"
  }
 }

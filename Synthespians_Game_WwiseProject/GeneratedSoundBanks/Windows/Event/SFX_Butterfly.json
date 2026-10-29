@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{15572743-3BA9-4425-AB9D-66B445DF3D4A}",
     "Language": "SFX",
-    "Hash": "{8E211317-8262-0798-5FDD-B2F327CF3BBA}",
+    "Hash": "{A74E7677-7D6E-43D6-6882-D5601FFCC00E}",
     "ObjectPath": "SFX_Butterfly",
     "ShortName": "SFX_Butterfly",
     "Path": "Event/SFX_Butterfly.bnk",
@@ -54,6 +54,6 @@
     ]
    }
   ],
-  "FileHash": "{210B9C50-5B2C-B230-10FE-83E4305A5075}"
+  "FileHash": "{FCBB748F-A30D-5634-3CDB-857F02F3A2F4}"
  }
 }

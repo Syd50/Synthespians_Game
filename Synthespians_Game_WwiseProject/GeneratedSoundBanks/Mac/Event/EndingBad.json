@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CAB373B5-22EA-41EC-90F4-D943A65A2635}",
     "Language": "SFX",
-    "Hash": "{02C03B1E-3527-B91D-E592-B25EADD26B0A}",
+    "Hash": "{2838287E-AFDA-23EF-51E9-A884C28B1F74}",
     "ObjectPath": "EndingBad",
     "ShortName": "EndingBad",
     "Path": "Event/EndingBad.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Music_BadEnding.wav",
       "Path": "Media/1062518992.wem",
-      "CachePath": "45/{4552CD54-274A-A8E5-7C2A-EFF77C174C67}.wem"
+      "CachePath": "E0/{E0F39F05-A65B-5619-2422-E754310A6903}.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{472FCD74-E250-A481-B2BE-654E8B4134E6}"
+  "FileHash": "{69AEE911-8988-12E2-3144-257D09E5F4EF}"
  }
 }

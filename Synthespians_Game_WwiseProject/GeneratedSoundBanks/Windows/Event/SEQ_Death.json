@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
     "Language": "SFX",
-    "Hash": "{6F31A6C3-B07B-427F-B0EB-13E7E6B165B4}",
+    "Hash": "{CF6FA850-377C-CF07-5CA2-3E9354C63A2A}",
     "ObjectPath": "SEQ_Death",
     "ShortName": "SEQ_Death",
     "Path": "Event/SEQ_Death.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{03249D3A-EB0A-E238-F6DA-0FB435CE8A86}"
+  "FileHash": "{E2C49B2F-38A9-1393-BA61-F39F5337998A}"
  }
 }

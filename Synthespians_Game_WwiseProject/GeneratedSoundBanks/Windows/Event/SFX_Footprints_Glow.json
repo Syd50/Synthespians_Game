@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3CF1D370-716A-4EF3-8C15-03C163A3B989}",
     "Language": "SFX",
-    "Hash": "{0AE82FB8-ED74-A6D1-EC6A-974CE2336961}",
+    "Hash": "{BD0B6A1B-D8BA-B0E2-4EB4-3962B411C969}",
     "ObjectPath": "SFX_Footprints_Glow",
     "ShortName": "SFX_Footprints_Glow",
     "Path": "Event/SFX_Footprints_Glow.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{4711C4E5-8BE6-8567-0F25-4DDA0CE776CD}"
+  "FileHash": "{F123E707-986D-6239-F127-5B75FEC92489}"
  }
 }
