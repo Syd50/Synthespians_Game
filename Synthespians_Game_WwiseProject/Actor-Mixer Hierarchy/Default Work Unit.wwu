@@ -8,8 +8,14 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="None" ID="{E11279B4-8F54-41BF-9B8C-9C1DA9879231}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="GameProgression" ID="{2381A213-AA86-48B9-9492-555018E1CB0F}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1521,6 +1527,62 @@
 								<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="World1_3" ID="{26EB5731-FAD2-4125-92EB-48CD2FC41516}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World1_2" ID="{BABA3D3C-E7D4-4870-ACC4-0E7FF1218A5A}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_3" ID="{F7D7CCAE-9130-416B-B13E-35F7BC2C8501}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Deep_Snow_Footsteps" ID="{5753113D-C1DB-49C7-B84F-43CF15EE4546}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_3" ID="{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_1" ID="{ADDAC4C8-2AFC-4ED2-A6D9-F5991F9617B3}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Deep_Snow_Footsteps" ID="{5753113D-C1DB-49C7-B84F-43CF15EE4546}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_2" ID="{C67BDEE0-5836-4897-ADB4-C570D29D259B}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World2_2" ID="{618651F1-49D0-4A03-A461-85EAC414D0D8}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Deep_Snow_Footsteps" ID="{5753113D-C1DB-49C7-B84F-43CF15EE4546}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="World3_1" ID="{1EC11EFA-5D84-419C-81F5-478A5EF9E702}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 				<SwitchContainer Name="DOOR" ID="{EA86F928-9CA4-4F1D-99D5-BA668732D5BB}" ShortID="18927474">
