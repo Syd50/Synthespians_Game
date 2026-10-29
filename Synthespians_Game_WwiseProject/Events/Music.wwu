@@ -5,27 +5,13 @@
 			<ChildrenList>
 				<Event Name="WorldMusic" ID="{1EB6B431-1B5F-4FE1-B619-8601914E90A9}">
 					<ChildrenList>
-						<Action Name="" ID="{8076570E-9574-47BD-930A-4C97EB7ACAB9}" ShortID="267077960">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WorldMusic" ID="{DB8CD165-6643-40D4-A55E-9988EAA27F6F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A9F03276-3D80-468B-AC78-9921D7FFC580}" ShortID="789328456">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6FD22E86-2499-46F1-A667-BFE652294E89}" ShortID="546308242">
+						<Action Name="" ID="{C9872AB7-69F4-41C6-ABA9-3104AAFDCA13}" ShortID="452209391">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+									<ObjectRef Name="IntroText" ID="{6363059E-51BC-4A8D-B401-4CC5CF5C979E}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,6 +25,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6FD22E86-2499-46F1-A667-BFE652294E89}" ShortID="546308242">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World1_1" ID="{3A01BEA2-4289-4DEF-AD27-30B01BB60AB8}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{009B8897-1BC0-45C8-ADCE-9C2AA1349AF8}" ShortID="341580270">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -46,6 +42,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Normal" ID="{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8076570E-9574-47BD-930A-4C97EB7ACAB9}" ShortID="267077960">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WorldMusic" ID="{DB8CD165-6643-40D4-A55E-9988EAA27F6F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A9F03276-3D80-468B-AC78-9921D7FFC580}" ShortID="789328456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -336,6 +346,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GameOverSting" ID="{92256AF4-F8CA-4968-BD54-F49FB93005BA}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayIntroText" ID="{41AE8D64-C14C-4A05-864B-F07D541A1575}">
+					<ChildrenList>
+						<Action Name="" ID="{943C8772-CECB-4597-9E5D-F7A9F4CFB49D}" ShortID="663761412">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NoBGM" ID="{629603A2-1453-47F0-947F-E274E37C695D}" WorkUnitID="{21902A99-14E0-421F-B149-6E301C3C27D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{57EA7324-5F63-446A-9B3B-14A9E050CC2B}" ShortID="1034077051">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IntroText" ID="{6363059E-51BC-4A8D-B401-4CC5CF5C979E}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
