@@ -1507,7 +1507,7 @@
 									<MultiSwitchEntry Name="" ID="{C49264B2-257E-4D74-9B29-EEA7E08CBA8D}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
-												<ObjectRef Name="3M1Playlist" ID="{CB6E149A-2C37-480B-B9A3-FD6D4C81E9A6}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+												<ObjectRef Name="1M2Playlist" ID="{E3635AB7-D037-49A9-975B-1D3C0D307247}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 											</Reference>
 										</ReferenceList>
 										<ObjectLists>
@@ -2197,7 +2197,7 @@
 					<ChildrenList>
 						<MusicSegment Name="ButterflySting" ID="{A41145CA-D6D1-40A0-B435-B085859368D1}" ShortID="346684394">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="20010.0545486938"/>
+								<Property Name="EndPosition" Type="Real64" Value="22000"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2209,6 +2209,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="New Music Track" ID="{F6B6F928-52C9-457D-B23F-39CB03226D31}" ShortID="144215122">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
@@ -2225,11 +2232,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Music_ButterflyInteraction" ID="{AD5CED01-4B10-48D1-AFD0-F469E02C25EA}">
+										<AudioFileSource Name="Music_ButterflyInteraction_v2" ID="{60CFEDBC-CB44-4A9E-8746-7E121F5E8132}">
 											<Language>SFX</Language>
-											<AudioFile>Music_ButterflyInteraction.wav</AudioFile>
+											<AudioFile>Music_ButterflyInteraction_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="555122032"/>
+												<MediaID ID="972496722"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2242,74 +2249,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Music_ButterflyInteraction" ID="{7AE9153D-5032-4D51-A82D-1E52CE4CA92F}">
+																		<MusicClip Name="Music_ButterflyInteraction_v2" ID="{C0F06F46-A450-459A-B0B3-C4675AA5BC22}">
 																			<PropertyList>
-																				<Property Name="BeginTrimOffset" Type="Real64" Value="2752.17230177626"/>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="18805.9791666667"/>
-																				<Property Name="FadeInDuration" Type="Real64" Value="780.66425867692"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="19500"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="-2752.17230177626"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Music_ButterflyInteraction" ID="{AD5CED01-4B10-48D1-AFD0-F469E02C25EA}"/>
-																			<PropertyCurveList>
-																				<PropertyCurve PropertyName="Highpass">
-																					<Curve Name="" ID="{8068D58B-C0C6-41E2-83C5-62D8229A5E48}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>2.75217</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>18.8059791666667</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																				<PropertyCurve PropertyName="Lowpass">
-																					<Curve Name="" ID="{BADE08E9-E44A-412D-9C9B-8D50FBCECB8C}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>2.75217</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>18.8059791666667</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																				<PropertyCurve PropertyName="Volume">
-																					<Curve Name="" ID="{3B976838-0271-4F1C-BB24-90648FC7EAAF}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="3"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>2.75217</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>18.8059791666667</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																			</PropertyCurveList>
+																			<AudioSourceRef Name="Music_ButterflyInteraction_v2" ID="{60CFEDBC-CB44-4A9E-8746-7E121F5E8132}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -2334,7 +2280,7 @@
 											<MusicCue Name="Exit Cue" ID="{8BA12908-55C5-4373-A655-93352F7BA47B}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="16053.8068648904"/>
+													<Property Name="TimeMs" Type="Real64" Value="19500"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
