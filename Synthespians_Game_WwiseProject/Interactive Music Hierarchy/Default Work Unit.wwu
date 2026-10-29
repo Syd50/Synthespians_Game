@@ -499,8 +499,19 @@
 									<Custom>
 										<MusicPlaylistItem Name="" ID="{5B75086A-30E3-4C76-B9E0-AEF237FF89CB}" ShortID="475760996">
 											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{6983EF83-26B6-4346-A02E-183B0C0093BF}" ShortID="453435177">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="IntroWoosh" ID="{A905BA95-9A02-422C-A61F-75C5FD33C049}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
 												<MusicPlaylistItem Name="" ID="{85522052-C4F9-45B6-9497-9381D747083D}" ShortID="328971752">
 													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -522,6 +533,42 @@
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{077579BA-C331-4734-B448-4AAE15E2FC1C}">
 													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{A6E20C5D-C699-49D3-B119-6187ECF731E3}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="2M1" ID="{D70EE755-A423-4A6E-A710-9CB877EAD68F}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="IntroWoosh" ID="{A905BA95-9A02-422C-A61F-75C5FD33C049}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{86C544E7-C5C2-40DB-9839-9574E3E53483}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="4.1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="4.1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{A61A08DA-80A6-49C0-A86F-270F147A1969}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="3.9"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
 												</MusicTransition>
 											</ChildrenList>
 											<TransitionInfo/>
@@ -582,7 +629,6 @@
 																						<Property Name="EndTrimOffset" Type="Real64" Value="86000"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="250"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Music_2M1_Pad+Melody" ID="{2C075C8B-44DA-4A6A-A91E-6D663F4367A4}"/>
 																				</MusicClip>
@@ -704,6 +750,92 @@
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="86250"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="IntroWoosh" ID="{A905BA95-9A02-422C-A61F-75C5FD33C049}" ShortID="346825847">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9125"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="New Music Track" ID="{F460AC6F-B5AB-4C8C-8045-EDECA950348D}" ShortID="278400394">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{12310827-6C50-4A40-8A60-04E55560BA28}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_LowWooshSting" ID="{7CADE460-A1F2-4A8C-AEB9-DDCED537BA72}">
+													<Language>SFX</Language>
+													<AudioFile>Music_LowWooshSting.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="487571063"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5E297926-5339-42CC-AE51-2275A110C4A5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Music_LowWooshSting" ID="{08D1E6E3-0BEF-4AFB-8D7B-C37B325BA607}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Music_LowWooshSting" ID="{7CADE460-A1F2-4A8C-AEB9-DDCED537BA72}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{65EC8CAE-B1DD-4777-9442-FE6AC89C1707}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CC21482C-3061-4341-A786-3333E6C2D057}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="4000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
