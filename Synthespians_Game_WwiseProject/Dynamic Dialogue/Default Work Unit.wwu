@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2C554FC3-D174-4837-A462-BDA88D691937}" SchemaVersion="123">
 	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{2C554FC3-D174-4837-A462-BDA88D691937}" PersistMode="Standalone">
-			<ChildrenList>
-				<DialogueEvent Name="VOX_Breaths" ID="{C21F84DC-AD0B-4F5C-ABD1-F068AD5200DE}">
-					<ObjectLists>
-						<ObjectList Name="Entries">
-							<Reference>
-								<Local>
-									<MultiSwitchEntry Name="" ID="{0A8EA1C1-E458-4620-A475-A18B20EE9157}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="VOX_Breaths" ID="{4FD0BA3E-B96F-4316-A0A4-7265F340FC11}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-											</Reference>
-										</ReferenceList>
-									</MultiSwitchEntry>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</DialogueEvent>
-				<DialogueEvent Name="VOX_Breaths_Panicked" ID="{BE28CB32-3FF3-4203-B265-1290BC5D8808}">
-					<ObjectLists>
-						<ObjectList Name="Entries">
-							<Reference>
-								<Local>
-									<MultiSwitchEntry Name="" ID="{DBBE5600-DEF7-4E51-B688-85A73C35A1DE}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="VOX_Breaths_Panicked" ID="{3D353CDC-916F-4579-B701-4B3B730EA2FB}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-											</Reference>
-										</ReferenceList>
-									</MultiSwitchEntry>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</DialogueEvent>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{2C554FC3-D174-4837-A462-BDA88D691937}" PersistMode="Standalone"/>
 	</DynamicDialogue>
 </WwiseDocument>
