@@ -40,6 +40,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FOL_Snow_Footstep_1" ID="{F58C003C-CA49-400D-A434-8A991A29721A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0778215465739089"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0933858558886907"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.490311279644846"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.490467156202642"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>FOL_Snow_Footsteps\FOL_Snow_Footstep_1.wav</AudioFile>
 											<MediaIDList>
