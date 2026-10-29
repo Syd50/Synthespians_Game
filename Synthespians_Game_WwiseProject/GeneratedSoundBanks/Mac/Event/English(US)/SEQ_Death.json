@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -9,20 +9,20 @@
     "Id": "476100181",
     "Type": "Event",
     "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
-    "Language": "SFX",
-    "Hash": "{CF6FA850-377C-CF07-5CA2-3E9354C63A2A}",
+    "Language": "English(US)",
+    "Hash": "{990FD137-B241-D92E-D472-94EB7B604BE8}",
     "ObjectPath": "SEQ_Death",
     "ShortName": "SEQ_Death",
-    "Path": "Event/SEQ_Death.bnk",
+    "Path": "Event/English(US)/SEQ_Death.bnk",
     "Media": [
      {
-      "Id": "916100462",
-      "Language": "SFX",
+      "Id": "238189115",
+      "Language": "English(US)",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "SEQ_Death.wav",
-      "Path": "Media/916100462.wem",
-      "CachePath": "02/{02C5576E-8B35-44BF-9D99-4B528255FADB}.wem"
+      "Path": "Media/English(US)/238189115.wem",
+      "CachePath": "EC/{EC02550E-EB18-58AB-DC5C-58A6BC3864DF}.wem"
      }
     ],
     "Events": [
@@ -36,13 +36,13 @@
       "DurationMax": "84.76667",
       "MediaRefs": [
        {
-        "Id": "916100462"
+        "Id": "238189115"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{E2C49B2F-38A9-1393-BA61-F39F5337998A}"
+  "FileHash": "{A7BF3F26-7817-EB50-C123-A57142B08575}"
  }
 }

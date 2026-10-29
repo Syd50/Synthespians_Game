@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}",
     "Language": "SFX",
-    "Hash": "{289A05DC-E9B2-FD98-7E44-EE9997AC174C}",
+    "Hash": "{E48B2D2E-A430-9C1B-5F15-047E946F3CB2}",
     "ObjectPath": "ButterflyInteract_2",
     "ShortName": "ButterflyInteract_2",
     "Path": "Event/ButterflyInteract_2.bnk",
     "Media": [
      {
-      "Id": "555122032",
+      "Id": "972496722",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Music_ButterflyInteraction.wav",
-      "Path": "Media/555122032.wem",
-      "CachePath": "4C/{4C1CB528-7B19-98F2-72F9-9EBE865DD4FF}.wem"
+      "ShortName": "Music_ButterflyInteraction_v2.wav",
+      "Path": "Media/972496722.wem",
+      "CachePath": "E4/{E480C4C4-18EB-E482-05A9-348905B03685}.wem"
      }
     ],
     "Events": [
@@ -32,11 +32,11 @@
       "ObjectPath": "\\Events\\Music\\ButterflyInteract_2",
       "GUID": "{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}",
       "DurationType": "OneShot",
-      "DurationMin": "16.053806",
-      "DurationMax": "16.053806",
+      "DurationMin": "19.5",
+      "DurationMax": "19.5",
       "MediaRefs": [
        {
-        "Id": "555122032"
+        "Id": "972496722"
        }
       ],
       "ActionSetState": [
@@ -87,6 +87,6 @@
     ]
    }
   ],
-  "FileHash": "{77C25AB6-E2CD-01BB-6E73-29C156D7D022}"
+  "FileHash": "{B629B738-FAE7-4A83-42B4-B79FE7D3ED63}"
  }
 }

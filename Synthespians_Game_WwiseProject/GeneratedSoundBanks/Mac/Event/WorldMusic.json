@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1EB6B431-1B5F-4FE1-B619-8601914E90A9}",
     "Language": "SFX",
-    "Hash": "{EFC6E2FB-1A22-26B2-73EE-EAF2D0848636}",
+    "Hash": "{FA3FDC4B-CAEA-B48E-44FA-B52AFE3F3956}",
     "ObjectPath": "WorldMusic",
     "ShortName": "WorldMusic",
     "Path": "Event/WorldMusic.bnk",
@@ -32,6 +32,15 @@
       "ShortName": "Music_1M1.wav",
       "Path": "Media/63522726.wem",
       "CachePath": "A4/{A4257460-84F2-4244-18AE-FA74FF6E6C6D}.wem"
+     },
+     {
+      "Id": "65255893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_1M2.wav",
+      "Path": "Media/65255893.wem",
+      "CachePath": "BE/{BE4DC397-6874-54E7-5850-CAE88DAEF7C4}.wem"
      },
      {
       "Id": "110393573",
@@ -123,10 +132,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "110393573"
-         },
-         {
-          "Id": "312832978"
+          "Id": "65255893"
          }
         ]
        },
@@ -385,6 +391,6 @@
     ]
    }
   ],
-  "FileHash": "{E7537A57-6633-A8E6-8509-07FA38F596AB}"
+  "FileHash": "{D4C50315-62BA-DD7A-B574-732A3B2E2437}"
  }
 }

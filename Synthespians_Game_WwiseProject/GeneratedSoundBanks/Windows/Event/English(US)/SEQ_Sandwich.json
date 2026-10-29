@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "418258158",
+    "Type": "Event",
+    "GUID": "{E3D4486A-6EE3-4C40-A961-39A0044265DE}",
+    "Language": "English(US)",
+    "Hash": "{61391A98-8354-1F28-DECE-0FE0513C8CA8}",
+    "ObjectPath": "SEQ_Sandwich",
+    "ShortName": "SEQ_Sandwich",
+    "Path": "Event/English(US)/SEQ_Sandwich.bnk",
+    "Media": [
+     {
+      "Id": "1050693634",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SEQ_Sandwich.wav",
+      "Path": "Media/English(US)/1050693634.wem",
+      "CachePath": "F5/{F5FB231A-E3AB-AA89-B1E6-DCD307192B02}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "418258158",
+      "Name": "SEQ_Sandwich",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cut Scenes\\SEQ_Sandwich",
+      "GUID": "{E3D4486A-6EE3-4C40-A961-39A0044265DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "64",
+      "DurationMax": "64",
+      "MediaRefs": [
+       {
+        "Id": "1050693634"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AD06878C-E93D-07AB-4047-29024141DF38}"
+ }
+}

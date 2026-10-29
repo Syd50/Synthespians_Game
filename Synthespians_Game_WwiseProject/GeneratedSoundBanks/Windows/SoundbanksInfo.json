@@ -2011,23 +2011,60 @@
     ]
    },
    {
+    "Id": "418258158",
+    "Type": "Event",
+    "GUID": "{E3D4486A-6EE3-4C40-A961-39A0044265DE}",
+    "Language": "English(US)",
+    "Hash": "{61391A98-8354-1F28-DECE-0FE0513C8CA8}",
+    "ObjectPath": "SEQ_Sandwich",
+    "ShortName": "SEQ_Sandwich",
+    "Path": "Event/English(US)/SEQ_Sandwich.bnk",
+    "Media": [
+     {
+      "Id": "1050693634",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SEQ_Sandwich.wav",
+      "Path": "Media/English(US)/1050693634.wem",
+      "CachePath": "F5/{F5FB231A-E3AB-AA89-B1E6-DCD307192B02}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "418258158",
+      "Name": "SEQ_Sandwich",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cut Scenes\\SEQ_Sandwich",
+      "GUID": "{E3D4486A-6EE3-4C40-A961-39A0044265DE}",
+      "DurationType": "OneShot",
+      "DurationMin": "64",
+      "DurationMax": "64",
+      "MediaRefs": [
+       {
+        "Id": "1050693634"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "476100181",
     "Type": "Event",
     "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
-    "Language": "SFX",
-    "Hash": "{CF6FA850-377C-CF07-5CA2-3E9354C63A2A}",
+    "Language": "English(US)",
+    "Hash": "{990FD137-B241-D92E-D472-94EB7B604BE8}",
     "ObjectPath": "SEQ_Death",
     "ShortName": "SEQ_Death",
-    "Path": "Event/SEQ_Death.bnk",
+    "Path": "Event/English(US)/SEQ_Death.bnk",
     "Media": [
      {
-      "Id": "916100462",
-      "Language": "SFX",
+      "Id": "238189115",
+      "Language": "English(US)",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "SEQ_Death.wav",
-      "Path": "Media/916100462.wem",
-      "CachePath": "02/{02C5576E-8B35-44BF-9D99-4B528255FADB}.wem"
+      "Path": "Media/English(US)/238189115.wem",
+      "CachePath": "EC/{EC02550E-EB18-58AB-DC5C-58A6BC3864DF}.wem"
      }
     ],
     "Events": [
@@ -2041,7 +2078,7 @@
       "DurationMax": "84.76667",
       "MediaRefs": [
        {
-        "Id": "916100462"
+        "Id": "238189115"
        }
       ]
      }
@@ -2710,7 +2747,7 @@
     "Type": "Event",
     "GUID": "{1EB6B431-1B5F-4FE1-B619-8601914E90A9}",
     "Language": "SFX",
-    "Hash": "{EFC6E2FB-1A22-26B2-73EE-EAF2D0848636}",
+    "Hash": "{FA3FDC4B-CAEA-B48E-44FA-B52AFE3F3956}",
     "ObjectPath": "WorldMusic",
     "ShortName": "WorldMusic",
     "Path": "Event/WorldMusic.bnk",
@@ -2732,6 +2769,15 @@
       "ShortName": "Music_1M1.wav",
       "Path": "Media/63522726.wem",
       "CachePath": "A4/{A4257460-84F2-4244-18AE-FA74FF6E6C6D}.wem"
+     },
+     {
+      "Id": "65255893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_1M2.wav",
+      "Path": "Media/65255893.wem",
+      "CachePath": "BE/{BE4DC397-6874-54E7-5850-CAE88DAEF7C4}.wem"
      },
      {
       "Id": "110393573",
@@ -2823,10 +2869,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "110393573"
-         },
-         {
-          "Id": "312832978"
+          "Id": "65255893"
          }
         ]
        },
@@ -3606,19 +3649,19 @@
     "Type": "Event",
     "GUID": "{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}",
     "Language": "SFX",
-    "Hash": "{3D0731D0-13F7-8992-1A6A-7B5ECCB477D2}",
+    "Hash": "{D61864B7-3199-2763-CD7A-4591284B8EBC}",
     "ObjectPath": "ButterflyInteract",
     "ShortName": "ButterflyInteract",
     "Path": "Event/ButterflyInteract.bnk",
     "Media": [
      {
-      "Id": "555122032",
+      "Id": "972496722",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Music_ButterflyInteraction.wav",
-      "Path": "Media/555122032.wem",
-      "CachePath": "4C/{4C1CB528-7B19-98F2-72F9-9EBE865DD4FF}.wem"
+      "ShortName": "Music_ButterflyInteraction_v2.wav",
+      "Path": "Media/972496722.wem",
+      "CachePath": "E4/{E480C4C4-18EB-E482-05A9-348905B03685}.wem"
      }
     ],
     "Events": [
@@ -3628,11 +3671,11 @@
       "ObjectPath": "\\Events\\Music\\ButterflyInteract",
       "GUID": "{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}",
       "DurationType": "OneShot",
-      "DurationMin": "16.053806",
-      "DurationMax": "16.053806",
+      "DurationMin": "19.5",
+      "DurationMax": "19.5",
       "MediaRefs": [
        {
-        "Id": "555122032"
+        "Id": "972496722"
        }
       ],
       "ActionSetState": [
@@ -4052,19 +4095,19 @@
     "Type": "Event",
     "GUID": "{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}",
     "Language": "SFX",
-    "Hash": "{289A05DC-E9B2-FD98-7E44-EE9997AC174C}",
+    "Hash": "{E48B2D2E-A430-9C1B-5F15-047E946F3CB2}",
     "ObjectPath": "ButterflyInteract_2",
     "ShortName": "ButterflyInteract_2",
     "Path": "Event/ButterflyInteract_2.bnk",
     "Media": [
      {
-      "Id": "555122032",
+      "Id": "972496722",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Music_ButterflyInteraction.wav",
-      "Path": "Media/555122032.wem",
-      "CachePath": "4C/{4C1CB528-7B19-98F2-72F9-9EBE865DD4FF}.wem"
+      "ShortName": "Music_ButterflyInteraction_v2.wav",
+      "Path": "Media/972496722.wem",
+      "CachePath": "E4/{E480C4C4-18EB-E482-05A9-348905B03685}.wem"
      }
     ],
     "Events": [
@@ -4074,11 +4117,11 @@
       "ObjectPath": "\\Events\\Music\\ButterflyInteract_2",
       "GUID": "{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}",
       "DurationType": "OneShot",
-      "DurationMin": "16.053806",
-      "DurationMax": "16.053806",
+      "DurationMin": "19.5",
+      "DurationMax": "19.5",
       "MediaRefs": [
        {
-        "Id": "555122032"
+        "Id": "972496722"
        }
       ],
       "ActionSetState": [
@@ -4309,6 +4352,6 @@
     ]
    }
   ],
-  "FileHash": "{CCDDF6B1-E88F-D597-35E6-E1A724364A92}"
+  "FileHash": "{7E9B989D-6548-75A2-4D70-0641F2274362}"
  }
 }
