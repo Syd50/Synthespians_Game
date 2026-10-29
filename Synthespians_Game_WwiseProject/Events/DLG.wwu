@@ -438,6 +438,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="gameover_panel" ID="{177F5EC3-39A4-4006-98B3-E6A5938EDC5E}" ShortID="786928314">
+					<ChildrenList>
+						<Event Name="you_must_be" ID="{8E498460-1329-4D63-87A6-7BCEC33283EF}">
+							<ChildrenList>
+								<Action Name="" ID="{E4D2A30B-0006-4C4A-8979-2257C24D8526}" ShortID="1027926086">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="you_must_be" ID="{9DA05B55-86D1-4E12-BEBC-41E9337929C6}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

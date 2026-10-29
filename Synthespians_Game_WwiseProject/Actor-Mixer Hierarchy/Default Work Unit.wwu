@@ -4310,7 +4310,35 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="gameover_panel" ID="{40BDEC40-0B14-4D0F-B522-EECB7777BFDE}" ShortID="862266114"/>
+						<Folder Name="gameover_panel" ID="{40BDEC40-0B14-4D0F-B522-EECB7777BFDE}" ShortID="862266114">
+							<ChildrenList>
+								<Sound Name="you_must_be" ID="{9DA05B55-86D1-4E12-BEBC-41E9337929C6}" ShortID="721661857">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="you_must_be" ID="{4920CDE3-64AE-4B20-86CF-47CBF36309C9}">
+											<Language>English(US)</Language>
+											<AudioFile>you_must_be.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012625884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="you_must_be" ID="{4920CDE3-64AE-4B20-86CF-47CBF36309C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="drop_into_world_cutscene1" ID="{EA273D1B-2D21-4C15-AD5C-061231BDDB7D}" ShortID="33925851">
 							<ChildrenList>
 								<Sound Name="we_lost_you" ID="{55B51FF3-A6D9-4716-8710-3350119617F8}" ShortID="174268766">
@@ -4367,6 +4395,60 @@
 						</Folder>
 					</ChildrenList>
 				</ActorMixer>
+				<Folder Name="UI" ID="{1143FEB7-2518-4594-A1BE-249C815B97C5}" ShortID="917917250">
+					<ChildrenList>
+						<Sound Name="UI_Menu_Back" ID="{55B12ECC-7283-41BE-8A5B-34829C433C06}" ShortID="485434987">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{E7CA89C2-EA98-432C-ABD3-90EB4785514A}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Menu_Back" ID="{C93FC2E0-0701-4FF1-90F9-8BD31659529D}">
+									<Language>English(US)</Language>
+									<AudioFile>UI_Menu_Back.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="344242381"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Menu_Back" ID="{C93FC2E0-0701-4FF1-90F9-8BD31659529D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Menu_Select" ID="{CDDB1B56-4CB5-41DC-9A27-CB08DEBB2E7D}" ShortID="380799663">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{E7CA89C2-EA98-432C-ABD3-90EB4785514A}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Menu_Select" ID="{4996EFD3-71C8-46AA-B557-703247C15093}">
+									<Language>English(US)</Language>
+									<AudioFile>UI_Menu_Select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="968968351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Menu_Select" ID="{4996EFD3-71C8-46AA-B557-703247C15093}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

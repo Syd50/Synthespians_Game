@@ -3,28 +3,6 @@
 	<Events>
 		<WorkUnit Name="SFX" ID="{7850E2CA-684C-4AFD-BBF9-19EC6B9AFECB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_FOL_Footsteps" ID="{20DFAC03-8A39-4972-B845-96AFF30466A4}">
-					<ChildrenList>
-						<Action Name="" ID="{947EBC1B-290A-41DF-88ED-523B7B884767}" ShortID="20606590">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FOL_Footsteps" ID="{B865D765-F0BA-4C4E-BBFB-BB32C2A87744}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_FOL_Land" ID="{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}">
-					<ChildrenList>
-						<Action Name="" ID="{D696C55A-9761-43BC-93F1-885502E137AE}" ShortID="794466647">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FOL_Snow_Land" ID="{7B93A00E-EE3E-4EC1-AF05-D8D55ED87032}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="AMB" ID="{978B8452-973E-4B38-ADDB-CF4670058981}">
 					<ChildrenList>
 						<Action Name="" ID="{2B6F86B3-C3F9-455B-8940-985AEFD2E858}" ShortID="552705451">
@@ -73,39 +51,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="SFX_Ship_Leave" ID="{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}">
-					<ChildrenList>
-						<Action Name="" ID="{37A6CF87-2B7C-4594-B703-8A162A458FAB}" ShortID="443790339">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Ship_Leave" ID="{697C9363-0D2B-490D-88A5-1B611281465C}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="SFX_Blood" ID="{8C064318-6DEE-465C-8F69-890BEE9B5D33}">
-					<ChildrenList>
-						<Action Name="" ID="{0D2B38D1-4250-46BF-87D7-A84B2204776E}" ShortID="452570493">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Blood" ID="{AF5D366B-20E3-4BF8-A94F-7BE84F8EE4B8}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="SFX_Footprints_Glow" ID="{3CF1D370-716A-4EF3-8C15-03C163A3B989}">
-					<ChildrenList>
-						<Action Name="" ID="{F7EAEC3E-AD48-407A-A4BD-12F13894E52A}" ShortID="744560659">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Footprints_Glow" ID="{90E6F1B7-4A99-4341-89FD-CA47CA152F07}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="DOOR" ID="{E8A7FD6A-6CDD-47DF-BD9B-087F6753A8E8}" ShortID="883100521">
 					<ChildrenList>
 						<Event Name="DOOR_Close" ID="{E5970502-4E19-4662-A7A6-45700ED1A242}">
@@ -132,28 +77,117 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="SFX_Static" ID="{8A432B33-0047-4B4E-95B2-2FD0DAC43F97}">
+				<Folder Name="UI" ID="{BF219C84-EB9E-4EA8-8C6E-7D36C3BF0038}" ShortID="657877099">
 					<ChildrenList>
-						<Action Name="" ID="{98D9A92F-7434-43EA-8F42-1547FA608C17}" ShortID="215953244">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Static" ID="{C826E05B-7410-4E73-A124-1C82FDA2E183}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="UI_Menu_Select" ID="{33508328-89EF-4537-8866-83E3DB999F26}">
+							<ChildrenList>
+								<Action Name="" ID="{0E11C9F6-56BD-4D45-A1BA-0D5DB0DD7FA2}" ShortID="647526151">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Select" ID="{CDDB1B56-4CB5-41DC-9A27-CB08DEBB2E7D}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Back" ID="{600DF129-ACEE-4C54-8C7F-3E69B749DA74}">
+							<ChildrenList>
+								<Action Name="" ID="{5D440B2C-5CBC-403B-940A-4BB334CD897F}" ShortID="611753559">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Back" ID="{55B12ECC-7283-41BE-8A5B-34829C433C06}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="SFX_Change_Suit" ID="{ABD583AC-F6BE-46BE-8C33-95D453687D0B}">
+				</Folder>
+				<Folder Name="FOL_Footsteps" ID="{9822C1C1-8967-49D8-B3E1-1C0E13C208D9}" ShortID="885420193">
 					<ChildrenList>
-						<Action Name="" ID="{ACADF9D0-3776-43DE-953A-B467DCE33847}" ShortID="22629707">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_FOL_Footsteps" ID="{20DFAC03-8A39-4972-B845-96AFF30466A4}">
+							<ChildrenList>
+								<Action Name="" ID="{947EBC1B-290A-41DF-88ED-523B7B884767}" ShortID="20606590">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Footsteps" ID="{B865D765-F0BA-4C4E-BBFB-BB32C2A87744}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FOL_Land" ID="{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}">
+							<ChildrenList>
+								<Action Name="" ID="{D696C55A-9761-43BC-93F1-885502E137AE}" ShortID="794466647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Snow_Land" ID="{7B93A00E-EE3E-4EC1-AF05-D8D55ED87032}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="SFX_" ID="{E0431DC4-E6BD-4EEA-92EC-176B9B48D389}" ShortID="314583984">
+					<ChildrenList>
+						<Event Name="SFX_Blood" ID="{8C064318-6DEE-465C-8F69-890BEE9B5D33}">
+							<ChildrenList>
+								<Action Name="" ID="{0D2B38D1-4250-46BF-87D7-A84B2204776E}" ShortID="452570493">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Blood" ID="{AF5D366B-20E3-4BF8-A94F-7BE84F8EE4B8}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Change_Suit" ID="{ABD583AC-F6BE-46BE-8C33-95D453687D0B}">
+							<ChildrenList>
+								<Action Name="" ID="{ACADF9D0-3776-43DE-953A-B467DCE33847}" ShortID="22629707">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Footprints_Glow" ID="{3CF1D370-716A-4EF3-8C15-03C163A3B989}">
+							<ChildrenList>
+								<Action Name="" ID="{F7EAEC3E-AD48-407A-A4BD-12F13894E52A}" ShortID="744560659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Footprints_Glow" ID="{90E6F1B7-4A99-4341-89FD-CA47CA152F07}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Ship_Leave" ID="{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}">
+							<ChildrenList>
+								<Action Name="" ID="{37A6CF87-2B7C-4594-B703-8A162A458FAB}" ShortID="443790339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Ship_Leave" ID="{697C9363-0D2B-490D-88A5-1B611281465C}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Static" ID="{8A432B33-0047-4B4E-95B2-2FD0DAC43F97}">
+							<ChildrenList>
+								<Action Name="" ID="{98D9A92F-7434-43EA-8F42-1547FA608C17}" ShortID="215953244">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Static" ID="{C826E05B-7410-4E73-A124-1C82FDA2E183}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
