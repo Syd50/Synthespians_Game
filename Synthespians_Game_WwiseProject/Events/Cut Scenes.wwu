@@ -5,10 +5,21 @@
 			<ChildrenList>
 				<Event Name="SEQ_Death" ID="{7768664F-DA6F-42DF-96C6-51CAD313D4C3}">
 					<ChildrenList>
-						<Action Name="" ID="{1E97ABF0-CB59-443D-84E8-FE3C68F7E315}" ShortID="307582988">
+						<Action Name="" ID="{1578F5BF-11DD-4C57-9D4D-E78B81009983}" ShortID="654541782">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SEQ_Death" ID="{B5A8E612-EBEC-444C-871D-D18142E8EE2B}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+									<ObjectRef Name="SEQ_Death" ID="{32EF622B-2F62-48A3-A2C6-C3148E7EBA75}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SEQ_Sandwich" ID="{E3D4486A-6EE3-4C40-A961-39A0044265DE}">
+					<ChildrenList>
+						<Action Name="" ID="{FB7DCB04-DFFA-4E5F-B812-ACEB94A0F753}" ShortID="765497955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEQ_Sandwich" ID="{9328D7AF-1882-4139-AA85-AC4FE3BDC5A9}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
