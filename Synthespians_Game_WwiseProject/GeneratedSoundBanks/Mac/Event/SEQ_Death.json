@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "476100181",
+    "Type": "Event",
+    "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
+    "Language": "SFX",
+    "Hash": "{6F31A6C3-B07B-427F-B0EB-13E7E6B165B4}",
+    "ObjectPath": "SEQ_Death",
+    "ShortName": "SEQ_Death",
+    "Path": "Event/SEQ_Death.bnk",
+    "Media": [
+     {
+      "Id": "916100462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SEQ_Death.wav",
+      "Path": "Media/916100462.wem",
+      "CachePath": "02/{02C5576E-8B35-44BF-9D99-4B528255FADB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "476100181",
+      "Name": "SEQ_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Cut Scenes\\SEQ_Death",
+      "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "84.76667",
+      "DurationMax": "84.76667",
+      "MediaRefs": [
+       {
+        "Id": "916100462"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{671937B2-A716-B16E-5E07-1A755C5CB45C}"
+ }
+}
