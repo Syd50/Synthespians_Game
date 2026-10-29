@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{20DFAC03-8A39-4972-B845-96AFF30466A4}",
     "Language": "SFX",
-    "Hash": "{FECDC50B-AD60-BEEF-FFD9-0EEF3C7DA902}",
+    "Hash": "{7E9072B6-69E7-64C0-66C2-F930C3DC31CF}",
     "ObjectPath": "Play_FOL_Footsteps",
     "ShortName": "Play_FOL_Footsteps",
     "Path": "Event/Play_FOL_Footsteps.bnk",
@@ -507,7 +507,7 @@
       "Location": "Loose",
       "ShortName": "FOL_Snow_Footsteps\\FOL_Snow_Footstep_1.wav",
       "Path": "Media/866689994.wem",
-      "CachePath": "5E/{5E90E068-262B-DF84-CD72-97723C1CB37D}.wem"
+      "CachePath": "75/{75EC6EA5-493C-4539-9A33-69A21F02B649}.wem"
      },
      {
       "Id": "873352870",
@@ -635,7 +635,7 @@
       "GUID": "{20DFAC03-8A39-4972-B845-96AFF30466A4}",
       "DurationType": "OneShot",
       "DurationMin": "0.27997917",
-      "DurationMax": "17.44",
+      "DurationMax": "8.5",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -4309,6 +4309,6 @@
     ]
    }
   ],
-  "FileHash": "{5CB2BBEF-E3FC-B925-88D2-C956E7C1FAAF}"
+  "FileHash": "{CCDDF6B1-E88F-D597-35E6-E1A724364A92}"
  }
 }
