@@ -1553,6 +1553,12 @@
 								</ItemList>
 							</Grouping>
 							<Grouping>
+								<SwitchRef Name="None" ID="{E11279B4-8F54-41BF-9B8C-9C1DA9879231}"/>
+								<ItemList>
+									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
 								<SwitchRef Name="World3_3" ID="{B933CDC5-B4FE-44C3-B36C-6426F486D11E}"/>
 								<ItemList>
 									<ItemRef Name="FOL_Snow_Footsteps" ID="{0C60FB9A-B006-4096-9150-4E2E62E57AFF}"/>
