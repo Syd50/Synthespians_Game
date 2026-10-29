@@ -19,7 +19,7 @@
 						<Action Name="" ID="{FB7DCB04-DFFA-4E5F-B812-ACEB94A0F753}" ShortID="765497955">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SEQ_Sandwich" ID="{9328D7AF-1882-4139-AA85-AC4FE3BDC5A9}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+									<ObjectRef Name="SEQ_Sandwich" ID="{DBB363DB-4B7D-4CFA-9B51-FCB2D6B47725}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

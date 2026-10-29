@@ -3368,31 +3368,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SEQ_Sandwich" ID="{9328D7AF-1882-4139-AA85-AC4FE3BDC5A9}" ShortID="205118574">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SEQ_Sandwich" ID="{996CC307-EAD5-452A-AEEF-89647A8AF266}">
-									<Language>English(US)</Language>
-									<AudioFile>SEQ_Sandwich.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1050693634"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SEQ_Sandwich" ID="{996CC307-EAD5-452A-AEEF-89647A8AF266}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="SEQ_Death" ID="{32EF622B-2F62-48A3-A2C6-C3148E7EBA75}" ShortID="22568518">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
@@ -3418,6 +3393,31 @@
 								<ActiveSource Name="SEQ_Death" ID="{F59908B3-CD41-40E0-8CDF-E8255F15B4FF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SEQ_Sandwich" ID="{DBB363DB-4B7D-4CFA-9B51-FCB2D6B47725}" ShortID="475906363">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DD9498D8-799B-48D2-9236-D855A879DED2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SEQ_Sandwich" ID="{4DE4D4F8-2846-4686-8888-5D0CF19E0098}">
+									<Language>English(US)</Language>
+									<AudioFile>SEQ_Sandwich.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1050693634"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SEQ_Sandwich" ID="{4DE4D4F8-2846-4686-8888-5D0CF19E0098}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -3425,7 +3425,7 @@
 								<ItemRef Name="SEQ_Death" ID="{32EF622B-2F62-48A3-A2C6-C3148E7EBA75}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="SEQ_Sandwich" ID="{9328D7AF-1882-4139-AA85-AC4FE3BDC5A9}"/>
+								<ItemRef Name="SEQ_Sandwich" ID="{DBB363DB-4B7D-4CFA-9B51-FCB2D6B47725}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>
