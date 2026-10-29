@@ -81,6 +81,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9487332A-5869-427B-BF5D-6183851B3293}" ShortID="280236730">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="ButterflyInteract_2" ID="{096C86F6-5FB8-4CAE-9415-E51043ADBD4F}">
@@ -110,6 +120,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ButterflyInteract" ID="{C40DC7B0-3692-4D67-AAEE-A790D72D7C56}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{820784AC-7F69-4DB0-BB95-802A3C61617C}" ShortID="778072725">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -248,6 +268,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="World2_2" ID="{618651F1-49D0-4A03-A461-85EAC414D0D8}" WorkUnitID="{3332A0E1-BEBB-4769-A514-25222BD5DF51}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5C9B5940-490D-4224-BFE6-DE13ABDB1384}" ShortID="671365839">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ButterflyApproach" ID="{91B3C7BE-D432-4885-9730-6D6EE4B6BBA3}" WorkUnitID="{64E2E0AA-26E2-469D-9DC9-906841E007EC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

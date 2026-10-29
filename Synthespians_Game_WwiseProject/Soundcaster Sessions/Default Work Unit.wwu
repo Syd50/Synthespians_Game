@@ -10,8 +10,16 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="World3Start" ID="{6169FBE1-6016-4500-8C4F-C6680130FF7D}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ButterflyInteract" ID="{F2E59F2F-49E5-47B7-8EB6-B1DD2B5F9768}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ButterflyInteract_3" ID="{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="ButterflyInteract_3" ID="{B2F2EE66-C339-49FA-B0F5-8D9C327E21AD}" WorkUnitID="{63DA6EB7-358E-4F45-A2A1-F728677C005F}"/>
