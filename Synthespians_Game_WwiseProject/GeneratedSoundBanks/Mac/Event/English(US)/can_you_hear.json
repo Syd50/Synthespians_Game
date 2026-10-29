@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1293807832",
+    "Type": "Event",
+    "GUID": "{AD85BDA7-C666-403D-A752-85A7DEE12F89}",
+    "Language": "English(US)",
+    "Hash": "{51E75A81-B658-83DF-F6F2-2F0E31F39F30}",
+    "ObjectPath": "can_you_hear",
+    "ShortName": "can_you_hear",
+    "Path": "Event/English(US)/can_you_hear.bnk",
+    "Media": [
+     {
+      "Id": "680951354",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "can_you_hear.wav",
+      "Path": "Media/English(US)/680951354.wem",
+      "CachePath": "CB/{CB73DB80-B9FD-0578-0B9D-0BB36F69324A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1293807832",
+      "Name": "can_you_hear",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\can_you_hear",
+      "GUID": "{AD85BDA7-C666-403D-A752-85A7DEE12F89}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1333333",
+      "DurationMax": "1.1333333",
+      "MediaRefs": [
+       {
+        "Id": "680951354"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E9809B09-711A-C861-D91C-32296924247F}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7768664F-DA6F-42DF-96C6-51CAD313D4C3}",
     "Language": "English(US)",
-    "Hash": "{990FD137-B241-D92E-D472-94EB7B604BE8}",
+    "Hash": "{9798121C-6BD9-B9A5-B38F-4A98B83E3C3B}",
     "ObjectPath": "SEQ_Death",
     "ShortName": "SEQ_Death",
     "Path": "Event/English(US)/SEQ_Death.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CED2B30A-0CE3-D6DB-8FAC-96ABF424B265}"
+  "FileHash": "{DDF34CB9-CE2B-4450-2D04-2A66E5AC4008}"
  }
 }

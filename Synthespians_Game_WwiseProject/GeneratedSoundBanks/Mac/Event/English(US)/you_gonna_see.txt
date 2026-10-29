@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4141871728	you_gonna_see			\DLG\drop_into_world_cutscene1\you_gonna_see	
+

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4141871728",
+    "Type": "Event",
+    "GUID": "{0633FC2A-30E1-49C8-9759-54A7646E8CD6}",
+    "Language": "English(US)",
+    "Hash": "{F929C1A8-4A0D-F5DB-079D-EC2EEDEA53C9}",
+    "ObjectPath": "you_gonna_see",
+    "ShortName": "you_gonna_see",
+    "Path": "Event/English(US)/you_gonna_see.bnk",
+    "Media": [
+     {
+      "Id": "87041514",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "you_gonna_see.wav",
+      "Path": "Media/English(US)/87041514.wem",
+      "CachePath": "97/{9714794C-3B5B-DF8D-B13C-7190E1682D11}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4141871728",
+      "Name": "you_gonna_see",
+      "ObjectPath": "\\Events\\DLG\\drop_into_world_cutscene1\\you_gonna_see",
+      "GUID": "{0633FC2A-30E1-49C8-9759-54A7646E8CD6}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.866667",
+      "DurationMax": "4.866667",
+      "MediaRefs": [
+       {
+        "Id": "87041514"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{406CEB11-0673-7CDF-1381-662EF28F8925}"
+ }
+}

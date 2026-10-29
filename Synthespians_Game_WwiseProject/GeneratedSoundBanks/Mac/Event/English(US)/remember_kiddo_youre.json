@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3297317497",
+    "Type": "Event",
+    "GUID": "{FEFF8F70-83BA-405F-A16A-EC38AFAA2ABB}",
+    "Language": "English(US)",
+    "Hash": "{1B402405-474B-74A0-7623-E98C47AD10E2}",
+    "ObjectPath": "remember_kiddo_youre",
+    "ShortName": "remember_kiddo_youre",
+    "Path": "Event/English(US)/remember_kiddo_youre.bnk",
+    "Media": [
+     {
+      "Id": "39408763",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "remember_kiddo_youre.wav",
+      "Path": "Media/English(US)/39408763.wem",
+      "CachePath": "66/{66465CB2-22E9-0D06-FA8D-81AD458565ED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3297317497",
+      "Name": "remember_kiddo_youre",
+      "ObjectPath": "\\Events\\DLG\\world_2_hills\\remember_kiddo_youre",
+      "GUID": "{FEFF8F70-83BA-405F-A16A-EC38AFAA2ABB}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.6",
+      "DurationMax": "8.6",
+      "MediaRefs": [
+       {
+        "Id": "39408763"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8153CEE9-5018-00F7-498E-9948E51DC494}"
+ }
+}

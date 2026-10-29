@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1769804925	please_just_send			\DLG\death_ending\please_just_send	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	580321854	this_is_your			\DLG\intro\this_is_your	
+

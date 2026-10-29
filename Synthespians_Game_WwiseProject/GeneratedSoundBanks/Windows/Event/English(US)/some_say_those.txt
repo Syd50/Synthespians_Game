@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2405654363	some_say_those			\DLG\good_ending\some_say_those	
+

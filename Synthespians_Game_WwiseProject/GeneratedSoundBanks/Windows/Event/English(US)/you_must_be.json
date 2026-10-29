@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1903886362",
+    "Type": "Event",
+    "GUID": "{8E498460-1329-4D63-87A6-7BCEC33283EF}",
+    "Language": "English(US)",
+    "Hash": "{B79443F6-DD4A-A234-7E94-EC4004387FCE}",
+    "ObjectPath": "you_must_be",
+    "ShortName": "you_must_be",
+    "Path": "Event/English(US)/you_must_be.bnk",
+    "Media": [
+     {
+      "Id": "1012625884",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "you_must_be.wav",
+      "Path": "Media/English(US)/1012625884.wem",
+      "CachePath": "6D/{6D9A45A7-BEE9-3D57-94D4-57BBDA4F13D5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1903886362",
+      "Name": "you_must_be",
+      "ObjectPath": "\\Events\\DLG\\gameover_panel\\you_must_be",
+      "GUID": "{8E498460-1329-4D63-87A6-7BCEC33283EF}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3",
+      "DurationMax": "3.3",
+      "MediaRefs": [
+       {
+        "Id": "1012625884"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D30E628F-285F-D3B1-137F-342E62939A21}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1341162691	have_we_lost			\DLG\world_2_hills\have_we_lost	
+

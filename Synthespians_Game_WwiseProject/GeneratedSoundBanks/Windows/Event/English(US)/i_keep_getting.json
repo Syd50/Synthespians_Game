@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "230107223",
+    "Type": "Event",
+    "GUID": "{65786431-F62F-4330-9E8F-70E95816EC89}",
+    "Language": "English(US)",
+    "Hash": "{D677327F-D1A0-EDD9-7718-5FC2AFBFE8E8}",
+    "ObjectPath": "i_keep_getting",
+    "ShortName": "i_keep_getting",
+    "Path": "Event/English(US)/i_keep_getting.bnk",
+    "Media": [
+     {
+      "Id": "770007285",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "i_keep_getting.wav",
+      "Path": "Media/English(US)/770007285.wem",
+      "CachePath": "65/{659B04B9-CF6A-5C73-F0CF-4191BBF6A1FF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "230107223",
+      "Name": "i_keep_getting",
+      "ObjectPath": "\\Events\\DLG\\world_3_tunnel\\i_keep_getting",
+      "GUID": "{65786431-F62F-4330-9E8F-70E95816EC89}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.133333",
+      "DurationMax": "4.133333",
+      "MediaRefs": [
+       {
+        "Id": "770007285"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5273C2E1-E5C4-68D1-865C-6AC4A4C37473}"
+ }
+}

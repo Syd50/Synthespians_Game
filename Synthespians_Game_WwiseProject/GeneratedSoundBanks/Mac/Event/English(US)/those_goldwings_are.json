@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4052086416",
+    "Type": "Event",
+    "GUID": "{117BB00B-0A07-4FFC-8420-38FD7D7161CD}",
+    "Language": "English(US)",
+    "Hash": "{1344BB3D-809C-05BB-321E-902CC26080F2}",
+    "ObjectPath": "those_goldwings_are",
+    "ShortName": "those_goldwings_are",
+    "Path": "Event/English(US)/those_goldwings_are.bnk",
+    "Media": [
+     {
+      "Id": "894306576",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "those_goldwings_are.wav",
+      "Path": "Media/English(US)/894306576.wem",
+      "CachePath": "0A/{0AB8A1F2-DDFA-6FED-C2D3-DB597CFF3D9B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4052086416",
+      "Name": "those_goldwings_are",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\those_goldwings_are",
+      "GUID": "{117BB00B-0A07-4FFC-8420-38FD7D7161CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.983333",
+      "DurationMax": "4.983333",
+      "MediaRefs": [
+       {
+        "Id": "894306576"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6D74D26F-FFC2-D236-93F1-B2F286D1CDB5}"
+ }
+}

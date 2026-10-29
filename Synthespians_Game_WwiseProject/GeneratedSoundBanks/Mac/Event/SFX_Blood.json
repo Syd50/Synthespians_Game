@@ -29,7 +29,7 @@
      {
       "Id": "3932357355",
       "Name": "SFX_Blood",
-      "ObjectPath": "\\Events\\SFX\\SFX_Blood",
+      "ObjectPath": "\\Events\\SFX\\SFX_\\SFX_Blood",
       "GUID": "{8C064318-6DEE-465C-8F69-890BEE9B5D33}",
       "DurationType": "OneShot",
       "DurationMin": "35.783268",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CC665619-BBA5-A0F5-5E0D-D4B7EC0DA1A5}"
+  "FileHash": "{1AE24C6B-43B3-0E82-4E19-0C19BE2B5C6A}"
  }
 }

@@ -74,7 +74,7 @@
      {
       "Id": "1834603979",
       "Name": "Play_FOL_Land",
-      "ObjectPath": "\\Events\\SFX\\Play_FOL_Land",
+      "ObjectPath": "\\Events\\SFX\\FOL_Footsteps\\Play_FOL_Land",
       "GUID": "{913FDF77-AFAC-4102-8829-E1CC81DBCF3E}",
       "DurationType": "OneShot",
       "DurationMin": "0.45",
@@ -103,6 +103,6 @@
     ]
    }
   ],
-  "FileHash": "{E6EE088E-FE47-3FE5-CD0E-7FA752C93DDC}"
+  "FileHash": "{F3CF58C8-DD4F-67EE-93EA-CDFDBE9B31DD}"
  }
 }

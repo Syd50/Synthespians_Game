@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2585692462",
+    "Type": "Event",
+    "GUID": "{7046B4A9-1900-480E-A881-AC534C6FEE23}",
+    "Language": "English(US)",
+    "Hash": "{88204BB4-B00B-B948-F8DA-104B84282B01}",
+    "ObjectPath": "alright_its_getting",
+    "ShortName": "alright_its_getting",
+    "Path": "Event/English(US)/alright_its_getting.bnk",
+    "Media": [
+     {
+      "Id": "1062444750",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "alright_its_getting.wav",
+      "Path": "Media/English(US)/1062444750.wem",
+      "CachePath": "D6/{D6F63693-B8AB-9E54-EC49-5B1C8C8AECA3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2585692462",
+      "Name": "alright_its_getting",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\alright_its_getting",
+      "GUID": "{7046B4A9-1900-480E-A881-AC534C6FEE23}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3",
+      "DurationMax": "2.3",
+      "MediaRefs": [
+       {
+        "Id": "1062444750"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{68AFCA19-A52D-238D-FCC9-20CFD200476B}"
+ }
+}

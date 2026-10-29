@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2485146298",
+    "Type": "Event",
+    "GUID": "{D229C8F4-17F2-440D-8364-682DE37B4FA8}",
+    "Language": "English(US)",
+    "Hash": "{0D607554-6A78-968A-B293-DD366BFA9449}",
+    "ObjectPath": "this_is_ground",
+    "ShortName": "this_is_ground",
+    "Path": "Event/English(US)/this_is_ground.bnk",
+    "Media": [
+     {
+      "Id": "761915079",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "this_is_ground.wav",
+      "Path": "Media/English(US)/761915079.wem",
+      "CachePath": "3F/{3F94A8F9-366D-1A19-DED0-C5FE5656859B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2485146298",
+      "Name": "this_is_ground",
+      "ObjectPath": "\\Events\\DLG\\intro\\this_is_ground",
+      "GUID": "{D229C8F4-17F2-440D-8364-682DE37B4FA8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.35",
+      "DurationMax": "2.35",
+      "MediaRefs": [
+       {
+        "Id": "761915079"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3FD1760E-EC73-1D72-C22B-6AAA9DEEC353}"
+ }
+}

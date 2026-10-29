@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3629748275",
+    "Type": "Event",
+    "GUID": "{B49680A1-95B2-4A2A-865E-E22A3184934C}",
+    "Language": "English(US)",
+    "Hash": "{CB8BF860-E1B8-E374-6A49-AE8364E9980B}",
+    "ObjectPath": "well_be_back",
+    "ShortName": "well_be_back",
+    "Path": "Event/English(US)/well_be_back.bnk",
+    "Media": [
+     {
+      "Id": "758960921",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "well_be_back.wav",
+      "Path": "Media/English(US)/758960921.wem",
+      "CachePath": "79/{79B69372-4BE9-236A-F28E-E82149A0914F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3629748275",
+      "Name": "well_be_back",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\well_be_back",
+      "GUID": "{B49680A1-95B2-4A2A-865E-E22A3184934C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5833334",
+      "DurationMax": "1.5833334",
+      "MediaRefs": [
+       {
+        "Id": "758960921"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5FBF1718-79A7-4A65-814A-AF2711A3AC9F}"
+ }
+}

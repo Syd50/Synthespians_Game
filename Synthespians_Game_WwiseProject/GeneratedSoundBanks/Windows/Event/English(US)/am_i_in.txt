@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1124907003	am_i_in			\DLG\world_2_hills\am_i_in	
+

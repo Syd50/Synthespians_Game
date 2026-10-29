@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2134911406",
+    "Type": "Event",
+    "GUID": "{DFED9283-D292-4BF3-9AD9-009C5E829472}",
+    "Language": "English(US)",
+    "Hash": "{81828F4B-D6AC-7B50-A0C5-9F38EA8A6D78}",
+    "ObjectPath": "hope_is_all",
+    "ShortName": "hope_is_all",
+    "Path": "Event/English(US)/hope_is_all.bnk",
+    "Media": [
+     {
+      "Id": "578005701",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hope_is_all.wav",
+      "Path": "Media/English(US)/578005701.wem",
+      "CachePath": "55/{5566E355-A1EE-F115-541F-FB4CC786D33E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2134911406",
+      "Name": "hope_is_all",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\hope_is_all",
+      "GUID": "{DFED9283-D292-4BF3-9AD9-009C5E829472}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.266666",
+      "DurationMax": "9.266666",
+      "MediaRefs": [
+       {
+        "Id": "578005701"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{76D18302-9C82-34B1-FE8E-09E6154F2425}"
+ }
+}

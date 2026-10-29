@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1559288067",
+    "Type": "Event",
+    "GUID": "{E895C071-0BB4-440C-A766-B7C4D01C63CA}",
+    "Language": "English(US)",
+    "Hash": "{F8BDE768-EC3D-E850-CC10-13C3CCE6A30D}",
+    "ObjectPath": "well_its_getting",
+    "ShortName": "well_its_getting",
+    "Path": "Event/English(US)/well_its_getting.bnk",
+    "Media": [
+     {
+      "Id": "524261396",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "well_its_getting.wav",
+      "Path": "Media/English(US)/524261396.wem",
+      "CachePath": "55/{5588E627-F17C-BCC3-B643-CEBF0E7468CD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1559288067",
+      "Name": "well_its_getting",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\well_its_getting",
+      "GUID": "{E895C071-0BB4-440C-A766-B7C4D01C63CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4333333",
+      "DurationMax": "1.4333333",
+      "MediaRefs": [
+       {
+        "Id": "524261396"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D15E435A-BF49-C18B-2924-38573EA4963F}"
+ }
+}

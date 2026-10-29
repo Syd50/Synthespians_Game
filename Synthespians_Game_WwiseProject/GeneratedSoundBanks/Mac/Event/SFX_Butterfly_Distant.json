@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "397664420",
+    "Type": "Event",
+    "GUID": "{87C652BF-FDC5-4E38-AB5F-1AD782F31FEC}",
+    "Language": "SFX",
+    "Hash": "{F5BF2292-AAC8-BFCF-D7F0-26F94BF82180}",
+    "ObjectPath": "SFX_Butterfly_Distant",
+    "ShortName": "SFX_Butterfly_Distant",
+    "Path": "Event/SFX_Butterfly_Distant.bnk",
+    "Media": [
+     {
+      "Id": "314640891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Butterfly_Distant.wav",
+      "Path": "Media/314640891.wem",
+      "CachePath": "F2/{F278E2DC-02D3-090E-213B-4DC8EC13C473}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "397664420",
+      "Name": "SFX_Butterfly_Distant",
+      "ObjectPath": "\\Events\\SFX\\SFX_Butterfly\\SFX_Butterfly_Distant",
+      "GUID": "{87C652BF-FDC5-4E38-AB5F-1AD782F31FEC}",
+      "DurationType": "OneShot",
+      "DurationMin": "27.65",
+      "DurationMax": "27.65",
+      "MediaRefs": [
+       {
+        "Id": "314640891"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F7FA016A-6C39-5952-7FBF-44BC5B57D2A9}"
+ }
+}

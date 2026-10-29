@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2323962168",
+    "Type": "Event",
+    "GUID": "{851BE057-C583-48E3-ADED-A9FA4786D535}",
+    "Language": "English(US)",
+    "Hash": "{FD2E981B-98CE-DC21-7D71-B969596F2A78}",
+    "ObjectPath": "jack_do_you",
+    "ShortName": "jack_do_you",
+    "Path": "Event/English(US)/jack_do_you.bnk",
+    "Media": [
+     {
+      "Id": "896674020",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "jack_do_you.wav",
+      "Path": "Media/English(US)/896674020.wem",
+      "CachePath": "3C/{3CF7C83C-2071-2B34-E7F8-2FFA62C4B965}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2323962168",
+      "Name": "jack_do_you",
+      "ObjectPath": "\\Events\\DLG\\intro\\jack_do_you",
+      "GUID": "{851BE057-C583-48E3-ADED-A9FA4786D535}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1833333",
+      "DurationMax": "1.1833333",
+      "MediaRefs": [
+       {
+        "Id": "896674020"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5BEE21D6-6B10-0E41-6F70-BEC4D5308D3B}"
+ }
+}

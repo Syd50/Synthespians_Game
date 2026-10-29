@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1372693017",
+    "Type": "Event",
+    "GUID": "{511FCD37-4213-4A8C-B4E3-571B28A20FD4}",
+    "Language": "English(US)",
+    "Hash": "{D71BFF19-6EF4-880B-5464-D7B027508E72}",
+    "ObjectPath": "any_sign_of",
+    "ShortName": "any_sign_of",
+    "Path": "Event/English(US)/any_sign_of.bnk",
+    "Media": [
+     {
+      "Id": "122718423",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "any_sign_of.wav",
+      "Path": "Media/English(US)/122718423.wem",
+      "CachePath": "24/{24059C96-2A58-69AB-6F03-E0FE4AB9C9C1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1372693017",
+      "Name": "any_sign_of",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\any_sign_of",
+      "GUID": "{511FCD37-4213-4A8C-B4E3-571B28A20FD4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1",
+      "DurationMax": "2.1",
+      "MediaRefs": [
+       {
+        "Id": "122718423"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A6B8B2B3-11F6-FFC7-AC5E-E62529E27079}"
+ }
+}

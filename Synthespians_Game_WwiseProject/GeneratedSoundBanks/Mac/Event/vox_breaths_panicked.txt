@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3237394236	vox_breaths_panicked			\DLG\breaths\vox_breaths_panicked	
+

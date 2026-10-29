@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1934461959",
+    "Type": "Event",
+    "GUID": "{7ED15966-5B16-4459-A373-372FA760461F}",
+    "Language": "English(US)",
+    "Hash": "{9B318716-5D90-DF0D-908B-7878A7DB31D7}",
+    "ObjectPath": "i_really_hope_03",
+    "ShortName": "i_really_hope_03",
+    "Path": "Event/English(US)/i_really_hope_03.bnk",
+    "Media": [
+     {
+      "Id": "882004921",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "i_really_hope_03.wav",
+      "Path": "Media/English(US)/882004921.wem",
+      "CachePath": "A0/{A0F71161-7879-7A61-E99A-494544A678FB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1934461959",
+      "Name": "i_really_hope_03",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\i_really_hope_03",
+      "GUID": "{7ED15966-5B16-4459-A373-372FA760461F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6166667",
+      "DurationMax": "1.6166667",
+      "MediaRefs": [
+       {
+        "Id": "882004921"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A3A3A321-BCD3-F95A-D64C-639EE38A43D7}"
+ }
+}

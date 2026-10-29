@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "851517811",
+    "Type": "Event",
+    "GUID": "{C25CAC63-FEB6-44BE-843B-75B40C901EDC}",
+    "Language": "English(US)",
+    "Hash": "{1CBBB7C9-715E-FB79-10AF-86C6EB21E803}",
+    "ObjectPath": "im_really_holding",
+    "ShortName": "im_really_holding",
+    "Path": "Event/English(US)/im_really_holding.bnk",
+    "Media": [
+     {
+      "Id": "611036344",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "im_really_holding.wav",
+      "Path": "Media/English(US)/611036344.wem",
+      "CachePath": "57/{5759F06F-2B5C-BDD1-8105-4BB66E979E3F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "851517811",
+      "Name": "im_really_holding",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\im_really_holding",
+      "GUID": "{C25CAC63-FEB6-44BE-843B-75B40C901EDC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8833333",
+      "DurationMax": "1.8833333",
+      "MediaRefs": [
+       {
+        "Id": "611036344"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ADE8B438-6AC9-78B3-945B-E794581BDBA0}"
+ }
+}

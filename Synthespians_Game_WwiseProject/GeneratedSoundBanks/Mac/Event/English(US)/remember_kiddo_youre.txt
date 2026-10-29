@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3297317497	remember_kiddo_youre			\DLG\world_2_hills\remember_kiddo_youre	
+

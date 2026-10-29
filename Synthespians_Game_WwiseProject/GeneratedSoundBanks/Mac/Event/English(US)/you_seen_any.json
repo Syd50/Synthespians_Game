@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3739841807",
+    "Type": "Event",
+    "GUID": "{09486029-0EEE-4297-820D-64C05B291343}",
+    "Language": "English(US)",
+    "Hash": "{514280B9-ED13-0D2E-7700-833FED96A593}",
+    "ObjectPath": "you_seen_any",
+    "ShortName": "you_seen_any",
+    "Path": "Event/English(US)/you_seen_any.bnk",
+    "Media": [
+     {
+      "Id": "826893844",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "you_seen_any.wav",
+      "Path": "Media/English(US)/826893844.wem",
+      "CachePath": "01/{01608DC4-AC67-1CAB-869A-92934FB69528}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3739841807",
+      "Name": "you_seen_any",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\you_seen_any",
+      "GUID": "{09486029-0EEE-4297-820D-64C05B291343}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.583333",
+      "DurationMax": "10.583333",
+      "MediaRefs": [
+       {
+        "Id": "826893844"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{99E0A2C8-7BB5-5F77-6045-D79B4871636E}"
+ }
+}

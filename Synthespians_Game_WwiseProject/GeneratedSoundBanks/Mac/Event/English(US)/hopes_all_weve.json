@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3047744822",
+    "Type": "Event",
+    "GUID": "{E9E740EF-C08C-459F-8472-A3E138D83066}",
+    "Language": "English(US)",
+    "Hash": "{4CE68D8D-0F06-F176-5487-04CA0D5DD57D}",
+    "ObjectPath": "hopes_all_weve",
+    "ShortName": "hopes_all_weve",
+    "Path": "Event/English(US)/hopes_all_weve.bnk",
+    "Media": [
+     {
+      "Id": "324431753",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hopes_all_weve.wav",
+      "Path": "Media/English(US)/324431753.wem",
+      "CachePath": "90/{90BC673F-7538-103D-22A1-D819A86A0404}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3047744822",
+      "Name": "hopes_all_weve",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\hopes_all_weve",
+      "GUID": "{E9E740EF-C08C-459F-8472-A3E138D83066}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8333334",
+      "DurationMax": "1.8333334",
+      "MediaRefs": [
+       {
+        "Id": "324431753"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AF5EA4B3-1A6C-688C-EB2C-5C65FF6A1261}"
+ }
+}

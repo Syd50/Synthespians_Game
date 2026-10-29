@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	66378861	you_dont_have			\DLG\good_ending\you_dont_have	
+

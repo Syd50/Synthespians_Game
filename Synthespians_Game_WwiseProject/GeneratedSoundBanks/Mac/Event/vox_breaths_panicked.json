@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3237394236",
+    "Type": "Event",
+    "GUID": "{E889E0C1-1D83-46F8-BC84-3F567AFD9A0A}",
+    "Language": "SFX",
+    "Hash": "{60C602FB-5D07-FA6E-8E02-72723F01EA9D}",
+    "ObjectPath": "vox_breaths_panicked",
+    "ShortName": "vox_breaths_panicked",
+    "Path": "Event/vox_breaths_panicked.bnk",
+    "Media": [
+     {
+      "Id": "796218543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VOX_Breaths_Panicked.wav",
+      "Path": "Media/796218543.wem",
+      "CachePath": "B2/{B2C55F67-E953-2163-AE98-58D662588D90}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3237394236",
+      "Name": "vox_breaths_panicked",
+      "ObjectPath": "\\Events\\DLG\\breaths\\vox_breaths_panicked",
+      "GUID": "{E889E0C1-1D83-46F8-BC84-3F567AFD9A0A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "796218543"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{75BD045B-2485-12BB-DE43-BC33C6A05CD8}"
+ }
+}

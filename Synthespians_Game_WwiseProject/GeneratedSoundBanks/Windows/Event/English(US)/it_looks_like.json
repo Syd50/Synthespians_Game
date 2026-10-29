@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2321981967",
+    "Type": "Event",
+    "GUID": "{3FA4D3BA-1040-46B7-AD05-8D7C6515E9BC}",
+    "Language": "English(US)",
+    "Hash": "{39BAB514-F9B4-DF38-C4BE-23CD3EA9B1FB}",
+    "ObjectPath": "it_looks_like",
+    "ShortName": "it_looks_like",
+    "Path": "Event/English(US)/it_looks_like.bnk",
+    "Media": [
+     {
+      "Id": "103758103",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "it_looks_like.wav",
+      "Path": "Media/English(US)/103758103.wem",
+      "CachePath": "81/{81BCE3FE-BF82-F918-3404-34956C8089B1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2321981967",
+      "Name": "it_looks_like",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\it_looks_like",
+      "GUID": "{3FA4D3BA-1040-46B7-AD05-8D7C6515E9BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1666667",
+      "DurationMax": "2.1666667",
+      "MediaRefs": [
+       {
+        "Id": "103758103"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1160189A-30A5-505E-F9B7-1A3B932EE957}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1341162691",
+    "Type": "Event",
+    "GUID": "{2E04B1E9-AF89-4702-A991-F7FD67D8B92F}",
+    "Language": "English(US)",
+    "Hash": "{9D4B6DA9-07F7-3F45-A536-32789EE75D1C}",
+    "ObjectPath": "have_we_lost",
+    "ShortName": "have_we_lost",
+    "Path": "Event/English(US)/have_we_lost.bnk",
+    "Media": [
+     {
+      "Id": "271876944",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "have_we_lost.wav",
+      "Path": "Media/English(US)/271876944.wem",
+      "CachePath": "DE/{DEBA1395-0C8F-01BA-3650-DBC48BA8D42C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1341162691",
+      "Name": "have_we_lost",
+      "ObjectPath": "\\Events\\DLG\\world_2_hills\\have_we_lost",
+      "GUID": "{2E04B1E9-AF89-4702-A991-F7FD67D8B92F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.71666664",
+      "DurationMax": "0.71666664",
+      "MediaRefs": [
+       {
+        "Id": "271876944"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9DE7A5C4-FDD6-F2F2-3000-D4E0C1CEDE52}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2405654363",
+    "Type": "Event",
+    "GUID": "{B9C7588F-E8CC-4E3A-B512-312E4F24AC0C}",
+    "Language": "English(US)",
+    "Hash": "{EEC09A96-E324-5975-4BB7-860844138F8C}",
+    "ObjectPath": "some_say_those",
+    "ShortName": "some_say_those",
+    "Path": "Event/English(US)/some_say_those.bnk",
+    "Media": [
+     {
+      "Id": "485043638",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "some_say_those.wav",
+      "Path": "Media/English(US)/485043638.wem",
+      "CachePath": "1E/{1EF4FE3B-8F9A-33DB-ECAE-83760C6554B3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2405654363",
+      "Name": "some_say_those",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\some_say_those",
+      "GUID": "{B9C7588F-E8CC-4E3A-B512-312E4F24AC0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.466666",
+      "DurationMax": "8.466666",
+      "MediaRefs": [
+       {
+        "Id": "485043638"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7C3A3CCA-FCAB-1287-559B-3766570756FE}"
+ }
+}

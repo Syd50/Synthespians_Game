@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3621282349",
+    "Type": "Event",
+    "GUID": "{8D13E41D-5AD6-444C-BC8E-BC1F3699625A}",
+    "Language": "English(US)",
+    "Hash": "{69721323-AC0F-8CCB-8687-C181DA9FCDB9}",
+    "ObjectPath": "i_could_have",
+    "ShortName": "i_could_have",
+    "Path": "Event/English(US)/i_could_have.bnk",
+    "Media": [
+     {
+      "Id": "502282320",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "i_could_have.wav",
+      "Path": "Media/English(US)/502282320.wem",
+      "CachePath": "8B/{8BDAC277-584B-2304-DBDA-CF9D976EC147}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3621282349",
+      "Name": "i_could_have",
+      "ObjectPath": "\\Events\\DLG\\world_3_tunnel\\i_could_have",
+      "GUID": "{8D13E41D-5AD6-444C-BC8E-BC1F3699625A}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.7166667",
+      "DurationMax": "3.7166667",
+      "MediaRefs": [
+       {
+        "Id": "502282320"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FAF46508-1AAA-F7FB-D32C-041C1AEA1E3F}"
+ }
+}

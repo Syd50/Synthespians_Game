@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "66378861",
+    "Type": "Event",
+    "GUID": "{7E06B15E-AFFE-4C6A-840B-46837F0D58C1}",
+    "Language": "English(US)",
+    "Hash": "{3C1A9055-2DDC-B359-8C09-E16A4782B499}",
+    "ObjectPath": "you_dont_have",
+    "ShortName": "you_dont_have",
+    "Path": "Event/English(US)/you_dont_have.bnk",
+    "Media": [
+     {
+      "Id": "801796758",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "you_dont_have.wav",
+      "Path": "Media/English(US)/801796758.wem",
+      "CachePath": "35/{35C5B77F-FA57-1C8E-BF2A-5174C8D57048}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "66378861",
+      "Name": "you_dont_have",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\you_dont_have",
+      "GUID": "{7E06B15E-AFFE-4C6A-840B-46837F0D58C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.7",
+      "DurationMax": "3.7",
+      "MediaRefs": [
+       {
+        "Id": "801796758"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{029AA6A1-0B46-B0F4-C068-9669F4ABEE6E}"
+ }
+}

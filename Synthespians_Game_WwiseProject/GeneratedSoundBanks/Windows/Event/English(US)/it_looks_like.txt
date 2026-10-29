@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2321981967	it_looks_like			\DLG\death_ending\it_looks_like	
+

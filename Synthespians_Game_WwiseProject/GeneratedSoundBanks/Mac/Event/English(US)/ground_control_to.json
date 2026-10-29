@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1302377298",
+    "Type": "Event",
+    "GUID": "{34FE8FFA-EB13-4DB3-BBB1-243EE62AC1E0}",
+    "Language": "English(US)",
+    "Hash": "{2DD82798-59F0-8459-7391-A3D00E4402F5}",
+    "ObjectPath": "ground_control_to",
+    "ShortName": "ground_control_to",
+    "Path": "Event/English(US)/ground_control_to.bnk",
+    "Media": [
+     {
+      "Id": "925457084",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ground_control_to.wav",
+      "Path": "Media/English(US)/925457084.wem",
+      "CachePath": "D2/{D23D8A05-EE6D-D3E5-1EF6-73BD67302C3D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1302377298",
+      "Name": "ground_control_to",
+      "ObjectPath": "\\Events\\DLG\\intro\\ground_control_to",
+      "GUID": "{34FE8FFA-EB13-4DB3-BBB1-243EE62AC1E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2833333",
+      "DurationMax": "1.2833333",
+      "MediaRefs": [
+       {
+        "Id": "925457084"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A96AD362-90C4-906F-EC22-05DBE4B91239}"
+ }
+}

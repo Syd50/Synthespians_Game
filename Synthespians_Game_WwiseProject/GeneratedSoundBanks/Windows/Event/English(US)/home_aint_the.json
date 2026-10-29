@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3094011747",
+    "Type": "Event",
+    "GUID": "{7AAC1389-F2D7-4560-9696-497EA90DA191}",
+    "Language": "English(US)",
+    "Hash": "{09657A21-E862-3A02-6A4A-EFC837A7ED85}",
+    "ObjectPath": "home_aint_the",
+    "ShortName": "home_aint_the",
+    "Path": "Event/English(US)/home_aint_the.bnk",
+    "Media": [
+     {
+      "Id": "744162037",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "home_aint_the_same.wav",
+      "Path": "Media/English(US)/744162037.wem",
+      "CachePath": "C1/{C1328AEB-1CD0-6064-A93F-E91B1E6A997C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3094011747",
+      "Name": "home_aint_the",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\home_aint_the",
+      "GUID": "{7AAC1389-F2D7-4560-9696-497EA90DA191}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.85",
+      "DurationMax": "11.85",
+      "MediaRefs": [
+       {
+        "Id": "744162037"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1AA6BF13-61FC-6A1A-4E94-7EE6321471F7}"
+ }
+}

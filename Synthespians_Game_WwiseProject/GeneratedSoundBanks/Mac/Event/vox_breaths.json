@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2553843944",
+    "Type": "Event",
+    "GUID": "{4CC57205-9C33-44E1-A9EB-C60A7A7C777D}",
+    "Language": "SFX",
+    "Hash": "{19A19B56-53FF-CE1D-FDB0-C6C28969545A}",
+    "ObjectPath": "vox_breaths",
+    "ShortName": "vox_breaths",
+    "Path": "Event/vox_breaths.bnk",
+    "Media": [
+     {
+      "Id": "883192282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "VOX_Breaths.wav",
+      "Path": "Media/883192282.wem",
+      "CachePath": "B6/{B660AB31-FF00-EFD1-2437-657C51D68E91}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2553843944",
+      "Name": "vox_breaths",
+      "ObjectPath": "\\Events\\DLG\\breaths\\vox_breaths",
+      "GUID": "{4CC57205-9C33-44E1-A9EB-C60A7A7C777D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "883192282"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D1A5E897-34E3-F359-AF80-BA87E3DE6BE0}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1124907003",
+    "Type": "Event",
+    "GUID": "{BE88A1F5-8BEC-4D7F-8B69-26764ABA0069}",
+    "Language": "English(US)",
+    "Hash": "{09C52B53-5891-2C41-B0AF-D3E7A495605C}",
+    "ObjectPath": "am_i_in",
+    "ShortName": "am_i_in",
+    "Path": "Event/English(US)/am_i_in.bnk",
+    "Media": [
+     {
+      "Id": "22698465",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "am_i_in.wav",
+      "Path": "Media/English(US)/22698465.wem",
+      "CachePath": "B6/{B6B289C4-E8AD-C1DE-609A-26FA3C3677AC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1124907003",
+      "Name": "am_i_in",
+      "ObjectPath": "\\Events\\DLG\\world_2_hills\\am_i_in",
+      "GUID": "{BE88A1F5-8BEC-4D7F-8B69-26764ABA0069}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85",
+      "DurationMax": "0.85",
+      "MediaRefs": [
+       {
+        "Id": "22698465"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8C86EF30-8A44-9F3D-6FBE-8D8871712B2A}"
+ }
+}

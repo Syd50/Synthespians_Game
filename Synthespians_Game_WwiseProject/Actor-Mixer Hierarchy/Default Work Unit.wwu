@@ -3191,6 +3191,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}" ShortID="704768021">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>

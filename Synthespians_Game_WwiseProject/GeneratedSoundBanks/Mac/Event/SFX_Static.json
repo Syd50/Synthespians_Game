@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "557852407",
+    "Type": "Event",
+    "GUID": "{8A432B33-0047-4B4E-95B2-2FD0DAC43F97}",
+    "Language": "SFX",
+    "Hash": "{2496FCA9-20BD-A8BC-18BE-60CB2EAC9AE7}",
+    "ObjectPath": "SFX_Static",
+    "ShortName": "SFX_Static",
+    "Path": "Event/SFX_Static.bnk",
+    "Media": [
+     {
+      "Id": "89436387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Static_04.wav",
+      "Path": "Media/89436387.wem",
+      "CachePath": "52/{52ED4576-A56D-1213-F364-FD245E35B115}.wem"
+     },
+     {
+      "Id": "308509943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Static.wav",
+      "Path": "Media/308509943.wem",
+      "CachePath": "D1/{D1CE3F96-FBA7-EE33-FB38-F05C996BA33F}.wem"
+     },
+     {
+      "Id": "405912089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Static_02.wav",
+      "Path": "Media/405912089.wem",
+      "CachePath": "2E/{2E6EF792-C7C0-E959-0905-80C1792B7251}.wem"
+     },
+     {
+      "Id": "922360735",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Static_03.wav",
+      "Path": "Media/922360735.wem",
+      "CachePath": "C6/{C6D98219-E7FE-D0D3-651D-D006A798F44A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "557852407",
+      "Name": "SFX_Static",
+      "ObjectPath": "\\Events\\SFX\\SFX_\\SFX_Static",
+      "GUID": "{8A432B33-0047-4B4E-95B2-2FD0DAC43F97}",
+      "DurationType": "OneShot",
+      "DurationMin": "44.597332",
+      "DurationMax": "89.23333",
+      "MediaRefs": [
+       {
+        "Id": "89436387"
+       },
+       {
+        "Id": "308509943"
+       },
+       {
+        "Id": "405912089"
+       },
+       {
+        "Id": "922360735"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{22F0AA57-4A09-296C-797A-3BC39E8EF056}"
+ }
+}

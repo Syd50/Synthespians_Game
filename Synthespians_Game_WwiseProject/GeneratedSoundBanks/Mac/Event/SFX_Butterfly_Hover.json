@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "902110281",
+    "Type": "Event",
+    "GUID": "{5A73B74A-D894-4466-B430-3636625D66AA}",
+    "Language": "SFX",
+    "Hash": "{B13455C0-206F-29E0-7C31-340E70DEE82B}",
+    "ObjectPath": "SFX_Butterfly_Hover",
+    "ShortName": "SFX_Butterfly_Hover",
+    "Path": "Event/SFX_Butterfly_Hover.bnk",
+    "Media": [
+     {
+      "Id": "255392855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Butterfly_Hover.wav",
+      "Path": "Media/255392855.wem",
+      "CachePath": "81/{81C343B8-0F86-B4CC-F982-34131B0A85A3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "902110281",
+      "Name": "SFX_Butterfly_Hover",
+      "ObjectPath": "\\Events\\SFX\\SFX_Butterfly\\SFX_Butterfly_Hover",
+      "GUID": "{5A73B74A-D894-4466-B430-3636625D66AA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "255392855"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{79FF236B-2D4D-684A-B1A0-9572F5FCA1DB}"
+ }
+}

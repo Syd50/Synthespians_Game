@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1302377298	ground_control_to			\DLG\intro\ground_control_to	
+

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "443567591",
+    "Type": "Event",
+    "GUID": "{ABD583AC-F6BE-46BE-8C33-95D453687D0B}",
+    "Language": "SFX",
+    "Hash": "{12C6DC9A-99DA-3EF8-A5BA-BD9131CA7B65}",
+    "ObjectPath": "SFX_Change_Suit",
+    "ShortName": "SFX_Change_Suit",
+    "Path": "Event/SFX_Change_Suit.bnk",
+    "Media": [
+     {
+      "Id": "381182088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FOL_Change_Suit.wav",
+      "Path": "Media/381182088.wem",
+      "CachePath": "8F/{8FD48CE0-A624-C7E8-66EF-43891FBC526D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "443567591",
+      "Name": "SFX_Change_Suit",
+      "ObjectPath": "\\Events\\SFX\\SFX_\\SFX_Change_Suit",
+      "GUID": "{ABD583AC-F6BE-46BE-8C33-95D453687D0B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7833333",
+      "DurationMax": "1.7833333",
+      "MediaRefs": [
+       {
+        "Id": "381182088"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C4D97735-9219-9048-1A54-5971F092B2D1}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3047744822	hopes_all_weve			\DLG\death_ending\hopes_all_weve	
+

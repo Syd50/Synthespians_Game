@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "580321854",
+    "Type": "Event",
+    "GUID": "{F10E160D-E1AB-4899-9498-ED10F3CF6CB1}",
+    "Language": "English(US)",
+    "Hash": "{B6F7808B-B23E-98D5-B78E-F3F1B221E31F}",
+    "ObjectPath": "this_is_your",
+    "ShortName": "this_is_your",
+    "Path": "Event/English(US)/this_is_your.bnk",
+    "Media": [
+     {
+      "Id": "102148462",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "this_is_your.wav",
+      "Path": "Media/English(US)/102148462.wem",
+      "CachePath": "40/{40BDE1A2-70E5-CC19-A866-7590B53F58E2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "580321854",
+      "Name": "this_is_your",
+      "ObjectPath": "\\Events\\DLG\\intro\\this_is_your",
+      "GUID": "{F10E160D-E1AB-4899-9498-ED10F3CF6CB1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2",
+      "DurationMax": "1.2",
+      "MediaRefs": [
+       {
+        "Id": "102148462"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E75D7966-FCF6-6380-BDF5-7E778EF52B34}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "391183795",
+    "Type": "Event",
+    "GUID": "{F728CDA4-9A83-4A80-B92B-D5F8D4E1C99E}",
+    "Language": "English(US)",
+    "Hash": "{9BA9E913-BCB4-D53A-10CD-335F0EDCD7D8}",
+    "ObjectPath": "i_admire_you",
+    "ShortName": "i_admire_you",
+    "Path": "Event/English(US)/i_admire_you.bnk",
+    "Media": [
+     {
+      "Id": "733303395",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "i_admire_you.wav",
+      "Path": "Media/English(US)/733303395.wem",
+      "CachePath": "5F/{5FE8B8C3-64D9-87DC-103E-1B2AB0C867C2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "391183795",
+      "Name": "i_admire_you",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\i_admire_you",
+      "GUID": "{F728CDA4-9A83-4A80-B92B-D5F8D4E1C99E}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.383333",
+      "DurationMax": "5.383333",
+      "MediaRefs": [
+       {
+        "Id": "733303395"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3208237B-33E4-4819-F58C-4121BD8727B5}"
+ }
+}

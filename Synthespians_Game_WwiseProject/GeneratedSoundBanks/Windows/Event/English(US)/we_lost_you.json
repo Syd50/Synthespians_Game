@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3228485334",
+    "Type": "Event",
+    "GUID": "{978FB5AF-B69E-4542-8E7D-0DCBE8F77CA6}",
+    "Language": "English(US)",
+    "Hash": "{AF485286-C8A0-6804-AE6C-DCA272CB93A6}",
+    "ObjectPath": "we_lost_you",
+    "ShortName": "we_lost_you",
+    "Path": "Event/English(US)/we_lost_you.bnk",
+    "Media": [
+     {
+      "Id": "652576310",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "we_lost_you.wav",
+      "Path": "Media/English(US)/652576310.wem",
+      "CachePath": "29/{2988B2E3-9F08-9DCB-2337-85B6D8CD6C7D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3228485334",
+      "Name": "we_lost_you",
+      "ObjectPath": "\\Events\\DLG\\drop_into_world_cutscene1\\we_lost_you",
+      "GUID": "{978FB5AF-B69E-4542-8E7D-0DCBE8F77CA6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3166667",
+      "DurationMax": "1.3166667",
+      "MediaRefs": [
+       {
+        "Id": "652576310"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D2B56894-E02E-F76E-4BFF-CF13ACBF8D61}"
+ }
+}

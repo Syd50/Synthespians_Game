@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	397664420	SFX_Butterfly_Distant			\SFX\SFX_Butterfly\SFX_Butterfly_Distant	
+

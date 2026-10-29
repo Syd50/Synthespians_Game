@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1769804925",
+    "Type": "Event",
+    "GUID": "{E8C2C86C-8DB5-4296-9E12-17E3E9FB38D2}",
+    "Language": "English(US)",
+    "Hash": "{1434AFAF-8A91-5487-399A-8321D3214399}",
+    "ObjectPath": "please_just_send",
+    "ShortName": "please_just_send",
+    "Path": "Event/English(US)/please_just_send.bnk",
+    "Media": [
+     {
+      "Id": "789916083",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "please_just_send.wav",
+      "Path": "Media/English(US)/789916083.wem",
+      "CachePath": "68/{68034D47-95E7-3EE8-8D20-E11358B216F4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1769804925",
+      "Name": "please_just_send",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\please_just_send",
+      "GUID": "{E8C2C86C-8DB5-4296-9E12-17E3E9FB38D2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.0166667",
+      "DurationMax": "3.0166667",
+      "MediaRefs": [
+       {
+        "Id": "789916083"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{398374D0-C995-03EE-805E-ADE7530D9995}"
+ }
+}

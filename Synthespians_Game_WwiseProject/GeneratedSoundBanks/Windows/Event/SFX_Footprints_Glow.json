@@ -29,7 +29,7 @@
      {
       "Id": "3558719875",
       "Name": "SFX_Footprints_Glow",
-      "ObjectPath": "\\Events\\SFX\\SFX_Footprints_Glow",
+      "ObjectPath": "\\Events\\SFX\\SFX_\\SFX_Footprints_Glow",
       "GUID": "{3CF1D370-716A-4EF3-8C15-03C163A3B989}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{F123E707-986D-6239-F127-5B75FEC92489}"
+  "FileHash": "{FEE3BFB7-355C-55F1-3A33-F3F785CA6C5D}"
  }
 }

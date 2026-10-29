@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "922786755",
+    "Type": "Event",
+    "GUID": "{600DF129-ACEE-4C54-8C7F-3E69B749DA74}",
+    "Language": "English(US)",
+    "Hash": "{F160539B-DD4F-82F8-73A5-DD40836B58FE}",
+    "ObjectPath": "UI_Menu_Back",
+    "ShortName": "UI_Menu_Back",
+    "Path": "Event/English(US)/UI_Menu_Back.bnk",
+    "Media": [
+     {
+      "Id": "344242381",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Menu_Back.wav",
+      "Path": "Media/English(US)/344242381.wem",
+      "CachePath": "42/{42015D99-0FC5-A49A-8AB3-FB8071D2E608}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "922786755",
+      "Name": "UI_Menu_Back",
+      "ObjectPath": "\\Events\\SFX\\UI\\UI_Menu_Back",
+      "GUID": "{600DF129-ACEE-4C54-8C7F-3E69B749DA74}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15",
+      "DurationMax": "0.15",
+      "MediaRefs": [
+       {
+        "Id": "344242381"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{01D0A31C-A197-CC4E-52C4-C525C1952508}"
+ }
+}

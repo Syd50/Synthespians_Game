@@ -29,7 +29,7 @@
      {
       "Id": "1560539487",
       "Name": "SFX_Ship_Leave",
-      "ObjectPath": "\\Events\\SFX\\SFX_Ship_Leave",
+      "ObjectPath": "\\Events\\SFX\\SFX_\\SFX_Ship_Leave",
       "GUID": "{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}",
       "DurationType": "OneShot",
       "DurationMin": "30.5",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{C79692F2-1EA2-550A-85E6-1C8E95A914EF}"
+  "FileHash": "{5D888F69-32AD-D220-C017-9E07EE587602}"
  }
 }

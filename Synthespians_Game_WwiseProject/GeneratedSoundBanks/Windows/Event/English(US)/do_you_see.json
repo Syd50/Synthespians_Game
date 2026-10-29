@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3844240642",
+    "Type": "Event",
+    "GUID": "{F8E11006-F31E-4A3A-9D0E-92D159CA04A5}",
+    "Language": "English(US)",
+    "Hash": "{F9D4CDDD-FE17-E32A-ACDB-3735211A3041}",
+    "ObjectPath": "do_you_see",
+    "ShortName": "do_you_see",
+    "Path": "Event/English(US)/do_you_see.bnk",
+    "Media": [
+     {
+      "Id": "1049205483",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "do_you_see.wav",
+      "Path": "Media/English(US)/1049205483.wem",
+      "CachePath": "1C/{1C24B54E-691D-4044-6EDB-5F434AEAD449}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3844240642",
+      "Name": "do_you_see",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\do_you_see",
+      "GUID": "{F8E11006-F31E-4A3A-9D0E-92D159CA04A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4666667",
+      "DurationMax": "1.4666667",
+      "MediaRefs": [
+       {
+        "Id": "1049205483"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CACD5A0E-8DAE-B13B-6FE1-67B5DE30694B}"
+ }
+}

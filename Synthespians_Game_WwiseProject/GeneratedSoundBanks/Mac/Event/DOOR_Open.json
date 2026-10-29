@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79BF55EA-18E5-47F3-9A84-88B93BDEE9D8}",
     "Language": "SFX",
-    "Hash": "{5EC4EB0D-4F4C-C3A4-644C-C3DFE1E2624E}",
+    "Hash": "{FB62B3DB-5DC8-30DD-A8C8-6915F5A7E149}",
     "ObjectPath": "DOOR_Open",
     "ShortName": "DOOR_Open",
     "Path": "Event/DOOR_Open.bnk",
@@ -79,6 +79,6 @@
     ]
    }
   ],
-  "FileHash": "{07EF77C0-39EB-DF58-8422-9D94ABF1BFAE}"
+  "FileHash": "{A232AD7E-43B3-7CE9-5ABE-2FE170219402}"
  }
 }

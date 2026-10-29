@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	902110281	SFX_Butterfly_Hover			\SFX\SFX_Butterfly\SFX_Butterfly_Hover	
+

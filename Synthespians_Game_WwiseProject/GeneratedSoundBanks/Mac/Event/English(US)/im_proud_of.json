@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2964739404",
+    "Type": "Event",
+    "GUID": "{E66D1023-44F0-4CDC-8725-9BACFC7978E3}",
+    "Language": "English(US)",
+    "Hash": "{78E269F5-3897-FFE4-E7E5-92088B301593}",
+    "ObjectPath": "im_proud_of",
+    "ShortName": "im_proud_of",
+    "Path": "Event/English(US)/im_proud_of.bnk",
+    "Media": [
+     {
+      "Id": "977612784",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "im_proud_of.wav",
+      "Path": "Media/English(US)/977612784.wem",
+      "CachePath": "F3/{F359B61F-7427-DCDE-0A20-6E74A57212D7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2964739404",
+      "Name": "im_proud_of",
+      "ObjectPath": "\\Events\\DLG\\good_ending\\im_proud_of",
+      "GUID": "{E66D1023-44F0-4CDC-8725-9BACFC7978E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.7",
+      "DurationMax": "5.7",
+      "MediaRefs": [
+       {
+        "Id": "977612784"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{57DBA713-5316-1C1D-02BC-86C5964CCC78}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "205872179",
+    "Type": "Event",
+    "GUID": "{76B53933-7E1E-40F0-9698-F4CFE88E9C72}",
+    "Language": "English(US)",
+    "Hash": "{DE8E4C88-F06B-A0C8-ADE2-6FAF1191F8A2}",
+    "ObjectPath": "the_choice_is",
+    "ShortName": "the_choice_is",
+    "Path": "Event/English(US)/the_choice_is.bnk",
+    "Media": [
+     {
+      "Id": "27915373",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "the_choice_is.wav",
+      "Path": "Media/English(US)/27915373.wem",
+      "CachePath": "7F/{7F0C6C15-5A3C-B472-1A76-2E777BD21625}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "205872179",
+      "Name": "the_choice_is",
+      "ObjectPath": "\\Events\\DLG\\world_2_hills\\the_choice_is",
+      "GUID": "{76B53933-7E1E-40F0-9698-F4CFE88E9C72}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.95",
+      "DurationMax": "1.95",
+      "MediaRefs": [
+       {
+        "Id": "27915373"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{26955D6F-9BD6-D47F-5C89-E473895E52B0}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1849587391",
+    "Type": "Event",
+    "GUID": "{7606511A-32BC-45C1-8DDB-59AF538227F4}",
+    "Language": "English(US)",
+    "Hash": "{D18F8894-C625-2429-FF2F-B0191CA8B1D7}",
+    "ObjectPath": "i_know_its",
+    "ShortName": "i_know_its",
+    "Path": "Event/English(US)/i_know_its.bnk",
+    "Media": [
+     {
+      "Id": "613710629",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "i_know_its.wav",
+      "Path": "Media/English(US)/613710629.wem",
+      "CachePath": "3E/{3EC9FC60-EDAC-F80A-E358-8BCC65302E65}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1849587391",
+      "Name": "i_know_its",
+      "ObjectPath": "\\Events\\DLG\\world_3_tunnel\\i_know_its",
+      "GUID": "{7606511A-32BC-45C1-8DDB-59AF538227F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.4",
+      "DurationMax": "3.4",
+      "MediaRefs": [
+       {
+        "Id": "613710629"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{77B1A818-AE63-B141-FD4A-2371F26331B0}"
+ }
+}

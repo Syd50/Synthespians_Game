@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4258729024",
+    "Type": "Event",
+    "GUID": "{94FA5079-2DBC-4116-AF96-963CFE6665B3}",
+    "Language": "English(US)",
+    "Hash": "{9007CD9A-C7D3-6042-63D7-05777B7CCEFD}",
+    "ObjectPath": "you_keep_climbing",
+    "ShortName": "you_keep_climbing",
+    "Path": "Event/English(US)/you_keep_climbing.bnk",
+    "Media": [
+     {
+      "Id": "326469891",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "you_keep_climbing.wav",
+      "Path": "Media/English(US)/326469891.wem",
+      "CachePath": "A0/{A0F2079B-BD53-ECC6-57E7-3043294EBE7C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4258729024",
+      "Name": "you_keep_climbing",
+      "ObjectPath": "\\Events\\DLG\\world_2_hills\\you_keep_climbing",
+      "GUID": "{94FA5079-2DBC-4116-AF96-963CFE6665B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6",
+      "DurationMax": "1.6",
+      "MediaRefs": [
+       {
+        "Id": "326469891"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E4C193E9-A7CD-A49C-4537-A59530B537DA}"
+ }
+}

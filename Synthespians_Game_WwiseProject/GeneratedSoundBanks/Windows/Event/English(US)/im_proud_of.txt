@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2964739404	im_proud_of			\DLG\good_ending\im_proud_of	
+

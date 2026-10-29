@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3441964814",
+    "Type": "Event",
+    "GUID": "{984F472E-36D2-4C65-AB2F-B617533BFF75}",
+    "Language": "English(US)",
+    "Hash": "{759C7628-7870-EC02-D87A-CA9644914734}",
+    "ObjectPath": "theyre_sending_out",
+    "ShortName": "theyre_sending_out",
+    "Path": "Event/English(US)/theyre_sending_out.bnk",
+    "Media": [
+     {
+      "Id": "76240518",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "theyre_sending_out.wav",
+      "Path": "Media/English(US)/76240518.wem",
+      "CachePath": "0C/{0CCF485E-665F-21BF-2865-EC6085CBDC18}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3441964814",
+      "Name": "theyre_sending_out",
+      "ObjectPath": "\\Events\\DLG\\death_ending\\theyre_sending_out",
+      "GUID": "{984F472E-36D2-4C65-AB2F-B617533BFF75}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.116667",
+      "DurationMax": "4.116667",
+      "MediaRefs": [
+       {
+        "Id": "76240518"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E873BF05-7105-B62D-D012-5E2C53D66F0B}"
+ }
+}
