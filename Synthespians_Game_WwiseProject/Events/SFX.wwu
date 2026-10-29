@@ -49,6 +49,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SFX_Butterfly_Hover" ID="{5A73B74A-D894-4466-B430-3636625D66AA}">
+							<ChildrenList>
+								<Action Name="" ID="{4EA36173-2EB7-4F13-A63B-F5A87FC3287C}" ShortID="973328812">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Butterfly_Hover" ID="{16971BF6-5AC4-40BC-B4D6-48C82009B2F5}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Butterfly_Distant" ID="{87C652BF-FDC5-4E38-AB5F-1AD782F31FEC}">
+							<ChildrenList>
+								<Action Name="" ID="{32A845A7-59BC-4218-82E9-8E66B4E8742E}" ShortID="778471643">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Butterfly_Distant" ID="{24265879-C537-4F46-B268-C94F6C4D1495}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="SFX_Ship_Leave" ID="{10B5FA8C-321E-41D9-9E61-E53E0990E1C2}">
@@ -110,6 +132,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="SFX_Static" ID="{8A432B33-0047-4B4E-95B2-2FD0DAC43F97}">
+					<ChildrenList>
+						<Action Name="" ID="{98D9A92F-7434-43EA-8F42-1547FA608C17}" ShortID="215953244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Static" ID="{C826E05B-7410-4E73-A124-1C82FDA2E183}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Change_Suit" ID="{ABD583AC-F6BE-46BE-8C33-95D453687D0B}">
+					<ChildrenList>
+						<Action Name="" ID="{ACADF9D0-3776-43DE-953A-B467DCE33847}" ShortID="22629707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Change_Suit" ID="{B533A720-395B-4310-8BE4-31E8B32308C3}" WorkUnitID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
