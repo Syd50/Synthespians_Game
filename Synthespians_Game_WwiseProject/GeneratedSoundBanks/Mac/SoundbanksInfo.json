@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{20DFAC03-8A39-4972-B845-96AFF30466A4}",
     "Language": "English(US)",
-    "Hash": "{703A1971-D1D7-3DA1-7C9F-DA430D188AF9}",
+    "Hash": "{6F1B67A5-245B-1086-1F1E-6FB39B10B238}",
     "ObjectPath": "Play_FOL_Footsteps",
     "ShortName": "Play_FOL_Footsteps",
     "Path": "Event/English(US)/Play_FOL_Footsteps.bnk",
@@ -1912,6 +1912,80 @@
     ]
    },
    {
+    "Id": "352987582",
+    "Type": "Event",
+    "GUID": "{41AE8D64-C14C-4A05-864B-F07D541A1575}",
+    "Language": "SFX",
+    "Hash": "{868C9709-3612-2332-F311-723094DFD628}",
+    "ObjectPath": "PlayIntroText",
+    "ShortName": "PlayIntroText",
+    "Path": "Event/PlayIntroText.bnk",
+    "Media": [
+     {
+      "Id": "1043543241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_TitleText.wav",
+      "Path": "Media/1043543241.wem",
+      "CachePath": "C4/{C46F5ADD-413C-6396-7745-18485AC932AC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "352987582",
+      "Name": "PlayIntroText",
+      "ObjectPath": "\\Events\\Music\\PlayIntroText",
+      "GUID": "{41AE8D64-C14C-4A05-864B-F07D541A1575}",
+      "DurationType": "OneShot",
+      "DurationMin": "55",
+      "DurationMax": "55",
+      "MediaRefs": [
+       {
+        "Id": "1043543241"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "2672549700",
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2672549700",
+      "Name": "MusicMixing",
+      "ObjectPath": "\\States\\Music\\MusicMixing",
+      "GUID": "{DC887C09-F943-42D4-BD3F-FDE6393A2016}",
+      "States": [
+       {
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\None",
+        "GUID": "{46B905C5-A076-4089-B25D-D9027941FA56}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\Normal",
+        "GUID": "{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "391183795",
     "Type": "Event",
     "GUID": "{F728CDA4-9A83-4A80-B92B-D5F8D4E1C99E}",
@@ -2607,19 +2681,19 @@
     "Type": "Event",
     "GUID": "{C761766B-300F-4015-838D-F7BD162C881F}",
     "Language": "SFX",
-    "Hash": "{C36793C6-ADE7-EAF3-2ABD-1858042B3C03}",
+    "Hash": "{BC0E1542-9FB8-9192-308C-8818FBAFD3E0}",
     "ObjectPath": "World2DoorArrive",
     "ShortName": "World2DoorArrive",
     "Path": "Event/World2DoorArrive.bnk",
     "Media": [
      {
-      "Id": "494555659",
+      "Id": "27548676",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Music_ButterflyApproach_FullMix_67BPM.wav",
-      "Path": "Media/494555659.wem",
-      "CachePath": "FA/{FA7D262D-20C8-A203-1A03-15EEFA94DDE8}.wem"
+      "ShortName": "Music_ButterflyApproachSimple.wav",
+      "Path": "Media/27548676.wem",
+      "CachePath": "81/{81193A72-E32C-7207-1CF0-BF549D716482}.wem"
      }
     ],
     "Events": [
@@ -2631,7 +2705,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "494555659"
+        "Id": "27548676"
        }
       ],
       "ActionSetState": [
@@ -3015,11 +3089,20 @@
     "Type": "Event",
     "GUID": "{1EB6B431-1B5F-4FE1-B619-8601914E90A9}",
     "Language": "SFX",
-    "Hash": "{FA3FDC4B-CAEA-B48E-44FA-B52AFE3F3956}",
+    "Hash": "{8FFA2E9A-20E0-47D6-D60C-F607EF136AFA}",
     "ObjectPath": "WorldMusic",
     "ShortName": "WorldMusic",
     "Path": "Event/WorldMusic.bnk",
     "Media": [
+     {
+      "Id": "27548676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_ButterflyApproachSimple.wav",
+      "Path": "Media/27548676.wem",
+      "CachePath": "81/{81193A72-E32C-7207-1CF0-BF549D716482}.wem"
+     },
      {
       "Id": "35165360",
       "Language": "SFX",
@@ -3084,15 +3167,6 @@
       "CachePath": "EE/{EE9AC7BD-D23C-9EED-C4C3-9DD675A9A33F}.wem"
      },
      {
-      "Id": "494555659",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_ButterflyApproach_FullMix_67BPM.wav",
-      "Path": "Media/494555659.wem",
-      "CachePath": "FA/{FA7D262D-20C8-A203-1A03-15EEFA94DDE8}.wem"
-     },
-     {
       "Id": "502505676",
       "Language": "SFX",
       "Streaming": "false",
@@ -3111,7 +3185,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "494555659"
+        "Id": "27548676"
        }
       ],
       "SwitchContainers": [
@@ -4625,7 +4699,7 @@
     "Type": "Event",
     "GUID": "{CAB373B5-22EA-41EC-90F4-D943A65A2635}",
     "Language": "SFX",
-    "Hash": "{2838287E-AFDA-23EF-51E9-A884C28B1F74}",
+    "Hash": "{3286B21D-039C-4AE3-9FEC-C55DC75D22C8}",
     "ObjectPath": "EndingBad",
     "ShortName": "EndingBad",
     "Path": "Event/EndingBad.bnk",
@@ -4769,7 +4843,7 @@
     "Type": "Event",
     "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
     "Language": "SFX",
-    "Hash": "{CE78AC0A-5E3F-8AF3-662F-051B1F02A5F7}",
+    "Hash": "{88A6879B-7196-626B-4656-B7EA0F8216C5}",
     "ObjectPath": "EndingGood",
     "ShortName": "EndingGood",
     "Path": "Event/EndingGood.bnk",
@@ -5763,6 +5837,43 @@
     ]
    },
    {
+    "Id": "4158285989",
+    "Type": "Event",
+    "GUID": "{C6ACDBD9-D8B3-49DD-9F8C-908D0A9359B8}",
+    "Language": "SFX",
+    "Hash": "{B28839C8-28DB-3515-3026-C5E8B37CD17F}",
+    "ObjectPath": "GameOver",
+    "ShortName": "GameOver",
+    "Path": "Event/GameOver.bnk",
+    "Media": [
+     {
+      "Id": "106765543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_GameOverSting.wav",
+      "Path": "Media/106765543.wem",
+      "CachePath": "E3/{E32D7419-5495-99D4-D98B-A0EEA4DFF9B0}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4158285989",
+      "Name": "GameOver",
+      "ObjectPath": "\\Events\\Music\\GameOver",
+      "GUID": "{C6ACDBD9-D8B3-49DD-9F8C-908D0A9359B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "106765543"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4258729024",
     "Type": "Event",
     "GUID": "{94FA5079-2DBC-4116-AF96-963CFE6665B3}",
@@ -5800,6 +5911,6 @@
     ]
    }
   ],
-  "FileHash": "{96B1AEE4-7C4D-6935-FB7D-93FFF7CCC0CE}"
+  "FileHash": "{05E1DF39-0FD7-1ADE-2886-787DF51A770F}"
  }
 }

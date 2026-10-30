@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{F8D51ADF-1E12-4B93-A44E-C4BAE82F0A68}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="FOL_Footsteps" ID="{B865D765-F0BA-4C4E-BBFB-BB32C2A87744}" ShortID="930991876">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8043F57E-6233-444B-B7C3-45C6978F157A}"/>

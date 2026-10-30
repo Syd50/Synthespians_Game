@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B86309C8-E2B7-41B3-9FD4-5D3BEE9030F5}",
     "Language": "SFX",
-    "Hash": "{CE78AC0A-5E3F-8AF3-662F-051B1F02A5F7}",
+    "Hash": "{88A6879B-7196-626B-4656-B7EA0F8216C5}",
     "ObjectPath": "EndingGood",
     "ShortName": "EndingGood",
     "Path": "Event/EndingGood.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A310F27D-2CF3-3AE4-D783-54F2C07FFFB7}"
+  "FileHash": "{6F8CBB2C-FA90-2A28-416B-51E308816239}"
  }
 }

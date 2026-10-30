@@ -1,0 +1,85 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "352987582",
+    "Type": "Event",
+    "GUID": "{41AE8D64-C14C-4A05-864B-F07D541A1575}",
+    "Language": "SFX",
+    "Hash": "{868C9709-3612-2332-F311-723094DFD628}",
+    "ObjectPath": "PlayIntroText",
+    "ShortName": "PlayIntroText",
+    "Path": "Event/PlayIntroText.bnk",
+    "Media": [
+     {
+      "Id": "1043543241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_TitleText.wav",
+      "Path": "Media/1043543241.wem",
+      "CachePath": "C4/{C46F5ADD-413C-6396-7745-18485AC932AC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "352987582",
+      "Name": "PlayIntroText",
+      "ObjectPath": "\\Events\\Music\\PlayIntroText",
+      "GUID": "{41AE8D64-C14C-4A05-864B-F07D541A1575}",
+      "DurationType": "OneShot",
+      "DurationMin": "55",
+      "DurationMax": "55",
+      "MediaRefs": [
+       {
+        "Id": "1043543241"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "2672549700",
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2672549700",
+      "Name": "MusicMixing",
+      "ObjectPath": "\\States\\Music\\MusicMixing",
+      "GUID": "{DC887C09-F943-42D4-BD3F-FDE6393A2016}",
+      "States": [
+       {
+        "Id": "233607266",
+        "Name": "NoBGM",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\NoBGM",
+        "GUID": "{629603A2-1453-47F0-947F-E274E37C695D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\None",
+        "GUID": "{46B905C5-A076-4089-B25D-D9027941FA56}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "Normal",
+        "ObjectPath": "\\States\\Music\\MusicMixing\\Normal",
+        "GUID": "{3F38BD3F-0543-40AB-B2C7-DC36AE75587D}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F1AE7D0B-F81D-A11B-236D-739D5E86B557}"
+ }
+}

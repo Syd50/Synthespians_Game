@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{1EB6B431-1B5F-4FE1-B619-8601914E90A9}",
     "Language": "SFX",
-    "Hash": "{FA3FDC4B-CAEA-B48E-44FA-B52AFE3F3956}",
+    "Hash": "{8FFA2E9A-20E0-47D6-D60C-F607EF136AFA}",
     "ObjectPath": "WorldMusic",
     "ShortName": "WorldMusic",
     "Path": "Event/WorldMusic.bnk",
     "Media": [
+     {
+      "Id": "27548676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_ButterflyApproachSimple.wav",
+      "Path": "Media/27548676.wem",
+      "CachePath": "81/{81193A72-E32C-7207-1CF0-BF549D716482}.wem"
+     },
      {
       "Id": "35165360",
       "Language": "SFX",
@@ -79,15 +88,6 @@
       "CachePath": "EE/{EE9AC7BD-D23C-9EED-C4C3-9DD675A9A33F}.wem"
      },
      {
-      "Id": "494555659",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_ButterflyApproach_FullMix_67BPM.wav",
-      "Path": "Media/494555659.wem",
-      "CachePath": "FA/{FA7D262D-20C8-A203-1A03-15EEFA94DDE8}.wem"
-     },
-     {
       "Id": "502505676",
       "Language": "SFX",
       "Streaming": "false",
@@ -106,7 +106,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "494555659"
+        "Id": "27548676"
        }
       ],
       "SwitchContainers": [
@@ -391,6 +391,6 @@
     ]
    }
   ],
-  "FileHash": "{07263E33-448B-41CC-C5AF-E2CE999148AD}"
+  "FileHash": "{36445B5B-F558-FD9E-43A1-AAE9DF5237B6}"
  }
 }

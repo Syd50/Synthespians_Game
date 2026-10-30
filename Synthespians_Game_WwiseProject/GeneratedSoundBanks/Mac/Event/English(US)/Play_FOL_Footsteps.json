@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{20DFAC03-8A39-4972-B845-96AFF30466A4}",
     "Language": "English(US)",
-    "Hash": "{703A1971-D1D7-3DA1-7C9F-DA430D188AF9}",
+    "Hash": "{6F1B67A5-245B-1086-1F1E-6FB39B10B238}",
     "ObjectPath": "Play_FOL_Footsteps",
     "ShortName": "Play_FOL_Footsteps",
     "Path": "Event/English(US)/Play_FOL_Footsteps.bnk",
@@ -1720,6 +1720,6 @@
     ]
    }
   ],
-  "FileHash": "{2D1200A1-7E5C-BD0F-8CA8-B185B9D72B4B}"
+  "FileHash": "{40D06239-217F-6D1C-F08B-FCA6F7689120}"
  }
 }

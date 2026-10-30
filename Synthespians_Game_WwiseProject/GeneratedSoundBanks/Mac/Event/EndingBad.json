@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CAB373B5-22EA-41EC-90F4-D943A65A2635}",
     "Language": "SFX",
-    "Hash": "{2838287E-AFDA-23EF-51E9-A884C28B1F74}",
+    "Hash": "{3286B21D-039C-4AE3-9FEC-C55DC75D22C8}",
     "ObjectPath": "EndingBad",
     "ShortName": "EndingBad",
     "Path": "Event/EndingBad.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{69AEE911-8988-12E2-3144-257D09E5F4EF}"
+  "FileHash": "{ECCC7CF0-103F-A24C-3987-D65FD4B3A94B}"
  }
 }

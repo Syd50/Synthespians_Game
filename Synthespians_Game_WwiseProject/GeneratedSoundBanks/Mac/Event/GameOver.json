@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4158285989",
+    "Type": "Event",
+    "GUID": "{C6ACDBD9-D8B3-49DD-9F8C-908D0A9359B8}",
+    "Language": "SFX",
+    "Hash": "{B28839C8-28DB-3515-3026-C5E8B37CD17F}",
+    "ObjectPath": "GameOver",
+    "ShortName": "GameOver",
+    "Path": "Event/GameOver.bnk",
+    "Media": [
+     {
+      "Id": "106765543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_GameOverSting.wav",
+      "Path": "Media/106765543.wem",
+      "CachePath": "E3/{E32D7419-5495-99D4-D98B-A0EEA4DFF9B0}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4158285989",
+      "Name": "GameOver",
+      "ObjectPath": "\\Events\\Music\\GameOver",
+      "GUID": "{C6ACDBD9-D8B3-49DD-9F8C-908D0A9359B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "106765543"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{848FF87A-483B-644D-07E7-AC6AB337F847}"
+ }
+}
